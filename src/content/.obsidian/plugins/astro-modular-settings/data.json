@@ -12,10 +12,10 @@
     }
   },
   "siteInfo": {
-    "site": "https://astro-modular.netlify.app",
-    "title": "Astro Modular",
-    "description": "A flexible blog theme designed for Obsidian users.",
-    "author": "David V. Kimball",
+    "site": "https://blog.by-prism.com/",
+    "title": "The Bo-Yu Prism: Reflections on Life, Learning, and Tech",
+    "description": "A space for sharing.",
+    "author": "Bo-Yu Cheng",
     "language": "en",
     "faviconThemeAdaptive": true,
     "defaultOgImageAlt": "Astro Modular logo."
@@ -55,22 +55,13 @@
       {
         "title": "About",
         "url": "/about"
-      },
-      {
-        "title": "GitHub",
-        "url": "https://github.com/davidvkimball/astro-modular"
       }
     ],
     "social": [
       {
-        "title": "X",
-        "url": "https://x.com/davidvkimball",
-        "icon": "x-twitter"
-      },
-      {
-        "title": "GitHub",
-        "url": "https://github.com/davidvkimball",
-        "icon": "github"
+        "title": "mail",
+        "url": "byprism.ask@gmail.com",
+        "icon": ""
       }
     ]
   },
@@ -138,20 +129,20 @@
     "postCardAspectRatio": "og",
     "customPostCardAspectRatio": "2.5/1",
     "comments": {
-      "enabled": false,
+      "enabled": true,
       "provider": "giscus",
-      "rawScript": "",
-      "repo": "",
-      "repoId": "",
-      "category": "",
-      "categoryId": "",
-      "mapping": "",
-      "strict": "",
-      "reactions": "",
-      "metadata": "",
-      "inputPosition": "",
-      "theme": "",
-      "lang": "",
+      "rawScript": "<script src=\"https://giscus.app/client.js\"\n        data-repo=\"Nemo1999/by-prism\"\n        data-repo-id=\"R_kgDOQgE_CA\"\n        data-category=\"Announcements\"\n        data-category-id=\"DIC_kwDOQgE_CM4CzP7E\"\n        data-mapping=\"url\"\n        data-strict=\"1\"\n        data-reactions-enabled=\"1\"\n        data-emit-metadata=\"1\"\n        data-input-position=\"bottom\"\n        data-theme=\"preferred_color_scheme\"\n        data-lang=\"zh-TW\"\n        crossorigin=\"anonymous\"\n        async>\n</script>",
+      "repo": "Nemo1999/by-prism",
+      "repoId": "R_kgDOQgE_CA",
+      "category": "Announcements",
+      "categoryId": "DIC_kwDOQgE_CM4CzP7E",
+      "mapping": "url",
+      "strict": "1",
+      "reactions": "1",
+      "metadata": "1",
+      "inputPosition": "bottom",
+      "theme": "preferred_color_scheme",
+      "lang": "zh-TW",
       "loading": ""
     }
   },
@@ -167,7 +158,7 @@
     "scrollToTop": true,
     "showSocialIconsInFooter": true,
     "profilePicture": false,
-    "comments": false,
+    "comments": true,
     "featureButton": "mode",
     "showPostCardCoverImages": "featured-and-posts",
     "postCardAspectRatio": "og",
@@ -203,25 +194,25 @@
       "style": "circle"
     },
     "comments": {
-      "enabled": false,
+      "enabled": true,
       "provider": "giscus",
-      "rawScript": "",
-      "repo": "",
-      "repoId": "",
-      "category": "",
-      "categoryId": "",
-      "mapping": "",
-      "strict": "",
-      "reactions": "",
-      "metadata": "",
-      "inputPosition": "",
-      "theme": "",
-      "lang": "",
+      "rawScript": "<script src=\"https://giscus.app/client.js\"\n        data-repo=\"Nemo1999/by-prism\"\n        data-repo-id=\"R_kgDOQgE_CA\"\n        data-category=\"Announcements\"\n        data-category-id=\"DIC_kwDOQgE_CM4CzP7E\"\n        data-mapping=\"url\"\n        data-strict=\"1\"\n        data-reactions-enabled=\"1\"\n        data-emit-metadata=\"1\"\n        data-input-position=\"bottom\"\n        data-theme=\"preferred_color_scheme\"\n        data-lang=\"zh-TW\"\n        crossorigin=\"anonymous\"\n        async>\n</script>",
+      "repo": "Nemo1999/by-prism",
+      "repoId": "R_kgDOQgE_CA",
+      "category": "Announcements",
+      "categoryId": "DIC_kwDOQgE_CM4CzP7E",
+      "mapping": "url",
+      "strict": "1",
+      "reactions": "1",
+      "metadata": "1",
+      "inputPosition": "bottom",
+      "theme": "preferred_color_scheme",
+      "lang": "zh-TW",
       "loading": ""
     }
   },
   "deployment": {
-    "platform": "netlify"
+    "platform": "cloudflare-workers"
   },
   "pluginConfig": {
     "obsidianSettings": {

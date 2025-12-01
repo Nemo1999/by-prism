@@ -180,13 +180,13 @@ export interface SiteConfig {
 export const siteConfig: SiteConfig = {
   // Site Information
   // [CONFIG:SITE_URL]
-  site: "https://astro-modular.netlify.app",
+  site: "https://blog.by-prism.com/",
   // [CONFIG:SITE_TITLE]
-  title: "Astro Modular",
+  title: "The Bo-Yu Prism: Reflections on Life, Learning, and Tech",
   // [CONFIG:SITE_DESCRIPTION]
-  description: "A flexible blog theme designed for Obsidian users.",
+  description: "A space for sharing.",
   // [CONFIG:SITE_AUTHOR]
-  author: "David V. Kimball",
+  author: "Bo-Yu Cheng",
   // [CONFIG:SITE_LANGUAGE]
   language: "en",
   // [CONFIG:FAVICON_THEME_ADAPTIVE]
@@ -241,7 +241,7 @@ export const siteConfig: SiteConfig = {
   featureButton: "mode", // "mode" | "graph" | "theme" | "none"
   deployment: {
     // [CONFIG:DEPLOYMENT_PLATFORM]
-    platform: "netlify", // "netlify" | "vercel" | "github-pages" | "cloudflare-workers" - sets redirect configuration for the chosen platform (Cloudflare Workers uses Workers-compatible config)
+    platform: "cloudflare-workers", // "netlify" | "vercel" | "github-pages" | "cloudflare-workers" - sets redirect configuration for the chosen platform (Cloudflare Workers uses Workers-compatible config)
   },
 
   // Command Palette
@@ -314,19 +314,13 @@ export const siteConfig: SiteConfig = {
       { title: "Projects", url: "/projects" },
       { title: "Docs", url: "/docs" },
       { title: "About", url: "/about" },
-      { title: "GitHub", url: "https://github.com/davidvkimball/astro-modular" },
     ],
     // [CONFIG:NAVIGATION_SOCIAL]
     social: [
       {
-        title: "X",
-        url: "https://x.com/davidvkimball",
-        icon: "x-twitter",
-      },
-      {
-        title: "GitHub",
-        url: "https://github.com/davidvkimball",
-        icon: "github",
+        title: "mail",
+        url: "byprism.ask@gmail.com",
+        icon: "",
       },
     ],
   },
@@ -409,31 +403,31 @@ export const siteConfig: SiteConfig = {
     customPostCardAspectRatio: "2.5/1", // Only used when postCardAspectRatio is "custom" (e.g., "2.5/1")
     comments: {
       // [CONFIG:POST_OPTIONS_COMMENTS_ENABLED]
-      enabled: false,
+      enabled: true,
       // [CONFIG:POST_OPTIONS_COMMENTS_PROVIDER]
       provider: "giscus",
       // [CONFIG:POST_OPTIONS_COMMENTS_REPO]
-      repo: "",
+      repo: "Nemo1999/by-prism",
       // [CONFIG:POST_OPTIONS_COMMENTS_REPO_ID]
-      repoId: "",
+      repoId: "R_kgDOQgE_CA",
       // [CONFIG:POST_OPTIONS_COMMENTS_CATEGORY]
-      category: "",
+      category: "Announcements",
       // [CONFIG:POST_OPTIONS_COMMENTS_CATEGORY_ID]
-      categoryId: "",
+      categoryId: "DIC_kwDOQgE_CM4CzP7E",
       // [CONFIG:POST_OPTIONS_COMMENTS_MAPPING]
-      mapping: "",
+      mapping: "url",
       // [CONFIG:POST_OPTIONS_COMMENTS_STRICT]
-      strict: "",
+      strict: "1",
       // [CONFIG:POST_OPTIONS_COMMENTS_REACTIONS]
-      reactions: "",
+      reactions: "1",
       // [CONFIG:POST_OPTIONS_COMMENTS_METADATA]
-      metadata: "",
+      metadata: "1",
       // [CONFIG:POST_OPTIONS_COMMENTS_INPUT_POSITION]
-      inputPosition: "",
+      inputPosition: "bottom",
       // [CONFIG:POST_OPTIONS_COMMENTS_THEME]
-      theme: "",
+      theme: "preferred_color_scheme",
       // [CONFIG:POST_OPTIONS_COMMENTS_LANG]
-      lang: "",
+      lang: "zh-TW",
       // [CONFIG:POST_OPTIONS_COMMENTS_LOADING]
       loading: "",
     },
