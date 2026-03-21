@@ -1,53 +1,31 @@
 ---
 title: "日文學習數位花園"
-description: "網狀知識結構的日文學習平台，每個知識點獨立但相互連結，支持自主探索學習"
+description: "網狀結構的日文學習平台"
 pubDate: 2026-03-21
 author: 小波
-tags: ["數位花園", "網狀學習", "自主探索", "知識網絡", "日文學習"]
+tags: ["數位花園", "日文學習"]
 draft: false
-featured: true
 ---
 
 # 日文學習數位花園
 
-> 這不是一個線性課程，而是一個有機生長的知識生態系統。
+> 網狀知識結構的學習平台
 
-## 🌱 核心理念
+## 🗺️ 結構說明
 
-### 從線性到網狀
-傳統學習：A → B → C → D （固定路徑）  
-數位花園：A ↔ B ↔ C ↔ D （自由探索）
+### 原子層（知識單元）
+- [[posts/japanese-learning/vocabulary/yume|夢]] — 單字卡片
+- [[posts/japanese-learning/grammar/naraba-hypothetical-condition|ならば-假設條件]] — 文法概念
 
-### 學習哲學
-我們相信：
-1. **學習是探索**，不是跟隨
-2. **知識是網絡**，不是序列
-3. **路徑是個人**，不是標準
-4. **成長是有機**，不是機械
+### 連結層（內容應用）
+- [[posts/japanese-learning/lyrics/lemon-yume-naraba|Lemon-夢ならばどれほどよかったでしょう]] — 歌詞解析
 
-## 🗺️ 花園結構
+### 探索層（學習路徑）
+- [[posts/japanese-learning/lemon-song/index|Lemon 學習專案]] — 完整學習資源
 
-### 三大層級
-
-#### 1. 🌸 原子層（最小知識單元）
-```
-單字卡片/
-├── [[yume|夢]] - 名詞，夢、夢想
-├── [[posts/japanese-learning/grammar/naraba-hypothetical-condition|ならば]] - 接續助詞，如果...的話
-└── （第一句歌詞相關單字逐步添加）
-
-文法概念/
-├── [[posts/japanese-learning/grammar/naraba-hypothetical-condition|ならば-假設條件]] - 假設條件表達
-└── （第一句歌詞相關文法逐步添加）
-
-發音要點/
-├── [[posts/japanese-learning/pronunciation/ra-gyo-on-pronunciation|ら行音發音技巧]] - らりるれろ的正確發音（ならば包含ら行音）
-└── （第一句歌詞相關發音逐步添加）
-```
-
-#### 2. 🌿 連結層（內容與應用）
-```
-歌曲解析/
+## 🔗 開始探索
+- [[posts/japanese-learning/lyrics/lemon-full-lyrics|Lemon 完整歌詞]]
+- [[posts/japanese-learning/index|日文學習首頁]]
 ├── [[posts/japanese-learning/lyrics/lemon-yume-naraba]] - 經典假設句
 ├── [[posts/japanese-learning/lemon-song/lemon-lyrics-part1]] - 第一句完整解析
 └── （Lemon後續歌詞逐步添加）

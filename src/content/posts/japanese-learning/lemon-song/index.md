@@ -1,53 +1,33 @@
 ---
-title: "《Lemon》完整歌詞解析系列"
-description: "米津玄師《Lemon》完整歌詞逐句解析，透過這首經典歌曲學習日文發音、文法和文化背景。"
+title: "《Lemon》學習專案"
+description: "米津玄師《Lemon》歌詞解析學習資源"
 pubDate: 2026-03-21
 author: 小波
-tags: ["日文學習", "日文歌曲", "米津玄師", "Lemon", "歌詞解析", "發音教學", "文法學習"]
-coverImage: "/posts/attachments/sunset.png"
+tags: ["日文學習", "Lemon", "歌詞解析"]
 draft: false
-featured: true
-series: "透過歌曲學日文"
-seriesOrder: 2
 ---
 
-# 《Lemon》完整歌詞解析系列
+# 《Lemon》學習專案
 
-> 透過一首歌，學好日文。米津玄師的《Lemon》不僅是一首動人的歌曲，更是學習日文的絕佳教材。
+> 透過《Lemon》歌曲學習日文
 
 ## 🎵 歌曲資訊
+- **歌曲**：Lemon（レモン）
+- **歌手**：米津玄師
 
-### 基本資訊
-- **歌曲名稱**：Lemon（レモン）
-- **歌手**：米津玄師（よねづ けんし）
-- **發行日期**：2018年3月14日
-- **所屬專輯**：BOOTLEG
-- **時長**：4分15秒
+## 📚 學習資源
 
-### 背景故事
-《Lemon》是日劇《Unnatural》（アンナチュラル）的主題曲，這部劇講述法醫學者解開死亡真相的故事。歌曲表達了對逝去親人的思念和對生命的感悟。
+### 完整歌詞
+- [[posts/japanese-learning/lyrics/lemon-full-lyrics|Lemon 完整歌詞]] — 每句連結到詳細解析
 
-### YouTube連結
-{{< youtube ZhizarvwLnU >}}
+### 歌詞解析
+- [[posts/japanese-learning/lyrics/lemon-yume-naraba|夢ならばどれほどよかったでしょう]] — 第一句歌詞解析
 
-## 📚 學習價值
+### 單字學習
+- [[posts/japanese-learning/vocabulary/yume|夢]] — 核心單字
 
-### 語言學習價值
-1. **發音清晰**：米津玄師的發音非常標準
-2. **速度適中**：節奏適合跟讀學習
-3. **詞彙實用**：包含大量日常生活用語
-4. **文法多樣**：涵蓋多種重要文法結構
-
-### 文化學習價值
-1. **現代日語**：學習當代日本年輕人使用的日語
-2. **情感表達**：了解日本人如何表達複雜情感
-3. **音樂文化**：接觸日本流行音樂文化
-
-## 🗂️ 系列目錄
-
-### Part 1：前奏與主歌1
-- **歌詞**：夢ならばどれほどよかったでしょう
-- **重點**：假設條件、感嘆表達
+### 文法學習
+- [[posts/japanese-learning/grammar/naraba-hypothetical-condition|ならば-假設條件]] — 核心文法
 - [閱讀全文 →](../lemon-lyrics-part1/)
 
 ### Part 2：主歌2
