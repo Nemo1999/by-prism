@@ -66,7 +66,7 @@ featured: true
 
 ## 💡 精選心法推薦
 
-### [[5分鐘日文法]]
+### [[posts/japanese-learning/grammar/5-minutes-japanese-grammar|5分鐘日文法]]
 每天只需5分鐘，但持續進行的學習方法。
 
 **核心原則**：
@@ -132,7 +132,7 @@ featured: true
 4. 創作包含這些單字的故事
 
 ### 實例3：[[每日微習慣建立]]
-**應用心法**：[[動機與習慣心法]] + [[5分鐘日文法]]
+**應用心法**：[[動機與習慣心法]] + [[posts/japanese-learning/grammar/5-minutes-japanese-grammar|5分鐘日文法]]
 
 **步驟**：
 1. 設定微小目標：每天學習1個新單字

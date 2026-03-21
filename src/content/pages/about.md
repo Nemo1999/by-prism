@@ -37,7 +37,7 @@ Every feature can be toggled on or off through a single configuration file. Enab
 ---
 
 ## Posts to Check Out
-- [[getting-started|Getting Started]]
+- [[posts/japanese-learning/getting-started|Getting Started]]
 - [Astro Suite Vault (Modular) Guide](posts/astro-suite-vault-modular-guide.md) 
 
 ---

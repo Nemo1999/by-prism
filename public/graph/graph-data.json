@@ -5,7 +5,7 @@
       "type": "post",
       "title": "Formatting Reference",
       "slug": "formatting-reference",
-      "connections": 13
+      "connections": 11
     },
     {
       "id": "getting-started",
@@ -44,16 +44,6 @@
     }
   ],
   "connections": [
-    {
-      "source": "formatting-reference",
-      "target": "getting-started",
-      "type": "link"
-    },
-    {
-      "source": "formatting-reference",
-      "target": "getting-started",
-      "type": "link"
-    },
     {
       "source": "formatting-reference",
       "target": "sample-folder-based-post",
@@ -127,7 +117,7 @@
   ],
   "metadata": {
     "totalPosts": 6,
-    "totalConnections": 16,
+    "totalConnections": 14,
     "maxNodesApplied": false,
     "originalNodeCount": 6
   }

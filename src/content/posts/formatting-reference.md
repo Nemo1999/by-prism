@@ -197,10 +197,10 @@ Here's an [external link](https://obsidian.md).
 
 You can create internal links using double brackets (wikilinks) or with standard markdown. 
 
-For example: [[getting-started|Getting Started]] or [Astro Suite Obsidian Vault Guide (Astro Modular)](vault-cms-guide.md).
+For example: [[posts/japanese-learning/getting-started|Getting Started]] or [Astro Suite Obsidian Vault Guide (Astro Modular)](vault-cms-guide.md).
 
 ```markdown
-For example: [[getting-started|Getting Started]] or [Obsidian Embeds Demo](obsidian-embeds-demo).
+For example: [[posts/japanese-learning/getting-started|Getting Started]] or [Obsidian Embeds Demo](obsidian-embeds-demo).
 ```
 
 Here's an internal link with an anchor: [[sample-folder-based-post/index#Benefits of Folder-Based Approach|Benefits of Folder-Based Approach]]

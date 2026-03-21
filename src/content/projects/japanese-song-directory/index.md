@@ -38,6 +38,7 @@ aliases:
 
 #### 米津玄師 (Kenshi Yonezu)
 - **Lemon** - 🟡 進行中 (10%)
+  - ✅ [完整歌詞瀏覽](/posts/japanese-learning/lyrics/lemon-full-lyrics/) (新增)
   - ✅ [歌詞解析](/posts/japanese-learning/lyrics/lemon-yume-naraba/)
   - 🔄 單字學習 (3/15 完成)
   - 🔄 文法解析 (1/8 完成)

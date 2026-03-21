@@ -53,7 +53,7 @@ featured: true
 └── （Lemon後續歌詞逐步添加）
 
 學習心法/
-├── [[posts/japanese-learning/learning-mindset/5-minutes-grammar|5分鐘日文法]] - 微小習慣建立
+├── [[posts/japanese-learning/grammar/5-minutes-japanese-grammar|5分鐘日文法]] - 微小習慣建立
 └── （其他心法逐步添加）
 ```
 

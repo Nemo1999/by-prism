@@ -217,8 +217,8 @@ Watashi no koto nado douka wasurete kudasai
 ## 🔗 相關資源
 
 ### 官方資源
-- [[Lemon-官方MV]] - 官方音樂影片
-- [[Lemon-音樂平台]] - 各大音樂平台連結
+- [Lemon-官方MV](https://www.youtube.com/watch?v=SX_ViT4Ra7k) - 官方音樂影片
+- [Lemon-音樂平台](https://open.spotify.com/track/1DdzIGyvmFYMV8QxSxyTXC) - 各大音樂平台連結
 - [[米津玄師-官方網站]] - 歌手官方資訊
 
 ### 學習資源
