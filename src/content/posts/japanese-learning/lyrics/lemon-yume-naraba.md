@@ -44,3 +44,6 @@ draft: false
 
 - [[posts/japanese-learning/vocabulary/yume|夢]] — 歌詞中的核心單字
 - [[posts/japanese-learning/grammar/naraba-hypothetical-condition|ならば-假設條件]] — 核心文法結構
+- [[posts/japanese-learning/grammar/dorehodo-degree-adverb|どれほど-程度副詞]] — 程度感嘆表達
+- [[posts/japanese-learning/grammar/deshou-conjecture|でしょう-推量感嘆]] — 感嘆助動詞
+- [[posts/japanese-learning/grammar/yokatta-wish-expression|よかった-願望表達]] — 願望表達形式

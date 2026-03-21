@@ -12,7 +12,7 @@ draft: false
 > {{中文意思}}
 
 ## 📖 基本資訊
-- **讀音**：{{假名}}
+- **讀音**：{{假名}} <PronunciationButton text="{{單字}}" kana="{{假名}}" />
 - **詞性**：{{詞性}}
 - **核心意思**：{{簡短解釋}}
 
@@ -22,8 +22,10 @@ draft: false
 {{簡要說明主要用法}}
 
 **例句1**：<ruby>{{日文例句1}}<rt>{{假名例句1}}</rt></ruby> — {{中文翻譯1}}
+<PronunciationButton text="{{日文例句1}}" />
 
 **例句2**：<ruby>{{日文例句2}}<rt>{{假名例句2}}</rt></ruby> — {{中文翻譯2}}
+<PronunciationButton text="{{日文例句2}}" />
 
 ### 注意事項
 {{重要使用限制或常見錯誤}}
@@ -31,3 +33,7 @@ draft: false
 ## 🔗 相關內容
 - [[posts/japanese-learning/grammar/{{文法ascii名稱}}|{{文法名稱}}]] — {{簡要說明}}
 - [[posts/japanese-learning/lyrics/{{歌曲ascii名稱}}|{{歌曲名稱}}]] — {{使用情境}}
+
+---
+
+**發音功能說明**：點擊 🔊 按鈕可播放日文發音。需要現代瀏覽器（Chrome、Edge、Safari、Firefox）支援。
