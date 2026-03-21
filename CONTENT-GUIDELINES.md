@@ -51,14 +51,16 @@ draft: false
 ## 🔗 連結規範
 
 ### Wikilinks (Obsidian 風格)
+- **必須包含 `posts/` 前綴**：wikilinks 必須以 `posts/` 開頭才能被正確解析
 - **完整路徑**：從 `posts/` 目錄開始的完整路徑
 - **使用 ASCII 檔名**：連結到重新命名的檔案
 - **範例**：
   ```markdown
-  [[japanese-learning/lyrics/lemon-yume-naraba]]
-  [[japanese-learning/vocabulary/yume]]
-  [[japanese-learning/grammar/naraba-jasetsu-joken]]
+  [[posts/japanese-learning/lyrics/lemon-yume-naraba]]
+  [[posts/japanese-learning/vocabulary/yume]]
+  [[posts/japanese-learning/grammar/naraba-jasetsu-joken]]
   ```
+- **重要**：wikilinks 不以 `posts/` 開頭會被解析器跳過處理，導致連結失效
 
 ### 標準 Markdown 連結
 - **相對路徑**：使用相對路徑連結到其他內容

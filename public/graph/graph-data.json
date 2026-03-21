@@ -15,6 +15,13 @@
       "connections": 6
     },
     {
+      "id": "japanese-learning",
+      "type": "post",
+      "title": "日文學習系列：透過歌曲學日文",
+      "slug": "japanese-learning",
+      "connections": 0
+    },
+    {
       "id": "obsidian-embeds-demo",
       "type": "post",
       "title": "Obsidian Embeds Demo",
@@ -119,9 +126,9 @@
     }
   ],
   "metadata": {
-    "totalPosts": 5,
+    "totalPosts": 6,
     "totalConnections": 16,
     "maxNodesApplied": false,
-    "originalNodeCount": 5
+    "originalNodeCount": 6
   }
 }
