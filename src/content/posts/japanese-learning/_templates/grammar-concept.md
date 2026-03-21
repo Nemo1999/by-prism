@@ -34,10 +34,6 @@ draft: false
 2. **否定**：{{否定形}}
 3. **疑問**：{{疑問形}}
 
-### 接續規則
-- 前接：{{前接詞性}}
-- 後續：{{後續形式}}
-
 ## 🎵 歌曲實例
 
 ### 《Lemon》- 米津玄師
@@ -46,21 +42,16 @@ draft: false
 - **情感**：{{表達的情感}}
 - **解析**：[[posts/japanese-learning/lyrics/lemon-yume-naraba|詳細解析]]
 
-### 其他應用
-{{其他歌曲或日常對話中的例子}}
+## 🔄 日常應用
 
-## 🔗 相關知識
+### 會話範例（含拼音標註）
+**情境**：{{日常情境描述}}  
+**應用**：
+- <ruby>夢<rt>ゆめ</rt></ruby>ならばどれほどよかったでしょう（如果是夢該有多好）
+- {{其他例句}}
 
-### 常搭配單字
-- [[posts/japanese-learning/vocabulary/{{單字ascii名稱}}|{{單字名稱}}]] — {{搭配原因}}
-- [[posts/japanese-learning/vocabulary/{{單字ascii名稱2}}|{{單字名稱2}}]] — {{搭配原因}}
-
-### 類似文法比較
-| 特性 | {{文法名稱}} | {{類似文法}} |
-|------|-------------|-------------|
-| 使用時機 | {{時機1}} | {{時機2}} |
-| 正式度 | {{正式度1}} | {{正式度2}} |
-| 語氣 | {{語氣1}} | {{語氣2}} |
+### 書面表達
+{{在郵件、文章中的使用方式}}
 
 ## 💡 學習心法
 
@@ -73,39 +64,17 @@ draft: false
 ### 應用訣竅
 {{如何在實際對話中自然使用}}
 
-### 常見錯誤
-{{學習者最常犯的錯誤及修正}}
-
-## 🔄 日常應用
-
-### 會話範例
-- **情境**：{{日常情境描述}}
-- **應用**：{{使用此文法的對話}}
-
-### 書面表達
-{{在郵件、文章中的使用方式}}
-
-### 商務場合
-{{在正式場合的應用}}
-
 ## 📚 參考資料
 
 ### 文法教學
 - **日本語の森**：[{{文法名稱}}教學影片](https://www.youtube.com/c/日本語の森/search?query={{文法名稱}})
 - **Tae Kim's Guide**：[詳細解釋](https://guidetojapanese.org/learn/grammar)
-- **Bunpro**：[練習題庫](https://bunpro.jp/grammar_points)
 
 ### 例句資源
 - **Tatoeba**：[真實例句庫](https://tatoeba.org/eng/sentences/search?from=jpn&query={{文法名稱}})
-- **Jisho例句**：[使用實例](https://jisho.org/search/{{文法名稱}}%20%23sentences)
-
-### 進階學習
-- **Imabi**：[深度解析](https://www.imabi.net/)
-- **Cure Dolly**：[自然理解方法](https://www.youtube.com/c/CureDolly/search?query={{文法名稱}})
 
 ---
 
 **最後更新**：{{更新日期}}  
 **相關連結**：[[posts/japanese-learning/digital-garden-index|日文學習數位花園]]  
-**探索更多**：[[posts/japanese-learning/grammar/|文法概念索引]]  
 **學習路徑**：先掌握基本結構，再透過大量例句熟悉使用

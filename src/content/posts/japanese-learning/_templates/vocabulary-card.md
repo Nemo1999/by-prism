@@ -21,6 +21,10 @@ draft: false
 ### 常見用法
 {{常見例句和情境}}
 
+**拼音標註範例**：在日文漢字旁添加假名幫助發音學習
+- <ruby>夢<rt>ゆめ</rt></ruby>を見る（做夢）
+- 子供の<ruby>夢<rt>ゆめ</rt></ruby>（孩子的夢想）
+
 ### 延伸意思
 {{比喻或進階用法}}
 
@@ -31,7 +35,6 @@ draft: false
 
 ### 《Lemon》- 米津玄師
 - [[posts/japanese-learning/lyrics/lemon-yume-naraba|Lemon-夢ならばどれほどよかったでしょう]] — {{在這句歌詞中的角色}}
-- 出現位置：{{歌曲段落}}，表達{{情感或主題}}
 
 ### 其他例子
 {{其他歌曲或影視作品中的使用}}
@@ -40,7 +43,6 @@ draft: false
 
 ### 相關文法
 - [[posts/japanese-learning/grammar/{{文法ascii名稱}}|{{文法名稱}}]] — {{搭配關係}}
-- [[posts/japanese-learning/grammar/{{文法ascii名稱2}}|{{文法名稱2}}]] — {{搭配關係}}
 
 ### 同主題單字
 - [[posts/japanese-learning/vocabulary/{{單字ascii名稱}}|{{單字名稱}}]] — {{關聯說明}}
@@ -64,14 +66,9 @@ draft: false
 
 ### 學習資源
 - **日本語の森**：[相關教學影片](https://www.youtube.com/c/日本語の森/search?query={{單字}})
-- **NHK發音**：[標準發音示範](https://www.nhk.or.jp/lesson/words/)
-
-### 文化背景
-- **維基百科**：[{{單字}}在日本文化中的意義](https://ja.wikipedia.org/wiki/{{單字}})
 
 ---
 
 **最後更新**：{{更新日期}}  
 **相關連結**：[[posts/japanese-learning/digital-garden-index|日文學習數位花園]]  
-**探索更多**：[[posts/japanese-learning/vocabulary/|單字卡片索引]]  
 **學習建議**：先掌握核心用法，再逐步擴展到延伸意思
