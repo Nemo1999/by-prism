@@ -49,12 +49,12 @@ draft: false
 ## 🔗 知識點連結
 
 ### 單字卡片
-- [[夢]] - 在這句歌詞中表達「如果是夢」的願望
+- [[posts/japanese-learning/vocabulary/yume|夢]] - 在這句歌詞中表達「如果是夢」的願望
 - [[どれほど]] - 程度副詞，加強感嘆語氣
 - [[よい/いい]] - 「よかった」的原形，表示「好」
 
 ### 文法概念
-- [[ならば-假設條件]] - 核心文法，表達「如果...的話」
+- [[posts/japanese-learning/grammar/naraba-hypothetical-condition|ならば-假設條件]] - 核心文法，表達「如果...的話」
 - [[でしょう-推量感嘆]] - 句尾的感嘆表達
 - [[形容詞過去形]] - 「よい」的過去形「よかった」
 
@@ -227,8 +227,8 @@ draft: false
 ## 🌿 關於這個片段
 
 這個歌詞片段是**日文學習數位花園**中的一個入口點。從這裡，你可以：
-1. **深入單字**：點擊[[夢]]了解更多
-2. **探索文法**：連結到[[ならば-假設條件]]
+1. **深入單字**：點擊[[posts/japanese-learning/vocabulary/yume|夢]]了解更多
+2. **探索文法**：連結到[[posts/japanese-learning/grammar/naraba-hypothetical-condition|ならば-假設條件]]
 3. **擴展主題**：發現[[情感表達日語]]主題
 
 ### 探索模式

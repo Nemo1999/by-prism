@@ -45,7 +45,7 @@ draft: false
 ## 📚 相關文法
 
 ### 常搭配的文法
-- [[ならば-假設條件]] - 夢ならば（如果是夢的話）
+- [[posts/japanese-learning/grammar/naraba-hypothetical-condition|ならば-假設條件]] - 夢ならば（如果是夢的話）
   - 例：夢ならばどれほどよかったでしょう。（如果是夢該有多好。）
 - [[を-受格助詞]] - 夢を見る（做夢）
   - 例：毎晩夢を見る。（每晚都做夢。）
@@ -142,7 +142,7 @@ draft: false
 ### 下一步學習
 建議接下來學習：
 - [[あなた]] - 常在「夢」相關表達中出現
-- [[ならば-假設條件]] - 與「夢」常一起使用
+- [[posts/japanese-learning/grammar/naraba-hypothetical-condition|ならば-假設條件]] - 與「夢」常一起使用
 - [[情感表達日語]] - 包含夢想和願望的主題
 
 ---
