@@ -32,16 +32,16 @@ featured: true
 #### 1. 🌸 原子層（最小知識單元）
 ```
 單字卡片/
-├── [[夢]] - 名詞，夢、夢想
-├── [[ならば]] - 接續助詞，如果...的話
+├── [[yume|夢]] - 名詞，夢、夢想
+├── [[posts/japanese-learning/grammar/naraba-hypothetical-condition|ならば]] - 接續助詞，如果...的話
 └── （第一句歌詞相關單字逐步添加）
 
 文法概念/
-├── [[ならば-假設條件]] - 假設條件表達
+├── [[posts/japanese-learning/grammar/naraba-hypothetical-condition|ならば-假設條件]] - 假設條件表達
 └── （第一句歌詞相關文法逐步添加）
 
 發音要點/
-├── [[ら行音發音技巧]] - らりるれろ的正確發音（ならば包含ら行音）
+├── [[posts/japanese-learning/pronunciation/ra-gyo-on-pronunciation|ら行音發音技巧]] - らりるれろ的正確發音（ならば包含ら行音）
 └── （第一句歌詞相關發音逐步添加）
 ```
 
@@ -74,26 +74,26 @@ featured: true
 
 ## 🔗 連結範例：以「夢」為中心
 
-### 單字卡片：[[夢]]
+### 單字卡片：[[yume|夢]]
 ```
 連結到：
-├── 文法概念：[[ならば-假設條件]]（夢ならば）
+├── 文法概念：[[naraba-hypothetical-condition|ならば-假設條件]]（夢ならば）
 └── 歌曲解析：[[posts/japanese-learning/lyrics/lemon-yume-naraba]]
 ```
 
-### 文法概念：[[ならば-假設條件]]
+### 文法概念：[[naraba-hypothetical-condition|ならば-假設條件]]
 ```
 連結到：
-├── 單字卡片：[[夢]]（夢ならば）
+├── 單字卡片：[[yume|夢]]（夢ならば）
 └── 歌曲解析：[[posts/japanese-learning/lyrics/lemon-yume-naraba]]
 ```
 
 ### 歌曲解析：[[posts/japanese-learning/lyrics/lemon-yume-naraba]]
 ```
 連結到：
-├── 單字卡片：[[夢]]、[[ならば]]、[[どれほど]]、[[よかった]]
-├── 文法概念：[[ならば-假設條件]]、[[でしょう-推量感嘆]]
-├── 發音要點：[[ら行音發音技巧]]
+├── 單字卡片：[[posts/japanese-learning/vocabulary/yume|夢]]、[[posts/japanese-learning/grammar/naraba-hypothetical-condition|ならば]]、[[どれほど]]、[[よかった]]
+├── 文法概念：[[posts/japanese-learning/grammar/naraba-hypothetical-condition|ならば-假設條件]]、[[でしょう-推量感嘆]]
+├── 發音要點：[[posts/japanese-learning/pronunciation/ra-gyo-on-pronunciation|ら行音發音技巧]]
 └── 同一歌曲：[[posts/japanese-learning/lemon-song/lemon-lyrics-part1]]
 ```
 
