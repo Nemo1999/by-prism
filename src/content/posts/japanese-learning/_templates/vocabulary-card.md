@@ -134,4 +134,20 @@ draft: false
 
 **最後更新**：{{更新日期}}  
 **相關連結**：[[單字卡片索引]] | [[文法概念索引]] | [[歌曲解析索引]]  
+## 📚 參考資料
+
+### 發音資源
+- **Forvo發音**：[單字名稱在Forvo上的發音](https://forvo.com/word/{{單字}}/#ja)
+- **YouTube教學**：[相關發音教學影片](https://www.youtube.com/results?search_query={{單字}}+発音)
+- **NHK發音**：[NHK發音字典](https://www.nhk.or.jp/lesson/words/)
+
+### 學習資源
+- **Weblio辭典**：[單字名稱在Weblio的解釋](https://ejje.weblio.jp/content/{{單字}})
+- **MOJi辭書**：[MOJi辭書條目](https://www.mojidict.com/search?q={{單字}})
+- **日本語の森**：[相關教學影片](https://www.youtube.com/c/日本語の森/search?query={{單字}})
+
+### 文化背景
+- **日本文化百科**：[相關文化解釋]()
+- **維基百科**：[相關條目](https://ja.wikipedia.org/wiki/{{單字}})
+
 **探索更多**：[[隨機單字]] | [[今日推薦]] | [[學習路徑]]

@@ -173,6 +173,25 @@ draft: false
 
 ---
 
+## 📚 參考資料
+
+### 文法教學資源
+- **日本語の森**：[{{文法名稱}}教學影片](https://www.youtube.com/c/日本語の森/search?query={{文法名稱}})
+- **Tae Kim's Guide**：[{{文法名稱}}解釋](https://guidetojapanese.org/learn/grammar)
+- **Imabi**：[{{文法名稱}}詳細說明](https://www.imabi.net/)
+
+### 例句資源
+- **Tatoeba**：[{{文法名稱}}例句庫](https://tatoeba.org/eng/sentences/search?from=jpn&query={{文法名稱}})
+- **Jisho例句**：[使用{{文法名稱}}的例句](https://jisho.org/search/{{文法名稱}}%20%23sentences)
+
+### 練習資源
+- **Bunpro**：[{{文法名稱}}練習題](https://bunpro.jp/grammar_points)
+- **WaniKani社區**：[相關討論](https://community.wanikani.com/search?q={{文法名稱}})
+
+### 影片教學
+- **YouTube搜尋**：[{{文法名稱}}教學影片](https://www.youtube.com/results?search_query={{文法名稱}}+文法)
+- **Cure Dolly**：[傳統文法vs自然文法解釋](https://www.youtube.com/c/CureDolly/search?query={{文法名稱}})
+
 **最後更新**：{{更新日期}}  
 **相關連結**：[[文法概念索引]] | [[單字卡片索引]] | [[學習心法收集]]  
 **探索工具**：[[隨機文法]] | [[難度篩選]] | [[主題瀏覽]]  
