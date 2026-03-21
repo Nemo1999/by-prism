@@ -195,7 +195,7 @@ draft: false
 - [[posts/japanese-learning/lemon-song/lemon-lyrics-part1]] - 整首歌的完整分析
 
 ### 類似主題的歌詞
-- [[Pretender-假設表達]] - Official髭男dism歌曲中的假設
+- [[pretender-hypothetical-expression|Pretender-假設表達]] - Official髭男dism歌曲中的假設
 - [[夜に駆ける-願望表達]] - YOASOBI歌曲中的願望表達
 - [[春を告げる-情感表達]] - 其他情感豐富的日文歌詞
 
@@ -255,5 +255,5 @@ draft: false
 **相關連結**：[[歌詞解析索引]] | [[Lemon專區]] | [[米津玄師歌曲]]  
 **探索工具**：[[隨機探索]] | [[主題瀏覽]] | [[難度篩選]]  
 **學習資源**：[[發音練習-ならば]] | [[翻譯挑戰-假設句]] | [[創作工作坊-情感表達]]  
-**歌曲連結**：[[Lemon-完整歌詞]] | [[Lemon-官方MV]] | [[Lemon-音樂平台]]  
+**歌曲連結**：[[lemon-complete-lyrics|Lemon-完整歌詞]] | [Lemon-官方MV](https://www.youtube.com/watch?v=SX_ViT4Ra7k) | [Lemon-音樂平台](https://open.spotify.com/track/1DdzIGyvmFYMV8QxSxyTXC)  
 **延伸學習**：[[假設條件文法集]] | [[感嘆表達大全]] | [[情感日語專題]]

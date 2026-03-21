@@ -121,7 +121,7 @@ featured: true
 ├── 文法概念：[[ならば-假設條件]]、[[でしょう-推量感嘆]]
 ├── 發音要點：[[ら行音發音技巧]]、[[促音停頓規則]]
 ├── 同一歌曲：[[posts/japanese-learning/lemon-song/lemon-lyrics-part1]]
-└── 類似歌曲：[[Pretender-假設表達]]、[[夜に駆ける-願望表達]]
+└── 類似歌曲：[[pretender-hypothetical-expression|Pretender-假設表達]]、[[夜に駆ける-願望表達]]
 ```
 
 ## 🧭 探索工具
