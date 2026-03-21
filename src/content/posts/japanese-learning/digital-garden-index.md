@@ -53,9 +53,9 @@ featured: true
 #### 2. 🌿 連結層（內容與應用）
 ```
 歌曲解析/
-├── [[Lemon-夢ならばどれほどよかったでしょう]] - 經典假設句
-├── [[Lemon-未だにあなたのことを夢にみる]] - 持續狀態表達
-├── [[Lemon-忘れた物を取りに帰るように]] - 比喻用法
+├── [[japanese-learning/lyrics/lemon-yume-naraba]] - 經典假設句
+├── [[japanese-learning/lemon-song/lemon-lyrics-part1]] - 持續狀態表達
+├── [[japanese-learning/lemon-song/lemon-lyrics-part1]] - 比喻用法
 └── 更多...
 
 例句庫/
@@ -98,7 +98,7 @@ featured: true
 ```
 連結到：
 ├── 文法概念：[[ならば-假設條件]]（夢ならば）
-├── 歌曲解析：[[Lemon-夢ならばどれほどよかったでしょう]]
+├── 歌曲解析：[[japanese-learning/lyrics/lemon-yume-naraba]]
 ├── 學習心法：[[聯想記憶技巧]]
 ├── 相關單字：[[あなた]]、[[思い出]]、[[現実]]
 └── 主題集合：[[情感表達日語]]
@@ -108,19 +108,19 @@ featured: true
 ```
 連結到：
 ├── 單字卡片：[[夢]]（夢ならば）
-├── 歌曲解析：[[Lemon-夢ならばどれほどよかったでしょう]]
+├── 歌曲解析：[[japanese-learning/lyrics/lemon-yume-naraba]]
 ├── 類似文法：[[たら]]、[[ば]]、[[と]]
 ├── 例句庫：[[ならば-例句1]]、[[ならば-例句2]]
 └── 主題集合：[[假設與條件表達]]
 ```
 
-### 歌曲解析：[[Lemon-夢ならばどれほどよかったでしょう]]
+### 歌曲解析：[[japanese-learning/lyrics/lemon-yume-naraba]]
 ```
 連結到：
 ├── 單字卡片：[[夢]]、[[ならば]]、[[どれほど]]、[[よかった]]
 ├── 文法概念：[[ならば-假設條件]]、[[でしょう-推量感嘆]]
 ├── 發音要點：[[ら行音發音技巧]]、[[促音停頓規則]]
-├── 同一歌曲：[[Lemon-未だにあなたのことを夢にみる]]
+├── 同一歌曲：[[japanese-learning/lemon-song/lemon-lyrics-part1]]
 └── 類似歌曲：[[Pretender-假設表達]]、[[夜に駆ける-願望表達]]
 ```
 

@@ -190,9 +190,9 @@ draft: false
 ## 🔄 相關連結
 
 ### 同一歌曲的其他片段
-- [[Lemon-未だにあなたのことを夢にみる]] - 下一句歌詞，延續「夢」的主題
-- [[Lemon-忘れた物を取りに帰るように]] - 比喻表達，與假設對比
-- [[Lemon-完整歌詞解析]] - 整首歌的完整分析
+- [[japanese-learning/lemon-song/lemon-lyrics-part1]] - 下一句歌詞，延續「夢」的主題
+- [[japanese-learning/lemon-song/lemon-lyrics-part1]] - 比喻表達，與假設對比
+- [[japanese-learning/lemon-song/lemon-lyrics-part1]] - 整首歌的完整分析
 
 ### 類似主題的歌詞
 - [[Pretender-假設表達]] - Official髭男dism歌曲中的假設

@@ -31,8 +31,8 @@ draft: false
 ## 🎵 出現歌曲
 
 ### 《Lemon》- 米津玄師
-- [[Lemon-夢ならばどれほどよかったでしょう]] - {{在這句歌詞中的用法}}
-- [[Lemon-未だにあなたのことを夢にみる]] - {{在這句歌詞中的用法}}
+- [[japanese-learning/lyrics/lemon-yume-naraba]] - {{在這句歌詞中的用法}}
+- [[japanese-learning/lemon-song/lemon-lyrics-part1]] - {{在這句歌詞中的用法}}
 
 ### 其他歌曲
 - [[歌曲2-歌詞片段]] - {{用法說明}}
