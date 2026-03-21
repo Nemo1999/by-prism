@@ -3,7 +3,7 @@ title: "日文學習系列：透過歌曲學日文"
 description: "透過喜歡的日文歌曲學習日文，讓語言學習變得有趣且有效。本系列專注於米津玄師《Lemon》的完整解析。"
 pubDate: 2026-03-21
 author: 小波
-tags: ["日文學習", "日文歌曲", "學習方法", "語言學習", "米津玄師"]
+tags: ["日文學習", "日文歌曲", "學習方法", "語言學習", "米津玄師", "發音功能"]
 coverImage: "/posts/attachments/mountains-clouds.png"
 draft: false
 featured: true

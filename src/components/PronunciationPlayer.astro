@@ -1,0 +1,278 @@
+---
+// 日文發音播放器組件
+// 這個組件為日文單字和例句提供發音播放功能
+
+interface Props {
+  text?: string;
+  label?: string;
+  showControls?: boolean;
+  showSpeedControls?: boolean;
+  className?: string;
+}
+
+const {
+  text = '',
+  label = '播放',
+  showControls = true,
+  showSpeedControls = true,
+  className = ''
+} = Astro.props;
+---
+
+<!-- 發音播放器組件 -->
+<div class={`pronunciation-player ${className}`}>
+  {text && (
+    <div class="pronunciation-content">
+      {showControls && (
+        <button 
+          class="pronunciation-play-btn" 
+          data-text={text}
+          aria-label={`播放: ${text}`}
+        >
+          <svg class="play-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <polygon points="5 3 19 12 5 21 5 3"></polygon>
+          </svg>
+          <span>{label}</span>
+        </button>
+      )}
+      
+      {showSpeedControls && (
+        <div class="speed-controls">
+          <span class="speed-label">語速:</span>
+          <button class="speed-btn" data-speed="0.5">0.5x</button>
+          <button class="speed-btn" data-speed="0.8">0.8x</button>
+          <button class="speed-btn active" data-speed="1.0">1.0x</button>
+          <button class="speed-btn" data-speed="1.2">1.2x</button>
+          <button class="speed-btn" data-speed="1.5">1.5x</button>
+        </div>
+      )}
+    </div>
+  )}
+</div>
+
+<style>
+  .pronunciation-player {
+    display: inline-block;
+    margin: 4px;
+  }
+  
+  .pronunciation-content {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    align-items: center;
+  }
+  
+  .pronunciation-play-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+    background-color: var(--color-primary-600);
+    color: white;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 14px;
+    font-family: inherit;
+    transition: all 0.2s ease;
+    min-width: 80px;
+  }
+  
+  .pronunciation-play-btn:hover {
+    background-color: var(--color-primary-700);
+    transform: translateY(-1px);
+  }
+  
+  .pronunciation-play-btn:active {
+    transform: translateY(0);
+  }
+  
+  .pronunciation-play-btn.playing {
+    background-color: var(--color-red-600);
+  }
+  
+  .play-icon {
+    width: 14px;
+    height: 14px;
+  }
+  
+  .speed-controls {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2px;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+  }
+  
+  .speed-label {
+    margin-right: 4px;
+    color: var(--color-gray-600);
+  }
+  
+  .speed-btn {
+    background-color: var(--color-gray-200);
+    color: var(--color-gray-800);
+    border: none;
+    padding: 2px 6px;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 11px;
+    transition: all 0.2s;
+  }
+  
+  .speed-btn:hover {
+    background-color: var(--color-gray-300);
+  }
+  
+  .speed-btn.active {
+    background-color: var(--color-primary-600);
+    color: white;
+  }
+</style>
+
+<script>
+  // 發音管理器
+  class PronunciationManager {
+    constructor() {
+      this.currentSpeed = 1.0;
+      this.isPlaying = false;
+      this.isSupported = 'speechSynthesis' in window;
+      this.voices = [];
+      
+      this.init();
+    }
+    
+    init() {
+      if (!this.isSupported) {
+        console.warn('瀏覽器不支援Web Speech API');
+        return;
+      }
+      
+      this.loadVoices();
+      this.bindEvents();
+    }
+    
+    loadVoices() {
+      // 等待語音列表加載
+      speechSynthesis.onvoiceschanged = () => {
+        this.voices = speechSynthesis.getVoices();
+        console.log(`加載了 ${this.voices.length} 種語音`);
+      };
+      
+      // 立即檢查（可能已經加載）
+      const voices = speechSynthesis.getVoices();
+      if (voices.length > 0) {
+        this.voices = voices;
+      }
+    }
+    
+    play(text) {
+      if (!this.isSupported) {
+        alert('您的瀏覽器不支援語音合成功能');
+        return false;
+      }
+      
+      this.stop();
+      
+      const utterance = new SpeechSynthesisUtterance(text);
+      utterance.lang = 'ja-JP';
+      utterance.rate = this.currentSpeed;
+      
+      // 選擇日文語音
+      const japaneseVoice = this.voices.find(v => v.lang.startsWith('ja'));
+      if (japaneseVoice) {
+        utterance.voice = japaneseVoice;
+      }
+      
+      utterance.onstart = () => {
+        this.isPlaying = true;
+        this.updateButtonStates();
+      };
+      
+      utterance.onend = () => {
+        this.isPlaying = false;
+        this.updateButtonStates();
+      };
+      
+      utterance.onerror = (event) => {
+        this.isPlaying = false;
+        this.updateButtonStates();
+        console.error('發音播放錯誤:', event.error);
+      };
+      
+      speechSynthesis.speak(utterance);
+      return true;
+    }
+    
+    stop() {
+      if (this.isSupported && speechSynthesis.speaking) {
+        speechSynthesis.cancel();
+        this.isPlaying = false;
+        this.updateButtonStates();
+      }
+    }
+    
+    setSpeed(speed) {
+      this.currentSpeed = speed;
+      
+      // 更新語速按鈕狀態
+      document.querySelectorAll('.speed-btn').forEach(btn => {
+        const btnSpeed = parseFloat(btn.dataset.speed);
+        btn.classList.toggle('active', Math.abs(btnSpeed - speed) < 0.01);
+      });
+    }
+    
+    bindEvents() {
+      // 播放按鈕
+      document.addEventListener('click', (e) => {
+        const playBtn = e.target.closest('.pronunciation-play-btn');
+        if (playBtn) {
+          e.preventDefault();
+          const text = playBtn.dataset.text;
+          if (text) {
+            this.play(text);
+          }
+        }
+        
+        // 語速按鈕
+        const speedBtn = e.target.closest('.speed-btn');
+        if (speedBtn) {
+          e.preventDefault();
+          const speed = parseFloat(speedBtn.dataset.speed);
+          this.setSpeed(speed);
+        }
+      });
+    }
+    
+    updateButtonStates() {
+      document.querySelectorAll('.pronunciation-play-btn').forEach(btn => {
+        if (this.isPlaying) {
+          btn.classList.add('playing');
+          btn.innerHTML = `
+            <svg class="play-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <rect x="6" y="4" width="4" height="16"></rect>
+              <rect x="14" y="4" width="4" height="16"></rect>
+            </svg>
+            <span>停止</span>
+          `;
+        } else {
+          btn.classList.remove('playing');
+          btn.innerHTML = `
+            <svg class="play-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <polygon points="5 3 19 12 5 21 5 3"></polygon>
+            </svg>
+            <span>播放</span>
+          `;
+        }
+      });
+    }
+  }
+  
+  // 初始化發音管理器
+  document.addEventListener('DOMContentLoaded', () => {
+    window.pronunciationManager = new PronunciationManager();
+  });
+</script>

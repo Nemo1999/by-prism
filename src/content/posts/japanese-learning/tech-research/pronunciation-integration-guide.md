@@ -400,6 +400,6 @@ draft: false
 3. **個性化學習**：根據發音問題提供針對性練習
 
 ## 🔗 相關資源
-- [[posts/japanese-learning/tech-research/speech-api-demo|發音功能演示]]
+- [[posts/japanese-learning/tech-research/pronunciation-demo|發音功能演示]]
 - [[posts/japanese-learning/tech-research/pronunciation-feature-test|技術可行性研究]]
 - [[posts/japanese-learning/vocabulary/yume|夢 - 發音功能範例]]

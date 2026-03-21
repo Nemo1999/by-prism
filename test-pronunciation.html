@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>日文發音功能測試</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            line-height: 1.6;
+        }
+        
+        .test-section {
+            margin: 30px 0;
+            padding: 20px;
+            border: 1px solid #e0e0e0;
+            border-radius: 8px;
+            background-color: #f9f9f9;
+        }
+        
+        h1, h2, h3 {
+            color: #333;
+        }
+        
+        .pronunciation-play-btn {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            padding: 8px 16px;
+            margin: 4px;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 14px;
+            transition: background-color 0.2s;
+        }
+        
+        .pronunciation-play-btn:hover {
+            background-color: #45a049;
+        }
+        
+        .pronunciation-play-btn.playing {
+            background-color: #f44336;
+        }
+        
+        .pronunciation-widget {
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 15px;
+            margin: 15px 0;
+            background-color: white;
+        }
+        
+        .controls {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            align-items: center;
+        }
+        
+        .main-controls {
+            display: flex;
+            gap: 10px;
+            align-items: center;
+        }
+        
+        .speed-controls {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 5px;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .speed-btn {
+            padding: 4px 8px;
+            background-color: #e0e0e0;
+            border: none;
+            border-radius: 3px;
+            cursor: pointer;
+            font-size: 12px;
+        }
+        
+        .speed-btn.active {
+            background-color: #2196F3;
+            color: white;
+        }
+        
+        .status {
+            margin-top: 20px;
+            padding: 10px;
+            border-radius: 4px;
+            font-size: 14px;
+        }
+        
+        .status.success {
+            background-color: #d4edda;
+            color: #155724;
+            border: 1px solid #c3e6cb;
+        }
+        
+        .status.error {
+            background-color: #f8d7da;
+            color: #721c24;
+            border: 1px solid #f5c6cb;
+        }
+        
+        .status.info {
+            background-color: #d1ecf1;
+            color: #0c5460;
+            border: 1px solid #bee5eb;
+        }
+    </style>
+</head>
+<body>
+    <h1>日文發音功能測試</h1>
+    
+    <div class="status info" id="browserStatus">
+        正在檢測瀏覽器支援...
+    </div>
+    
+    <div class="test-section">
+        <h2>基本單字發音測試</h2>
+        <p>點擊按鈕測試單字發音：</p>
+        
+        <button class="pronunciation-play-btn" data-text="夢">🔊 夢 (ゆめ)</button>
+        <button class="pronunciation-play-btn" data-text="あなた">🔊 あなた</button>
+        <button class="pronunciation-play-btn" data-text="幸せ">🔊 幸せ (しあわせ)</button>
+        <button class="pronunciation-play-btn" data-text="レモン">🔊 レモン</button>
+        <button class="pronunciation-play-btn" data-text="思い出">🔊 思い出 (おもいで)</button>
+    </div>
+    
+    <div class="test-section">
+        <h2>例句朗讀測試</h2>
+        <p>點擊按鈕測試完整句子朗讀：</p>
+        
+        <button class="pronunciation-play-btn" data-text="こんにちは、元気ですか？">🔊 こんにちは、元気ですか？</button>
+        <button class="pronunciation-play-btn" data-text="私は日本語を勉強しています">🔊 私は日本語を勉強しています</button>
+        <button class="pronunciation-play-btn" data-text="夢ならばどれほどよかったでしょう">🔊 夢ならばどれほどよかったでしょう</button>
+        <button class="pronunciation-play-btn" data-text="未だにあなたのことを夢にみる">🔊 未だにあなたのことを夢にみる</button>
+    </div>
+    
+    <div class="test-section">
+        <h2>發音小部件測試</h2>
+        
+        <div class="pronunciation-widget">
+            <div style="text-align: center; margin-bottom: 15px; font-size: 18px;">
+                <ruby>夢ならばどれほどよかったでしょう<rt>ゆめならばどれほどよかったでしょう</rt></ruby>
+            </div>
+            
+            <div class="controls">
+                <div class="main-controls">
+                    <button class="pronunciation-play-btn" data-text="夢ならばどれほどよかったでしょう">🔊 播放歌詞</button>
+                    <button id="stopBtn">⏹️ 停止</button>
+                </div>
+                
+                <div class="speed-controls">
+                    <span style="margin-right: 5px;">語速：</span>
+                    <button class="speed-btn" data-speed="0.5">0.5x</button>
+                    <button class="speed-btn" data-speed="0.8">0.8x</button>
+                    <button class="speed-btn active" data-speed="1.0">1.0x</button>
+                    <button class="speed-btn" data-speed="1.2">1.2x</button>
+                    <button class="speed-btn" data-speed="1.5">1.5x</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="test-section">
+        <h2>瀏覽器支援資訊</h2>
+        <div id="supportInfo"></div>
+    </div>
+
+    <script>
+        // 發音管理器
+        const PronunciationTester = {
+            currentSpeed: 1.0,
+            isPlaying: false,
+            
+            init() {
+                this.checkBrowserSupport();
+                this.bindEvents();
+                this.log('發音測試器初始化完成');
+            },
+            
+            checkBrowserSupport() {
+                const hasSupport = 'speechSynthesis' in window;
+                const statusDiv = document.getElementById('browserStatus');
+                const infoDiv = document.getElementById('supportInfo');
+                
+                if (hasSupport) {
+                    statusDiv.className = 'status success';
+                    statusDiv.innerHTML = '✅ 您的瀏覽器支援Web Speech API';
+                    
+                    // 獲取語音資訊
+                    const voices = speechSynthesis.getVoices();
+                    const japaneseVoices = voices.filter(v => v.lang.startsWith('ja'));
+                    
+                    infoDiv.innerHTML = `
+                        <p><strong>語音支援資訊：</strong></p>
+                        <ul>
+                            <li>總語音數量：${voices.length}</li>
+                            <li>日文語音數量：${japaneseVoices.length}</li>
+                            <li>瀏覽器：${navigator.userAgent.split(' ')[0]}</li>
+                        </ul>
+                        ${japaneseVoices.length > 0 ? 
+                            '<p style="color: green;">✅ 找到日文語音，發音功能可用</p>' : 
+                            '<p style="color: orange;">⚠️ 未找到日文語音，可能使用預設語音</p>'}
+                    `;
+                } else {
+                    statusDiv.className = 'status error';
+                    statusDiv.innerHTML = '❌ 您的瀏覽器不支援Web Speech API<br>建議使用Chrome、Edge、Safari或Firefox最新版本';
+                    
+                    infoDiv.innerHTML = `
+                        <p><strong>不支援的瀏覽器：</strong></p>
+                        <ul>
+                            <li>Internet Explorer 不支援</li>
+                            <li>舊版瀏覽器可能不支援</li>
+                            <li>某些行動瀏覽器可能有限制</li>
+                        </ul>
+                        <p>建議使用以下瀏覽器：</p>
+                        <ul>
+                            <li>Chrome 33+</li>
+                            <li>Edge 14+</li>
+                            <li>Safari 7+</li>
+                            <li>Firefox 49+</li>
+                        </ul>
+                    `;
+                }
+                
+                return hasSupport;
+            },
+            
+            play(text) {
+                if (!('speechSynthesis' in window)) {
+                    alert('瀏覽器不支援語音合成');
+                    return false;
+                }
+                
+                this.stop();
+                
+                const utterance = new SpeechSynthesisUtterance(text);
+                utterance.lang = 'ja-JP';
+                utterance.rate = this.currentSpeed;
+                
+                // 選擇日文語音
+                const voices = speechSynthesis.getVoices();
+                const japaneseVoice = voices.find(v => v.lang.startsWith('ja'));
+                if (japaneseVoice) {
+                    utterance.voice = japaneseVoice;
+                }
+                
+                utterance.onstart = () => {
+                    this.isPlaying = true;
+                    this.updateButtonStates();
+                    this.log(`開始播放: "${text}"`);
+                };
+                
+                utterance.onend = () => {
+                    this.isPlaying = false;
+                    this.updateButtonStates();
+                    this.log(`播放完成: "${text}"`);
+                };
+                
+                utterance.onerror = (event) => {
+                    this.isPlaying = false;
+                    this.updateButtonStates();
+                    this.log(`播放錯誤: ${event.error}`, 'error');
+                    alert('播放失敗，請檢查瀏覽器設定');
+                };
+                
+                speechSynthesis.speak(utterance);
+                return true;
+            },
+            
+            stop() {
+                if ('speechSynthesis' in window && speechSynthesis.speaking) {
+                    speechSynthesis.cancel();
+                    this.isPlaying = false;
+                    this.updateButtonStates();
+                    this.log('停止播放');
+                }
+            },
+            
+            setSpeed(speed) {
+                this.currentSpeed = speed;
+                this.log(`設定語速: ${speed}x`);
+                
+                // 更新語速按鈕狀態
+                document.querySelectorAll('.speed-btn').forEach(btn => {
+                    const btnSpeed = parseFloat(btn.dataset.speed);
+                    btn.classList.toggle('active', Math.abs(btnSpeed - speed) < 0.01);
+                });
+            },
+            
+            bindEvents() {
+                // 播放按鈕
+                document.addEventListener('click', (e) => {
+                    const playBtn = e.target.closest('.pronunciation-play-btn');
+                    if (playBtn) {
+                        e.preventDefault();
+                        const text = playBtn.dataset.text;
+                        if (text) {
+                            this.play(text);
+                        }
+                    }
+                    
+                    // 語速按鈕
+                    const speedBtn = e.target.closest('.speed-btn');
+                    if (speedBtn) {
+                        e.preventDefault();
+                        const speed = parseFloat(speedBtn.dataset.speed);
+                        this.setSpeed(speed);
+                    }
+                    
+                    // 停止按鈕
+                    if (e.target.id === 'stopBtn') {
+                        e.preventDefault();
+                        this.stop();
+                    }
+                });
+            },
+            
+            updateButtonStates() {
+                document.querySelectorAll('.pronunciation-play-btn').forEach(btn => {
+                    if (this.isPlaying) {
+                        btn.classList.add('playing');
+                    } else {
+                        btn.classList.remove('playing');
+                    }
+                });
+            },
+            
+            log(message, level = 'info') {
+                const timestamp = new Date().toISOString().split('T')[1].split('.')[0];
+                const prefix = `[${timestamp}]`;
+                
+                switch (level) {
+                    case 'error':
+                        console.error(`${prefix} ${message}`);
+                        break;
+                    default:
+                        console.log(`${prefix} ${message}`);
+                }
+            }
+        };
+        
+        // 頁面加載完成後初始化
+        document.addEventListener('DOMContentLoaded', () => {
+            PronunciationTester.init();
+            
+            // 等待語音加載
+            if ('speechSynthesis' in window) {
+                speechSynthesis.onvoiceschanged = () => {
+                    PronunciationTester.checkBrowserSupport();
+                };
+                
+                // 如果語音已經加載
+                if (speechSynthesis.getVoices().length > 0) {
+                    PronunciationTester.checkBrowserSupport();
+                }
+            }
+        });
+    </script>
+</body>
+</html>

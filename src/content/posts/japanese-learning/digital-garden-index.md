@@ -3,7 +3,7 @@ title: "日文學習數位花園"
 description: "網狀結構的日文學習平台"
 pubDate: 2026-03-21
 author: 小波
-tags: ["數位花園", "日文學習"]
+tags: ["數位花園", "日文學習", "發音功能"]
 draft: false
 ---
 

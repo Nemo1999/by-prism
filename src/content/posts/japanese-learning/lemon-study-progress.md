@@ -3,7 +3,7 @@ title: "Lemon學習進度"
 description: "《Lemon》歌曲學習進度"
 pubDate: 2026-03-21
 author: 小波
-tags: ["進度", "Lemon"]
+tags: ["進度", "Lemon", "發音功能"]
 draft: false
 ---
 

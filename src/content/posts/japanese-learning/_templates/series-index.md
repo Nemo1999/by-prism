@@ -3,7 +3,7 @@ title: "{{系列名稱}}"
 description: "{{系列描述}}"
 pubDate: {{日期}}
 author: 小波
-tags: ["{{系列標籤1}}", "{{系列標籤2}}", "{{系列標籤3}}"]
+tags: ["{{系列標籤1}}", "{{系列標籤2}}", "{{系列標籤3}}", "發音功能"]
 draft: false
 featured: true
 series: "{{系列名稱}}"

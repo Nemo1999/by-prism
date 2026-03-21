@@ -433,5 +433,348 @@ if (siteConfig.postOptions.graphView.enabled && siteConfig.postOptions.graphView
     </script>
   </Fragment>
 
+  <!-- 日文發音功能 -->
+  <Fragment slot="scripts">
+    <script>
+      // 日文發音管理器
+      class PronunciationManager {
+        constructor() {
+          this.currentSpeed = 1.0;
+          this.isPlaying = false;
+          this.isSupported = 'speechSynthesis' in window;
+          this.voices = [];
+          
+          this.init();
+        }
+        
+        init() {
+          if (!this.isSupported) {
+            console.warn('瀏覽器不支援Web Speech API');
+            this.showUnsupportedWarning();
+            return;
+          }
+          
+          this.loadVoices();
+          this.bindEvents();
+          console.log('日文發音管理器初始化完成');
+        }
+        
+        loadVoices() {
+          // 等待語音列表加載
+          speechSynthesis.onvoiceschanged = () => {
+            this.voices = speechSynthesis.getVoices();
+            console.log(`加載了 ${this.voices.length} 種語音`);
+          };
+          
+          // 立即檢查（可能已經加載）
+          const voices = speechSynthesis.getVoices();
+          if (voices.length > 0) {
+            this.voices = voices;
+          }
+        }
+        
+        play(text) {
+          if (!this.isSupported) {
+            alert('您的瀏覽器不支援語音合成功能。建議使用Chrome、Edge、Safari或Firefox最新版本。');
+            return false;
+          }
+          
+          this.stop();
+          
+          const utterance = new SpeechSynthesisUtterance(text);
+          utterance.lang = 'ja-JP';
+          utterance.rate = this.currentSpeed;
+          
+          // 選擇日文語音
+          const japaneseVoice = this.voices.find(v => v.lang.startsWith('ja'));
+          if (japaneseVoice) {
+            utterance.voice = japaneseVoice;
+          }
+          
+          utterance.onstart = () => {
+            this.isPlaying = true;
+            this.updateButtonStates();
+          };
+          
+          utterance.onend = () => {
+            this.isPlaying = false;
+            this.updateButtonStates();
+          };
+          
+          utterance.onerror = (event) => {
+            this.isPlaying = false;
+            this.updateButtonStates();
+            console.error('發音播放錯誤:', event.error);
+          };
+          
+          speechSynthesis.speak(utterance);
+          return true;
+        }
+        
+        stop() {
+          if (this.isSupported && speechSynthesis.speaking) {
+            speechSynthesis.cancel();
+            this.isPlaying = false;
+            this.updateButtonStates();
+          }
+        }
+        
+        setSpeed(speed) {
+          this.currentSpeed = speed;
+          
+          // 更新語速按鈕狀態
+          document.querySelectorAll('.speed-btn').forEach(btn => {
+            const btnSpeed = parseFloat(btn.dataset.speed);
+            btn.classList.toggle('active', Math.abs(btnSpeed - speed) < 0.01);
+          });
+        }
+        
+        bindEvents() {
+          // 播放按鈕
+          document.addEventListener('click', (e) => {
+            const playBtn = e.target.closest('.pronunciation-play-btn');
+            if (playBtn) {
+              e.preventDefault();
+              const text = playBtn.dataset.text;
+              if (text) {
+                this.play(text);
+              }
+            }
+            
+            // 語速按鈕
+            const speedBtn = e.target.closest('.speed-btn');
+            if (speedBtn) {
+              e.preventDefault();
+              const speed = parseFloat(speedBtn.dataset.speed);
+              this.setSpeed(speed);
+            }
+            
+            // 停止按鈕
+            const stopBtn = e.target.closest('.pronunciation-stop-btn');
+            if (stopBtn) {
+              e.preventDefault();
+              this.stop();
+            }
+          });
+        }
+        
+        updateButtonStates() {
+          document.querySelectorAll('.pronunciation-play-btn').forEach(btn => {
+            if (this.isPlaying) {
+              btn.classList.add('playing');
+              btn.innerHTML = '⏹️ 停止';
+            } else {
+              btn.classList.remove('playing');
+              btn.innerHTML = '🔊 播放';
+            }
+          });
+        }
+        
+        showUnsupportedWarning() {
+          // 可以選擇性地顯示警告
+          const warningDiv = document.createElement('div');
+          warningDiv.className = 'unsupported-warning';
+          warningDiv.innerHTML = `
+            <div style="background-color: #fff3cd; border: 1px solid #ffeaa7; color: #856404; padding: 8px 12px; border-radius: 4px; margin: 10px 0; font-size: 12px;">
+              <strong>⚠️ 瀏覽器不支援語音功能</strong><br>
+              建議使用Chrome、Edge、Safari或Firefox最新版本以獲得最佳體驗。
+            </div>
+          `;
+          
+          // 插入到第一個發音按鈕之前
+          const firstBtn = document.querySelector('.pronunciation-play-btn');
+          if (firstBtn) {
+            firstBtn.parentNode.insertBefore(warningDiv, firstBtn);
+          }
+        }
+      }
+      
+      // 初始化發音管理器
+      document.addEventListener('DOMContentLoaded', () => {
+        window.pronunciationManager = new PronunciationManager();
+      });
+      
+      // 為Swup頁面切換重新初始化
+      if (typeof window.swup !== 'undefined') {
+        window.swup.on('contentReplaced', () => {
+          window.pronunciationManager = new PronunciationManager();
+        });
+      }
+    </script>
+  </Fragment>
+
+  <!-- 發音功能樣式 -->
+  <Fragment slot="styles">
+    <style>
+      /* 日文發音功能樣式 */
+      .pronunciation-play-btn {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        background-color: var(--color-primary-600);
+        color: white;
+        border: none;
+        padding: 4px 8px;
+        margin: 2px 4px;
+        border-radius: 4px;
+        cursor: pointer;
+        font-size: 12px;
+        font-family: inherit;
+        transition: all 0.2s ease;
+        vertical-align: middle;
+        line-height: 1;
+        min-height: 24px;
+        min-width: 60px;
+      }
+      
+      .pronunciation-play-btn:hover {
+        background-color: var(--color-primary-700);
+        transform: translateY(-1px);
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      }
+      
+      .pronunciation-play-btn:active {
+        transform: translateY(0);
+        box-shadow: none;
+      }
+      
+      .pronunciation-play-btn.playing {
+        background-color: var(--color-red-600);
+      }
+      
+      .pronunciation-stop-btn {
+        background-color: var(--color-red-600);
+        color: white;
+        border: none;
+        padding: 4px 8px;
+        margin: 2px;
+        border-radius: 4px;
+        cursor: pointer;
+        font-size: 12px;
+        transition: background-color 0.2s;
+      }
+      
+      .pronunciation-stop-btn:hover {
+        background-color: var(--color-red-700);
+      }
+      
+      .speed-btn {
+        background-color: var(--color-gray-200);
+        color: var(--color-gray-800);
+        border: none;
+        padding: 3px 6px;
+        margin: 1px;
+        border-radius: 3px;
+        cursor: pointer;
+        font-size: 11px;
+        transition: all 0.2s;
+      }
+      
+      .speed-btn:hover {
+        background-color: var(--color-gray-300);
+      }
+      
+      .speed-btn.active {
+        background-color: var(--color-primary-600);
+        color: white;
+      }
+      
+      .pronunciation-widget {
+        border: 1px solid var(--color-gray-200);
+        border-radius: 8px;
+        padding: 12px;
+        margin: 16px 0;
+        background-color: var(--color-gray-50);
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+      }
+      
+      .pronunciation-widget .text {
+        font-size: 1.1rem;
+        text-align: center;
+        margin-bottom: 10px;
+        padding: 8px;
+        background-color: white;
+        border-radius: 4px;
+        border: 1px solid var(--color-gray-100);
+      }
+      
+      .pronunciation-widget .controls {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+        align-items: center;
+      }
+      
+      .pronunciation-widget .main-controls {
+        display: flex;
+        gap: 8px;
+        align-items: center;
+      }
+      
+      .pronunciation-widget .speed-controls {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 4px;
+        justify-content: center;
+        align-items: center;
+        font-size: 11px;
+        color: var(--color-gray-600);
+      }
+      
+      .pronunciation-widget .speed-label {
+        margin-right: 4px;
+        font-weight: 500;
+      }
+      
+      /* 響應式設計 */
+      @media (max-width: 768px) {
+        .pronunciation-play-btn {
+          padding: 6px 10px;
+          font-size: 13px;
+          min-width: 70px;
+        }
+        
+        .pronunciation-widget {
+          padding: 10px;
+        }
+        
+        .pronunciation-widget .controls {
+          flex-direction: column;
+        }
+        
+        .pronunciation-widget .main-controls {
+          flex-direction: column;
+          gap: 6px;
+        }
+      }
+      
+      /* 無障礙支援 */
+      .pronunciation-play-btn:focus {
+        outline: 2px solid var(--color-primary-400);
+        outline-offset: 2px;
+      }
+      
+      .pronunciation-play-btn:focus:not(:focus-visible) {
+        outline: none;
+      }
+      
+      .pronunciation-play-btn:focus-visible {
+        outline: 2px solid var(--color-primary-400);
+        outline-offset: 2px;
+      }
+      
+      /* 動畫效果 */
+      @keyframes pulse {
+        0% { transform: scale(1); }
+        50% { transform: scale(1.05); }
+        100% { transform: scale(1); }
+      }
+      
+      .pronunciation-play-btn.playing {
+        animation: pulse 1.5s infinite;
+      }
+    </style>
+  </Fragment>
+
   <!-- Lightbox is handled globally by BaseLayout -->
 </BaseLayout>

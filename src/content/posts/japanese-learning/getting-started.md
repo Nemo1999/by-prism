@@ -3,7 +3,7 @@ title: "Getting Started - 日文學習入門指南"
 description: "日文學習的起點：學習路徑、資源推薦、心態調整"
 pubDate: 2026-03-21
 author: 小波
-tags: ["入門", "學習指南", "資源", "心態"]
+tags: ["入門", "學習指南", "資源", "心態", "發音功能"]
 draft: false
 ---
 

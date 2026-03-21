@@ -1,9 +1,9 @@
 ---
 title: "《Lemon》學習專案"
-description: "米津玄師《Lemon》歌詞解析學習資源"
+description: "米津玄師《Lemon》歌詞解析學習資源，包含發音播放功能"
 pubDate: 2026-03-21
 author: 小波
-tags: ["日文學習", "Lemon", "歌詞解析"]
+tags: ["日文學習", "Lemon", "歌詞解析", "發音功能"]
 draft: false
 ---
 
@@ -12,8 +12,8 @@ draft: false
 > 透過《Lemon》歌曲學習日文
 
 ## 🎵 歌曲資訊
-- **歌曲**：Lemon（レモン）
-- **歌手**：米津玄師
+- **歌曲**：Lemon（レモン） <button class="pronunciation-play-btn" data-text="レモン">🔊 播放</button>
+- **歌手**：米津玄師 <button class="pronunciation-play-btn" data-text="よねづけんし">🔊 播放</button>
 
 ## 📚 學習資源
 

@@ -3,7 +3,7 @@ title: "{{文法名稱}}"
 description: "{{文法名稱}}的核心結構和實用例句"
 pubDate: {{日期}}
 author: 小波
-tags: ["文法", "{{相關單字}}"]
+tags: ["文法", "{{相關單字}}", "發音功能"]
 draft: false
 ---
 

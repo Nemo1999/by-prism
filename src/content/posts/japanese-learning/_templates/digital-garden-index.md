@@ -3,7 +3,7 @@ title: "{{花園名稱}}"
 description: "{{花園描述}}"
 pubDate: {{日期}}
 author: 小波
-tags: ["數位花園", "網狀學習", "自主探索", "知識網絡"]
+tags: ["數位花園", "網狀學習", "自主探索", "知識網絡", "發音功能"]
 draft: false
 featured: true
 ---
