@@ -41,8 +41,8 @@ draft: false
 ## 🎵 出現歌曲
 
 ### 《Lemon》- 米津玄師
-- [[japanese-learning/lyrics/lemon-yume-naraba]] - {{在這句歌詞中的用法分析}}
-- [[japanese-learning/lemon-song/lemon-lyrics-part1]] - {{在這句歌詞中的用法分析}}
+- [[posts/japanese-learning/lyrics/lemon-yume-naraba]] - {{在這句歌詞中的用法分析}}
+- [[posts/japanese-learning/lemon-song/lemon-lyrics-part1]] - {{在這句歌詞中的用法分析}}
 
 ### 其他歌曲
 - [[歌曲2-歌詞片段]] - {{用法分析}}
