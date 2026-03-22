@@ -24,13 +24,17 @@ draft: false
 
 ## 🎯 使用範例
 
-**例句1**：<ruby>夢ならばどれほどよかったでしょう<rt>ゆめならばどれほどよかったでしょう</rt></ruby> — 如果是夢該有多好。
+**例句1**：<ruby>夢<rt>ゆめ</rt></ruby>ならば<ruby>どれほど<rt>どれほど</rt></ruby><ruby>よかった<rt>よかった</rt></ruby>でしょう — 如果是夢該有多好。
+<button class="pronunciation-play-btn" data-text="夢ならばどれほどよかったでしょう" data-lang="ja-JP">🔊 朗讀例句1</button>
 
-**例句2**：<ruby>時間があるならば手伝います<rt>じかんがあるならばてつだいます</rt></ruby> — 如果有時間的話我會幫忙。
+**例句2**：<ruby>時間<rt>じかん</rt></ruby>があるならば<ruby>手伝<rt>てつだ</rt></ruby>います — 如果有時間的話我會幫忙。
+<button class="pronunciation-play-btn" data-text="時間があるならば手伝います" data-lang="ja-JP">🔊 朗讀例句2</button>
 
-**例句3**：<ruby>あなたが来るならば準備します<rt>あなたがくるならばじゅんびします</rt></ruby> — 如果你要來的話我會準備。
+**例句3**：<ruby>あなた<rt>あなた</rt></ruby>が<ruby>来<rt>く</rt></ruby>るならば<ruby>準備<rt>じゅんび</rt></ruby>します — 如果你要來的話我會準備。
+<button class="pronunciation-play-btn" data-text="あなたが来るならば準備します" data-lang="ja-JP">🔊 朗讀例句3</button>
 
-**例句4**：<ruby>雨が降るならば中止します<rt>あめがふるならばちゅうしします</rt></ruby> — 如果下雨的話就取消。
+**例句4**：<ruby>雨<rt>あめ</rt></ruby>が<ruby>降<rt>ふ</rt></ruby>るならば<ruby>中止<rt>ちゅうし</rt></ruby>します — 如果下雨的話就取消。
+<button class="pronunciation-play-btn" data-text="雨が降るならば中止します" data-lang="ja-JP">🔊 朗讀例句4</button>
 
 ## 🔗 相關內容
 
