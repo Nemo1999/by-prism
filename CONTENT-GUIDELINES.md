@@ -223,3 +223,109 @@ src/content/posts/japanese-learning/
 **版本**：1.0  
 **適用範圍**：日文學習數位花園專案  
 **維護者**：波布 & Claw
+## 🎵 歌曲製作規範
+
+### 歌曲專案結構
+```
+songs/{song-name}/
+├── index.md              # 歌曲學習專案入口頁面
+├── full-lyrics.md        # 完整歌詞頁面
+├── study-progress.md     # 學習進度頁面
+├── vocabulary-grammar-review.md  # 單字文法複習頁面
+└── lyrics/               # 歌詞解析頁面
+    ├── {song-name}-line1.md
+    ├── {song-name}-line2.md
+    └── ...
+```
+
+### 雙向連結要求
+
+#### 歌詞解析頁面必須包含：
+1. **上下文連結**：
+   ```markdown
+   ## 上下文連結
+   - 上一句：[[{previous-line-filename}|{previous-line-title}]]
+   - 下一句：[[{next-line-filename}|{next-line-title}]]
+   - 完整歌詞：[[{song-name}-full-lyrics|{song-name}完整歌詞]]
+   ```
+
+2. **學習專案連結**：
+   ```markdown
+   - 學習專案：[[{song-name}/index|《{song-name}》學習專案]]
+   ```
+
+3. **單字連結**：
+   ```markdown
+   ## 單字學習
+   - [[vocabulary/{word1}|{word1-zh}]]
+   - [[vocabulary/{word2}|{word2-zh}]]
+   ```
+
+4. **文法連結**：
+   ```markdown
+   ## 文法學習
+   - [[grammar/{grammar1}|{grammar1-zh}]]
+   - [[grammar/{grammar2}|{grammar2-zh}]]
+   ```
+
+#### 單字頁面必須包含：
+```markdown
+## 應用範例
+- [[songs/{song-name}/lyrics/{line-filename}|{song-name} - {line-title}]]
+```
+
+#### 文法頁面必須包含：
+```markdown
+## 應用範例
+- [[songs/{song-name}/lyrics/{line-filename}|{song-name} - {line-title}]]
+```
+
+### 發音按鈕規範
+- **所有單字**：必須有發音播放按鈕
+- **所有句子**：必須有發音播放按鈕
+- **按鈕語法**：
+  ```html
+  <button class="pronunciation-play-btn" data-text="發音文字">🔊 播放</button>
+  ```
+- **按鈕位置**：緊跟在日文內容後面
+- **功能測試**：必須測試按鈕功能正常
+
+### 拼音標註規範
+- **只標註漢字**：非漢字（平假名、片假名）上方不放拼音
+- **正確語法**：
+  ```html
+  <ruby>漢字<rt>ふりがな</rt></ruby>
+  ```
+- **避免重複**：正文中已經有假名的漢字不需要重複標註
+- **協調一致**：拼音標註與發音按鈕要協調一致
+
+### 優先級順序
+1. **最高優先級**：發音按鈕完整性
+2. **高優先級**：拼音標註正確性
+3. **高優先級**：雙向連結完整性
+4. **工作流程**：優先優化現有內容，再創建新內容
+
+### 系統狀態管理
+- **狀態檔案**：`.song-focus-state.json`
+- **當前焦點**：記錄當前正在處理的歌曲
+- **檢查清單**：追蹤各項檢查的狀態
+- **優先級設定**：根據系統設定決定工作重點
+
+### 歌曲登記流程
+1. 創建歌曲專案目錄結構
+2. 創建所有必要頁面
+3. 更新系統狀態檔案
+4. 登記到總專案頁面
+5. 設定為當前焦點歌曲
+
+### 品質檢查項目
+1. **發音按鈕檢查**：所有單字和句子都有發音按鈕
+2. **拼音標註檢查**：只標註漢字，格式正確
+3. **連結完整性檢查**：雙向連結完整
+4. **上下文連結檢查**：上一句↔下一句↔完整歌詞
+5. **重複連結檢查**：避免重複連結
+
+### 參考文件
+- `SONG-PRODUCTION-GUIDE.md`：完整的歌曲製作指南
+- `.song-focus-state.json`：系統狀態檔案
+- 歌曲製作模板：`_templates/` 目錄下的相關模板
