@@ -9,7 +9,7 @@ draft: false
 
 # Lemon - 「最後にあなたが教えてくれた」
 
-> <ruby>最<rt>さい</rt></ruby><ruby>後<rt>ご</rt></ruby>に<ruby>貴方<rt>あなた</rt></ruby>が<ruby>教<rt>おし</rt></ruby>えてくれた  
+> <ruby>最<rt>さい</rt></ruby><ruby>後<rt>ご</rt></ruby>に<ruby>貴方<rt>あなた</rt></ruby>が<ruby>教<rt>おし</rt></ruby>えてくれた   <button class="pronunciation-play-btn" data-text="最後にあなたが教えてくれた">🔊 播放</button>
 > 最後是你教會了我
 
 ## 📖 逐字分析
@@ -81,12 +81,11 @@ draft: false
 ### 仿造例句2
 <ruby>最後に友達が真実を話してくれた<rt>さいごにともだちがしんじつをはなしてくれた</rt></ruby> — 最後朋友告訴了我真相。
 
-## 🔗 相關內容
-- [[posts/japanese-learning/vocabulary/saigo|最後]] — 名詞「最後」的詳細學習
-- [[posts/japanese-learning/vocabulary/anata|あなた]] — 第二人稱代名詞
-- [[posts/japanese-learning/grammar/ga-subject-marker|が-主格助詞]] — 主格助詞用法
-- [[posts/japanese-learning/vocabulary/oshieru|教える]] — 動詞「教導」的詳細學習
-- [[posts/japanese-learning/grammar/te-kureru-giving|てくれる-授受動詞]] — 「てくれる」的用法
-- [[posts/japanese-learning/lyrics/lemon-modoranai-shiawase-ga-aru-koto-wo|Lemon-戻らない幸せがあることを]] — 前一句歌詞解析
+## 🔗 相關連結
 
-> 解析完成後，可繼續學習下一句歌詞：「言えずに隠してた昏い過去も」。
+### 上下文連結
+- **上一句**：[[posts/japanese-learning/lyrics/lemon-modoranai-shiawase-ga-aru-koto-wo|Lemon-戻らない幸せがあることを]]
+- **完整歌詞**：[[posts/japanese-learning/lyrics/lemon-full-lyrics|Lemon 完整歌詞]]
+- **學習專案**：[[posts/japanese-learning/lemon-song/index|《Lemon》學習專案]]
+
+

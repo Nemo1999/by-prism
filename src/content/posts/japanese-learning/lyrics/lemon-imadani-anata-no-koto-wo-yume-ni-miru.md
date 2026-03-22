@@ -9,7 +9,7 @@ draft: false
 
 # Lemon - 「未だにあなたのことを夢にみる」
 
-> <ruby>未<rt>いま</rt></ruby>だに<ruby>貴方<rt>あなた</rt></ruby>の<ruby>事<rt>こと</rt></ruby>を<ruby>夢<rt>ゆめ</rt></ruby>に<ruby>見<rt>み</rt></ruby>る  
+> <ruby>未<rt>いま</rt></ruby>だに<ruby>貴方<rt>あなた</rt></ruby>の<ruby>事<rt>こと</rt></ruby>を<ruby>夢<rt>ゆめ</rt></ruby>に<ruby>見<rt>み</rt></ruby>る   <button class="pronunciation-play-btn" data-text="未だにあなたのことを夢にみる">🔊 播放</button>
 > 至今仍然夢見你
 
 ## 📖 逐字分析
@@ -44,14 +44,12 @@ draft: false
 
 **例句2**：<ruby>楽しいことを夢に見たい<rt>たのしいことをゆめにみたい</rt></ruby> — 我想夢到快樂的事情。
 
-## 🔗 相關內容
+## 🔗 相關連結
 
-- [[posts/japanese-learning/lyrics/lemon-yume-naraba|Lemon-夢ならばどれほどよかったでしょう]] — 前一句歌詞解析
-- [[posts/japanese-learning/vocabulary/yume|夢]] — 歌詞中的核心單字
-- [[posts/japanese-learning/vocabulary/anata|あなた]] — 第二人稱代名詞
-- [[posts/japanese-learning/grammar/no-possessive|の-所有格]] — 所有格助詞用法
-- [[posts/japanese-learning/grammar/wo-object-marker|を-賓格助詞]] — 賓格助詞用法
-- [[posts/japanese-learning/grammar/koto-formal-noun|こと-形式名詞]] — 形式名詞「こと」的用法
-- [[posts/japanese-learning/grammar/yume-ni-miru-idiomatic-expression|夢に見る-慣用表達]] — 「夢に見る」的專門解析
+### 上下文連結
+- **上一句**：[[posts/japanese-learning/lyrics/lemon-yume-naraba|Lemon-夢ならばどれほどよかったでしょう]]
+- **下一句**：[[posts/japanese-learning/lyrics/lemon-wasureta-mono-wo-torini-kaeru-youni|Lemon-忘れた物を取りに帰るように]]
+- **完整歌詞**：[[posts/japanese-learning/lyrics/lemon-full-lyrics|Lemon 完整歌詞]]
+- **學習專案**：[[posts/japanese-learning/lemon-song/index|《Lemon》學習專案]]
 
-> 解析完成後，可繼續學習下一句歌詞：「忘れた物を取りに帰るように」。
+
