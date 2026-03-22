@@ -9,7 +9,7 @@ draft: false
 
 # Lemon - 「忘れた物を取りに帰るように」
 
-> <ruby>忘<rt>わす</rt></ruby>れた<ruby>物<rt>もの</rt></ruby>を<ruby>取<rt>と</rt></ruby>りに<ruby>帰<rt>かえ</rt></ruby>る<ruby>様<rt>よう</rt></ruby>に  
+> <ruby>忘<rt>わす</rt></ruby>れた<ruby>物<rt>もの</rt></ruby>を<ruby>取<rt>と</rt></ruby>りに<ruby>帰<rt>かえ</rt></ruby>る<ruby>様<rt>よう</rt></ruby>に   <button class="pronunciation-play-btn" data-text="忘れた物を取りに帰るように">🔊 播放</button>
 > 就像回去取忘記的東西一樣
 
 ## 📖 逐字分析
@@ -84,12 +84,12 @@ draft: false
 ### 仿造例句2
 <ruby>忘れかけた記憶を思い出しに過去に帰るように<rt>わすれかけたきおくをおもいだしにかこにかえるように</rt></ruby> — 就像回到過去去回憶快要忘記的記憶一樣。
 
-## 🔗 相關內容
-- [[posts/japanese-learning/vocabulary/wasureru|忘れる]] — 動詞「忘記」的詳細學習
-- [[posts/japanese-learning/vocabulary/mono|物]] — 名詞「東西」的詳細學習
-- [[posts/japanese-learning/grammar/wo-object-marker|を-賓格助詞]] — 賓格助詞用法
-- [[posts/japanese-learning/grammar/ni-purpose|に-目的表達]] — 目的表達「～に」的專門解析
-- [[posts/japanese-learning/grammar/youda-metaphor|ようだ-比喻表達]] — 比喻表達「ようだ」的詳細文法
-- [[posts/japanese-learning/lyrics/lemon-imadani-anata-no-koto-wo-yume-ni-miru|Lemon-未だにあなたのことを夢にみる]] — 前一句歌詞解析
+## 🔗 相關連結
 
-> 解析完成後，可繼續學習下一句歌詞：「古びた思い出の埃を払う」。
+### 上下文連結
+- **上一句**：[[posts/japanese-learning/lyrics/lemon-imadani-anata-no-koto-wo-yume-ni-miru|Lemon-未だにあなたのことを夢にみる]]
+- **下一句**：[[posts/japanese-learning/lyrics/lemon-furubita-omoide-no-hokori-wo-harau|Lemon-古びた思い出の埃を払う]]
+- **完整歌詞**：[[posts/japanese-learning/lyrics/lemon-full-lyrics|Lemon 完整歌詞]]
+- **學習專案**：[[posts/japanese-learning/lemon-song/index|《Lemon》學習專案]]
+
+

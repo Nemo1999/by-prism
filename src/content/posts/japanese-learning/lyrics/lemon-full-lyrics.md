@@ -11,6 +11,11 @@ draft: false
 
 > 米津玄師《Lemon》完整日文歌詞與中文翻譯
 
+## 🔗 相關連結
+- **學習專案**：[[posts/japanese-learning/lemon-song/index|《Lemon》學習專案]]
+- **單字文法複習**：[[posts/japanese-learning/lemon-song/vocabulary-grammar-review|《Lemon》單字與文法總複習]]
+- **學習進度**：[[posts/japanese-learning/lemon-study-progress|Lemon學習進度]]
+
 ## 🎵 日文歌詞（點擊播放按鈕可聽發音）
 
 ### Verse 1

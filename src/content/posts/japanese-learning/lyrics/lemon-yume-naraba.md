@@ -9,7 +9,7 @@ draft: false
 
 # Lemon - 「夢ならばどれほどよかったでしょう」
 
-> <ruby>夢<rt>ゆめ</rt></ruby>ならばどれほどよかったでしょう  
+> <ruby>夢<rt>ゆめ</rt></ruby>ならばどれほどよかったでしょう   <button class="pronunciation-play-btn" data-text="夢ならばどれほどよかったでしょう">🔊 播放</button>
 > 如果是夢該有多好
 
 ## 📖 逐字分析
@@ -40,9 +40,11 @@ draft: false
 
 **例句2**：<ruby>彼<rt>かれ</rt></ruby>の<ruby>喜<rt>よろこ</rt></ruby>びはどれほど<ruby>大<rt>おお</rt></ruby>きかったでしょう — 他的喜悅是多麼大啊。
 
-## 🔗 相關內容
-- [[posts/japanese-learning/vocabulary/yume|夢]] — 歌詞中的核心單字
-- [[posts/japanese-learning/grammar/naraba-hypothetical-condition|ならば-假設條件]] — 核心文法結構
-- [[posts/japanese-learning/grammar/dorehodo-degree-adverb|どれほど-程度副詞]] — 程度感嘆表達
-- [[posts/japanese-learning/grammar/deshou-conjecture|でしょう-推量感嘆]] — 感嘆助動詞
-- [[posts/japanese-learning/grammar/yokatta-wish-expression|よかった-願望表達]] — 願望表達形式
+## 🔗 相關連結
+
+### 上下文連結
+- **下一句**：[[posts/japanese-learning/lyrics/lemon-imadani-anata-no-koto-wo-yume-ni-miru|Lemon-未だにあなたのことを夢にみる]]
+- **完整歌詞**：[[posts/japanese-learning/lyrics/lemon-full-lyrics|Lemon 完整歌詞]]
+- **學習專案**：[[posts/japanese-learning/lemon-song/index|《Lemon》學習專案]]
+
+

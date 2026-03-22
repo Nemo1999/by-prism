@@ -9,7 +9,7 @@ draft: false
 
 # Lemon - 「古びた思い出の埃を払う」
 
-> <ruby>古<rt>ふる</rt></ruby>びた<ruby>思<rt>おも</rt></ruby>い<ruby>出<rt>で</rt></ruby>の<ruby>埃<rt>ほこり</rt></ruby>を<ruby>払<rt>はら</rt></ruby>う  
+> <ruby>古<rt>ふる</rt></ruby>びた<ruby>思<rt>おも</rt></ruby>い<ruby>出<rt>で</rt></ruby>の<ruby>埃<rt>ほこり</rt></ruby>を<ruby>払<rt>はら</rt></ruby>う   <button class="pronunciation-play-btn" data-text="古びた思い出の埃を払う">🔊 播放</button>
 > 拂去舊回憶的塵埃
 
 ## 📖 逐字分析
@@ -82,13 +82,12 @@ draft: false
 ### 仿造例句2
 <ruby>傷ついた記憶の痛みを癒す<rt>きずついたきおくのいたみをいやす</rt></ruby> — 治癒受傷記憶的疼痛。
 
-## 🔗 相關內容
-- [[posts/japanese-learning/vocabulary/furubiru|古びる]] — 動詞「變舊」的詳細學習
-- [[posts/japanese-learning/vocabulary/omoide|思い出]] — 名詞「回憶」的詳細學習
-- [[posts/japanese-learning/vocabulary/hokori|埃]] — 名詞「塵埃」的詳細學習
-- [[posts/japanese-learning/vocabulary/harau|払う]] — 動詞「拂去」的詳細學習
-- [[posts/japanese-learning/grammar/no-possessive|の-所有格]] — 所有格助詞用法
-- [[posts/japanese-learning/grammar/wo-object-marker|を-賓格助詞]] — 賓格助詞用法
-- [[posts/japanese-learning/lyrics/lemon-wasureta-mono-wo-torini-kaeru-youni|Lemon-忘れた物を取りに帰るように]] — 前一句歌詞解析
+## 🔗 相關連結
 
-> 解析完成後，可繼續學習下一句歌詞：「戻らない幸せがあることを」。
+### 上下文連結
+- **上一句**：[[posts/japanese-learning/lyrics/lemon-wasureta-mono-wo-torini-kaeru-youni|Lemon-忘れた物を取りに帰るように]]
+- **下一句**：[[posts/japanese-learning/lyrics/lemon-modoranai-shiawase-ga-aru-koto-wo|Lemon-戻らない幸せがあることを]]
+- **完整歌詞**：[[posts/japanese-learning/lyrics/lemon-full-lyrics|Lemon 完整歌詞]]
+- **學習專案**：[[posts/japanese-learning/lemon-song/index|《Lemon》學習專案]]
+
+
