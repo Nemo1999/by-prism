@@ -12,6 +12,8 @@ draft: false
 > <ruby>忘<rt>わす</rt></ruby>れた<ruby>物<rt>もの</rt></ruby>を<ruby>取<rt>と</rt></ruby>りに<ruby>帰<rt>かえ</rt></ruby>る<ruby>様<rt>よう</rt></ruby>に  
 > 就像回去取忘記的東西一樣
 
+<button class="pronunciation-play-btn" data-text="忘れた物を取りに帰るように" data-lang="ja-JP">🔊 播放歌詞</button>
+
 ## 📖 逐字分析
 
 - **忘れた**（わすれた）：動詞「忘れる」的過去形，作定語修飾「物」
@@ -30,9 +32,11 @@ draft: false
 **接續方式**：
 - 動詞た形 + 名詞
 
-**例句1**：<ruby>昨日買った本を読む<rt>きのうかったほんをよむ</rt></ruby> — 讀昨天買的書。
+**例句1**：<ruby>昨日<rt>きのう</rt></ruby><ruby>買<rt>か</rt></ruby>った<ruby>本<rt>ほん</rt></ruby>を<ruby>読<rt>よ</rt></ruby>む — 讀昨天買的書。
+<button class="pronunciation-play-btn" data-text="昨日買った本を読む" data-lang="ja-JP">🔊 朗讀例句1</button>
 
-**例句2**：<ruby>先週会った人を覚えている<rt>せんしゅうあったひとをおぼえている</rt></ruby> — 記得上週見過的人。
+**例句2**：<ruby>先週<rt>せんしゅう</rt></ruby><ruby>会<rt>あ</rt></ruby>った<ruby>人<rt>ひと</rt></ruby>を<ruby>覚<rt>おぼ</rt></ruby>えている — 記得上週見過的人。
+<button class="pronunciation-play-btn" data-text="先週会った人を覚えている" data-lang="ja-JP">🔊 朗讀例句2</button>
 
 **歌曲應用**：<ruby>忘れた物<rt>わすれたもの</rt></ruby> — 忘記的東西（已經忘記的物品）
 
@@ -43,11 +47,14 @@ draft: false
 **接續方式**：
 - 動詞ます形（去ます） + に + 動詞
 
-**例句1**：<ruby>本を借りに図書館に行く<rt>ほんをかりにとしょかんにいく</rt></ruby> — 去圖書館借書。
+**例句1**：<ruby>本<rt>ほん</rt></ruby>を<ruby>借<rt>か</rt></ruby>りに<ruby>図書館<rt>としょかん</rt></ruby>に<ruby>行<rt>い</rt></ruby>く — 去圖書館借書。
+<button class="pronunciation-play-btn" data-text="本を借りに図書館に行く" data-lang="ja-JP">🔊 朗讀例句1</button>
 
-**例句2**：<ruby>食事をしにレストランへ行った<rt>しょくじをしにレストランへいった</rt></ruby> — 去餐廳吃飯。
+**例句2**：<ruby>食事<rt>しょくじ</rt></ruby>をしに<ruby>レストラン<rt>レストラン</rt></ruby>へ<ruby>行<rt>い</rt></ruby>った — 去餐廳吃飯。
+<button class="pronunciation-play-btn" data-text="食事をしにレストランへ行った" data-lang="ja-JP">🔊 朗讀例句2</button>
 
-**歌曲應用**：<ruby>取りに帰る<rt>とりにかえる</rt></ruby> — 回去取（為了取回而回去）
+**歌曲應用**：<ruby>取<rt>と</rt></ruby>りに<ruby>帰<rt>かえ</rt></ruby>る — 回去取（為了取回而回去）
+<button class="pronunciation-play-btn" data-text="取りに帰る" data-lang="ja-JP">🔊 朗讀歌詞應用</button>
 
 ### 3. ように（比喻表達）－表示「像...一樣」
 
