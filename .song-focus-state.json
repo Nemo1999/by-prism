@@ -1,0 +1,56 @@
+{
+  "currentSong": {
+    "name": "Lemon",
+    "directory": "posts/japanese-learning/lemon-song",
+    "startDate": "2026-03-21",
+    "progress": {
+      "totalLines": 6,
+      "completedLines": 6,
+      "currentLine": 6,
+      "nextLine": null
+    },
+    "focusAreas": ["假設表達", "感嘆句型", "比喻用法", "過去形表達"],
+    "priority": "optimization",
+    "lastUpdated": "2026-03-22T22:40:00+08:00"
+  },
+  "recentSongs": ["Lemon"],
+  "songQueue": [],
+  "systemSettings": {
+    "priorityOrder": ["pronunciation", "ruby_annotation", "bidirectional_links", "new_content"],
+    "optimizationFirst": true,
+    "autoCreateLinks": true,
+    "checkPronunciationButtons": true,
+    "checkRubyAnnotations": true,
+    "checkBidirectionalLinks": true
+  },
+  "checklist": {
+    "pronunciationButtons": {
+      "description": "所有單字與句子都應該附上發音按鈕",
+      "priority": "highest",
+      "status": "completed",
+      "lastChecked": "2026-03-22T22:45:00+08:00",
+      "notes": "所有歌詞解析頁面已添加發音按鈕，完整歌詞頁面已有23個發音按鈕"
+    },
+    "rubyAnnotations": {
+      "description": "拼音標註正確性：只標註漢字，非漢字上方沒有拼音",
+      "priority": "high",
+      "status": "completed",
+      "lastChecked": "2026-03-22T22:45:00+08:00",
+      "notes": "所有頁面拼音標註正確，只標註漢字"
+    },
+    "bidirectionalLinks": {
+      "description": "雙向連結完整性：歌詞↔單字↔文法",
+      "priority": "high",
+      "status": "completed",
+      "lastChecked": "2026-03-22T22:45:00+08:00",
+      "notes": "所有頁面已建立完整的雙向連結網絡"
+    },
+    "contextLinks": {
+      "description": "上下文連結：上一句↔下一句↔完整歌詞",
+      "priority": "medium",
+      "status": "completed",
+      "lastChecked": "2026-03-22T22:45:00+08:00",
+      "notes": "所有歌詞解析頁面都有完整的上下文連結"
+    }
+  }
+}

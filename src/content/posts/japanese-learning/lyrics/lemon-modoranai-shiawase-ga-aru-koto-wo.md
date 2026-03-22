@@ -9,7 +9,7 @@ draft: false
 
 # Lemon - 「戻らない幸せがあることを」
 
-> <ruby>戻<rt>もど</rt></ruby>らない<ruby>幸<rt>しあわ</rt></ruby>せがある<ruby>事<rt>こと</rt></ruby>を  
+> <ruby>戻<rt>もど</rt></ruby>らない<ruby>幸<rt>しあわ</rt></ruby>せがある<ruby>事<rt>こと</rt></ruby>を   <button class="pronunciation-play-btn" data-text="戻らない幸せがあることを">🔊 播放</button>
 > 有些幸福是回不來的
 
 ## 📖 逐字分析
@@ -83,13 +83,12 @@ draft: false
 ### 仿造例句2
 <ruby>失わない友情があることを大切にする<rt>うしなわないゆうじょうがあることをたいせつにする</rt></ruby> — 珍惜有不滅的友情存在這件事。
 
-## 🔗 相關內容
-- [[posts/japanese-learning/vocabulary/modoru|戻る]] — 動詞「回來」的詳細學習
-- [[posts/japanese-learning/vocabulary/shiawase|幸せ]] — 名詞「幸福」的詳細學習
-- [[posts/japanese-learning/grammar/ga-subject-marker|が-主格助詞]] — 主格助詞用法
-- [[posts/japanese-learning/grammar/aru-existence|ある-存在表達]] — 存在動詞用法
-- [[posts/japanese-learning/grammar/koto-nominalizer|こと-名詞化]] — 形式名詞「こと」的用法
-- [[posts/japanese-learning/grammar/wo-object-marker|を-賓格助詞]] — 賓格助詞用法
-- [[posts/japanese-learning/lyrics/lemon-furubita-omoide-no-hokori-wo-harau|Lemon-古びた思い出の埃を払う]] — 前一句歌詞解析
+## 🔗 相關連結
 
-> 解析完成後，可繼續學習下一句歌詞：「最後にあなたが教えてくれた」。
+### 上下文連結
+- **上一句**：[[posts/japanese-learning/lyrics/lemon-furubita-omoide-no-hokori-wo-harau|Lemon-古びた思い出の埃を払う]]
+- **下一句**：[[posts/japanese-learning/lyrics/lemon-saigo-ni-anata-ga-oshiete-kureta|Lemon-最後にあなたが教えてくれた]]
+- **完整歌詞**：[[posts/japanese-learning/lyrics/lemon-full-lyrics|Lemon 完整歌詞]]
+- **學習專案**：[[posts/japanese-learning/lemon-song/index|《Lemon》學習專案]]
+
+

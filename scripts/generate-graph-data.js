@@ -82,19 +82,38 @@ if (!existsSync(OUTPUT_DIR)) {
  * @returns {string} - The generated ID
  */
 function generateNodeId(filePath, collectionType) {
-  // Remove collection prefix and extension
-  let id = filePath.replace(`src/content/${collectionType}/`, "");
+  // Convert to relative path from project root
+  const relativePath = filePath.replace(projectRoot + "/", "");
+  
+  let id = relativePath;
+  
+  // Remove src/content/posts/ prefix if present (for file paths)
+  if (id.startsWith(`src/content/${collectionType}/`)) {
+    id = id.replace(`src/content/${collectionType}/`, "");
+  }
+  
+  // Remove posts/ prefix if present (for wikilinks)
+  if (id.startsWith("posts/")) {
+    id = id.replace("posts/", "");
+  }
+  
+  // Remove extension and index suffix
   id = id.replace(".md", "");
   id = id.replace("/index", ""); // Handle folder-based posts
 
-  // Clean up the ID: lowercase, replace spaces/special chars with hyphens
-  id = id.toLowerCase().replace(/[^a-z0-9-]/g, "-");
+  // Keep slashes for nested paths - this matches the URL structure
+  // Clean up the ID: lowercase, replace spaces/special chars with hyphens (but keep slashes)
+  id = id.toLowerCase().replace(/[^a-z0-9-\/]/g, "-");
 
-  // Remove multiple consecutive hyphens
-  id = id.replace(/-+/g, "-");
+  // Remove multiple consecutive hyphens (but not slashes)
+  id = id.replace(/([^\/])-+/g, "$1-");
 
-  // Remove leading/trailing hyphens
-  id = id.replace(/^-+|-+$/g, "");
+  // Remove leading/trailing hyphens from path segments
+  const segments = id.split('/');
+  const cleanedSegments = segments.map(segment => 
+    segment.replace(/^-+|-+$/g, "")
+  );
+  id = cleanedSegments.join('/');
 
   return id;
 }
@@ -225,11 +244,11 @@ function extractLinkTextFromUrl(url) {
   const link = anchorIndex === -1 ? url : url.substring(0, anchorIndex);
   const anchor = anchorIndex === -1 ? null : url.substring(anchorIndex + 1);
 
-  // Handle posts/ prefixed links
+  // Handle posts/ prefixed links (with or without .md extension)
   if (link.startsWith("posts/")) {
     let linkText = link.replace("posts/", "").replace(/\.md$/, "");
     // Remove /index for folder-based posts
-    if (linkText.endsWith("/index") && linkText.split("/").length === 2) {
+    if (linkText.endsWith("/index")) {
       linkText = linkText.replace("/index", "");
     }
     return {
@@ -242,7 +261,7 @@ function extractLinkTextFromUrl(url) {
   if (link.startsWith("/posts/")) {
     let linkText = link.replace("/posts/", "").replace(/\.md$/, "");
     // Remove /index for folder-based posts
-    if (linkText.endsWith("/index") && linkText.split("/").length === 2) {
+    if (linkText.endsWith("/index")) {
       linkText = linkText.replace("/index", "");
     }
     return {
@@ -251,15 +270,23 @@ function extractLinkTextFromUrl(url) {
     };
   }
 
-  // Handle .md files
+  // Handle .md files (with or without path)
   if (link.endsWith(".md")) {
     let linkText = link.replace(/\.md$/, "");
     // Remove /index for folder-based posts
-    if (linkText.endsWith("/index") && linkText.split("/").length === 1) {
+    if (linkText.endsWith("/index")) {
       linkText = linkText.replace("/index", "");
     }
     return {
       linkText: linkText,
+      anchor: anchor,
+    };
+  }
+
+  // If it contains slashes, assume it's a path (like japanese-learning/lyrics/lemon-yume-naraba)
+  if (link.includes("/")) {
+    return {
+      linkText: link,
       anchor: anchor,
     };
   }
@@ -276,9 +303,9 @@ function extractLinkTextFromUrl(url) {
 }
 
 /**
- * Read and parse markdown files from content directory
+ * Read and parse markdown files from content directory (recursive)
  */
-function readContentFiles(dirPath) {
+function readContentFiles(dirPath, baseSlug = "") {
   const posts = [];
 
   try {
@@ -289,20 +316,24 @@ function readContentFiles(dirPath) {
       const stat = statSync(itemPath);
 
       if (stat.isDirectory()) {
-        // Handle folder-based posts
+        // Recursively read subdirectories
+        const subDirSlug = baseSlug ? `${baseSlug}/${item}` : item;
+        const subDirPosts = readContentFiles(itemPath, subDirSlug);
+        posts.push(...subDirPosts);
+        
+        // Also check for folder-based posts (index.md in directory)
         const indexPath = join(itemPath, "index.md");
         if (existsSync(indexPath)) {
           const content = readFileSync(indexPath, "utf-8");
-          const parsed = parseMarkdownFile(content, item);
+          const parsed = parseMarkdownFile(content, indexPath, item);
           if (parsed) {
             posts.push(parsed);
           }
         }
-      } else if (item.endsWith(".md")) {
-        // Handle single-file posts
+      } else if (item.endsWith(".md") && item !== "index.md") {
+        // Handle single-file posts (skip index.md files which are handled above)
         const content = readFileSync(itemPath, "utf-8");
-        const slug = item.replace(".md", "");
-        const parsed = parseMarkdownFile(content, slug);
+        const parsed = parseMarkdownFile(content, itemPath, item);
         if (parsed) {
           posts.push(parsed);
         }
@@ -318,7 +349,7 @@ function readContentFiles(dirPath) {
 /**
  * Parse markdown file and extract frontmatter and content
  */
-function parseMarkdownFile(content, slug) {
+function parseMarkdownFile(content, filePath, slug) {
   try {
     // Extract frontmatter (handle both \n and \r\n line endings)
     const frontmatterMatch = content.match(
@@ -396,10 +427,14 @@ function parseMarkdownFile(content, slug) {
       data[currentKey] = [...currentArray];
     }
 
+    // Generate ID from file path
+    const id = generateNodeId(filePath, "posts");
+
     return {
-      id: slug,
+      id: id,
       data,
       body,
+      filePath: filePath,
     };
   } catch (error) {
     log.warn(`Error parsing file ${slug}:`, error.message);

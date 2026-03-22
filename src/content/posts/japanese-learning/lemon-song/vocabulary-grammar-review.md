@@ -68,6 +68,21 @@ draft: false
 | から | から | 從 | 家から（從家） |
 | まで | まで | 到 | 学校まで（到學校） |
 
+## 🔗 相關連結
+
+### 上下文連結
+- **完整歌詞**：[[posts/japanese-learning/lyrics/lemon-full-lyrics|Lemon 完整歌詞]]
+- **學習專案**：[[posts/japanese-learning/lemon-song/index|《Lemon》學習專案]]
+- **學習進度**：[[posts/japanese-learning/lemon-study-progress|Lemon學習進度]]
+
+### 應用範例（歌詞中的使用）
+- [[posts/japanese-learning/lyrics/lemon-yume-naraba|夢ならばどれほどよかったでしょう]] — ならば假設條件
+- [[posts/japanese-learning/lyrics/lemon-imadani-anata-no-koto-wo-yume-ni-miru|未だにあなたのことを夢にみる]] — こと形式名詞、を賓格助詞
+- [[posts/japanese-learning/lyrics/lemon-wasureta-mono-wo-torini-kaeru-youni|忘れた物を取りに帰るように]] — に目的表達、ようだ比喻表達
+- [[posts/japanese-learning/lyrics/lemon-furubita-omoide-no-hokori-wo-harau|古びた思い出の埃を払う]] — の所有格、を賓格助詞
+- [[posts/japanese-learning/lyrics/lemon-modoranai-shiawase-ga-aru-koto-wo|戻らない幸せがあることを]] — が主格助詞、こと名詞化
+- [[posts/japanese-learning/lyrics/lemon-saigo-ni-anata-ga-oshiete-kureta|最後にあなたが教えてくれた]] — に時間表達、てくれる授受動詞
+
 
 
 
