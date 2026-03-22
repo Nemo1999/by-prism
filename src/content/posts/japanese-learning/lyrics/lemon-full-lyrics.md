@@ -20,8 +20,8 @@ draft: false
    [[posts/japanese-learning/lyrics/lemon-furubita-omoide-no-hokori-wo-harau|古びた思い出の埃を払う]] <button class="pronunciation-play-btn" data-text="古びた思い出の埃を払う">🔊 播放</button>
 
 ### Chorus
-戻らない幸せがあることを <button class="pronunciation-play-btn" data-text="戻らない幸せがあることを">🔊 播放</button>
-最後にあなたが教えてくれた <button class="pronunciation-play-btn" data-text="最後にあなたが教えてくれた">🔊 播放</button>
+[[posts/japanese-learning/lyrics/lemon-modoranai-shiawase-ga-aru-koto-wo|戻らない幸せがあることを]] <button class="pronunciation-play-btn" data-text="戻らない幸せがあることを">🔊 播放</button>
+[[posts/japanese-learning/lyrics/lemon-saigo-ni-anata-ga-oshiete-kureta|最後にあなたが教えてくれた]] <button class="pronunciation-play-btn" data-text="最後にあなたが教えてくれた">🔊 播放</button>
 言えずに隠してた昏い過去も <button class="pronunciation-play-btn" data-text="言えずに隠してた昏い過去も">🔊 播放</button>
 あなたがいる光になる <button class="pronunciation-play-btn" data-text="あなたがいる光になる">🔊 播放</button>
 

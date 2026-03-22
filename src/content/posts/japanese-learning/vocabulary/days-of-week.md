@@ -20,13 +20,25 @@ draft: false
 
 ## 📊 單字對照表
 
-| 日文 | 羅馬拼音 | 中文意思 | 使用頻率 | 難度 | 元素來源 |
-|------|----------|----------|----------|------|----------|
-| 月曜日 | getsuyōbi | 星期一 | ★★★★★ | 初級 | 月（月亮） |
-| 火曜日 | kayōbi | 星期二 | ★★★★★ | 初級 | 火（火星） |
-| 水曜日 | suiyōbi | 星期三 | ★★★★★ | 初級 | 水（水星） |
-| 木曜日 | mokuyōbi | 星期四 | ★★★★★ | 初級 | 木（木星） |
-| 金曜日 | kin'yōbi | 星期五 | ★★★★★ | 初級 | 金（金星） |
+### 基本星期單字
+| 日文 | 羅馬拼音 | 中文意思 | 使用頻率 | 難度 | 元素來源 | 說明 |
+|------|----------|----------|----------|------|----------|------|
+| 月曜日 | getsuyōbi | 星期一 | ★★★★★ | 初級 | 月（月亮） | 一周的開始，對應月亮 |
+| 火曜日 | kayōbi | 星期二 | ★★★★★ | 初級 | 火（火星） | 火星之日，充滿活力 |
+| 水曜日 | suiyōbi | 星期三 | ★★★★★ | 初級 | 水（水星） | 水星之日，中間的轉折點 |
+| 木曜日 | mokuyōbi | 星期四 | ★★★★★ | 初級 | 木（木星） | 木星之日，接近周末 |
+| 金曜日 | kin'yōbi | 星期五 | ★★★★★ | 初級 | 金（金星） | 金星之日，周末前夜 |
+
+### 補充相關單字
+| 日文 | 羅馬拼音 | 中文意思 | 使用頻率 | 難度 | 說明 |
+|------|----------|----------|----------|------|------|
+| 平日 | heijitsu | 平日（周一至周五） | ★★★★☆ | 初級 | 工作日總稱 |
+| 週末 | shūmatsu | 周末 | ★★★★★ | 初級 | 周六和周日 |
+| 今週 | konshū | 本周 | ★★★★★ | 初級 | 當前這一周 |
+| 来週 | raishū | 下周 | ★★★★★ | 初級 | 接下來的一周 |
+| 先週 | senshū | 上周 | ★★★★★ | 初級 | 過去的一周 |
+| 毎週 | maishū | 每周 | ★★★★☆ | 中級 | 每一周 |
+| 曜日 | yōbi | 星期 | ★★★☆☆ | 中級 | 星期的總稱 |
 
 ## 🎨 視覺學習
 
@@ -42,40 +54,81 @@ draft: false
 
 ## 🔊 發音練習
 
-### 單字發音
+### 基本星期發音
 
-**月曜日**：<ruby>月<rt>げつ</rt></ruby><ruby>曜<rt>よう</rt></ruby><ruby>日<rt>び</rt></ruby>
+**月曜日**：<ruby>月<rt>げつ</rt></ruby><ruby>曜<rt>よう</rt></ruby><ruby>日<rt>び</rt></ruby>（星期一）
 <button class="pronunciation-play-btn" data-text="月曜日" data-lang="ja-JP">🔊 播放「月曜日」</button>
 
-**火曜日**：<ruby>火<rt>か</rt></ruby><ruby>曜<rt>よう</rt></ruby><ruby>日<rt>び</rt></ruby>
+**火曜日**：<ruby>火<rt>か</rt></ruby><ruby>曜<rt>よう</rt></ruby><ruby>日<rt>び</rt></ruby>（星期二）
 <button class="pronunciation-play-btn" data-text="火曜日" data-lang="ja-JP">🔊 播放「火曜日」</button>
 
-**水曜日**：<ruby>水<rt>すい</rt></ruby><ruby>曜<rt>よう</rt></ruby><ruby>日<rt>び</rt></ruby>
+**水曜日**：<ruby>水<rt>すい</rt></ruby><ruby>曜<rt>よう</rt></ruby><ruby>日<rt>び</rt></ruby>（星期三）
 <button class="pronunciation-play-btn" data-text="水曜日" data-lang="ja-JP">🔊 播放「水曜日」</button>
 
-**木曜日**：<ruby>木<rt>もく</rt></ruby><ruby>曜<rt>よう</rt></ruby><ruby>日<rt>び</rt></ruby>
+**木曜日**：<ruby>木<rt>もく</rt></ruby><ruby>曜<rt>よう</rt></ruby><ruby>日<rt>び</rt></ruby>（星期四）
 <button class="pronunciation-play-btn" data-text="木曜日" data-lang="ja-JP">🔊 播放「木曜日」</button>
 
-**金曜日**：<ruby>金<rt>きん</rt></ruby><ruby>曜<rt>よう</rt></ruby><ruby>日<rt>び</rt></ruby>
+**金曜日**：<ruby>金<rt>きん</rt></ruby><ruby>曜<rt>よう</rt></ruby><ruby>日<rt>び</rt></ruby>（星期五）
 <button class="pronunciation-play-btn" data-text="金曜日" data-lang="ja-JP">🔊 播放「金曜日」</button>
 
+### 補充單字發音
+
+**平日**：<ruby>平<rt>へい</rt></ruby><ruby>日<rt>じつ</rt></ruby>（工作日）
+<button class="pronunciation-play-btn" data-text="平日" data-lang="ja-JP">🔊 播放「平日」</button>
+
+**週末**：<ruby>週<rt>しゅう</rt></ruby><ruby>末<rt>まつ</rt></ruby>（周末）
+<button class="pronunciation-play-btn" data-text="週末" data-lang="ja-JP">🔊 播放「週末」</button>
+
+**今週**：<ruby>今<rt>こん</rt></ruby><ruby>週<rt>しゅう</rt></ruby>（本周）
+<button class="pronunciation-play-btn" data-text="今週" data-lang="ja-JP">🔊 播放「今週」</button>
+
+**来週**：<ruby>来<rt>らい</rt></ruby><ruby>週<rt>しゅう</rt></ruby>（下周）
+<button class="pronunciation-play-btn" data-text="来週" data-lang="ja-JP">🔊 播放「来週」</button>
+
+**先週**：<ruby>先<rt>せん</rt></ruby><ruby>週<rt>しゅう</rt></ruby>（上周）
+<button class="pronunciation-play-btn" data-text="先週" data-lang="ja-JP">🔊 播放「先週」</button>
+
 ### 發音技巧
-- **長音注意**：「よう」要拉長發音
+- **長音注意**：「よう」要拉長發音，如「げつようび」
 - **促音注意**：「きんようび」的「ん」是鼻音
 - **整體節奏**：げつ・よう・び（三拍節奏）
+- **音調重點**：星期單字都是平板型音調
 
 ## 📝 例句應用
 
-### 基本例句
+### 基本星期例句
 
 **例句1**：<ruby>月曜日は会議があります<rt>げつようびはかいぎがあります</rt></ruby> — 星期一有會議。
 <button class="pronunciation-play-btn" data-text="月曜日は会議があります" data-lang="ja-JP">🔊 朗讀例句1</button>
 
-**例句2**：<ruby>水曜日に歯医者に行きます<rt>すいようびにはいしゃにいきます</rt></ruby> — 星期三要去看牙醫。
-<button class="pronunciation-play-btn" data-text="水曜日に歯医者に行きます" data-lang="ja-JP">🔊 朗讀例句2</button>
+**例句2**：<ruby>火曜日から金曜日まで忙しいです<rt>かようびからきんようびまでいそがしいです</rt></ruby> — 從星期二到星期五都很忙。
+<button class="pronunciation-play-btn" data-text="火曜日から金曜日まで忙しいです" data-lang="ja-JP">🔊 朗讀例句2</button>
 
-**例句3**：<ruby>金曜日の夜は飲み会です<rt>きんようびのよるはのみかいです</rt></ruby> — 星期五晚上有聚餐。
-<button class="pronunciation-play-btn" data-text="金曜日の夜は飲み会です" data-lang="ja-JP">🔊 朗讀例句3</button>
+**例句3**：<ruby>水曜日に歯医者に行きます<rt>すいようびにはいしゃにいきます</rt></ruby> — 星期三要去看牙醫。
+<button class="pronunciation-play-btn" data-text="水曜日に歯医者に行きます" data-lang="ja-JP">🔊 朗讀例句3</button>
+
+**例句4**：<ruby>木曜日の午後は空いています<rt>もくようびのごごはあいています</rt></ruby> — 星期四下午有空。
+<button class="pronunciation-play-btn" data-text="木曜日の午後は空いています" data-lang="ja-JP">🔊 朗讀例句4</button>
+
+**例句5**：<ruby>金曜日の夜は飲み会です<rt>きんようびのよるはのみかいです</rt></ruby> — 星期五晚上有聚餐。
+<button class="pronunciation-play-btn" data-text="金曜日の夜は飲み会です" data-lang="ja-JP">🔊 朗讀例句5</button>
+
+### 補充單字例句
+
+**例句6**：<ruby>平日は仕事があります<rt>へいじつはしごとがあります</rt></ruby> — 平日要工作。
+<button class="pronunciation-play-btn" data-text="平日は仕事があります" data-lang="ja-JP">🔊 朗讀例句6</button>
+
+**例句7**：<ruby>週末は休みます<rt>しゅうまつはやすみます</rt></ruby> — 周末休息。
+<button class="pronunciation-play-btn" data-text="週末は休みます" data-lang="ja-JP">🔊 朗讀例句7</button>
+
+**例句8**：<ruby>今週は忙しいです<rt>こんしゅうはいそがしいです</rt></ruby> — 這周很忙。
+<button class="pronunciation-play-btn" data-text="今週は忙しいです" data-lang="ja-JP">🔊 朗讀例句8</button>
+
+**例句9**：<ruby>来週の月曜日に会いましょう<rt>らいしゅうのげつようびにあいましょう</rt></ruby> — 下周一見面吧。
+<button class="pronunciation-play-btn" data-text="来週の月曜日に会いましょう" data-lang="ja-JP">🔊 朗讀例句9</button>
+
+**例句10**：<ruby>先週の金曜日は楽しかったです<rt>せんしゅうのきんようびはたのしかったです</rt></ruby> — 上周五很開心。
+<button class="pronunciation-play-btn" data-text="先週の金曜日は楽しかったです" data-lang="ja-JP">🔊 朗讀例句10</button>
 
 ### 情境對話
 
@@ -122,22 +175,7 @@ draft: false
 - **先週**（せんしゅう）：上周
 - **毎週**（まいしゅう）：每周
 
-## 🎮 練習活動
 
-### 聽力練習
-1. **星期辨識**：聽音選出正確的星期
-2. **日程安排**：聽對話安排星期幾做什麼
-3. **星期順序**：聽星期順序排列
-
-### 口說練習
-1. **跟讀練習**：跟著發音按鈕練習每個星期
-2. **日程描述**：描述自己一周的行程
-3. **預約練習**：練習預約時間的對話
-
-### 閱讀練習
-1. **日程表閱讀**：閱讀日文日程表
-2. **填空練習**：在句子中填入正確的星期
-3. **翻譯練習**：中翻日星期相關句子
 
 ## 📚 延伸學習
 
@@ -153,46 +191,9 @@ draft: false
 
 ## 💡 學習建議
 
-### 初學者建議
-1. **每天練習**：每天練習一個星期的發音
-2. **關聯記憶**：記住行星對應關係
-3. **實際應用**：用日文寫自己的日程表
+**每天練習星期發音，用日文寫日程表。記住行星對應，快速反應星期名稱。**
 
-### 進階者建議
-1. **快速反應**：練習聽到星期立即反應
-2. **情境對話**：模擬各種需要星期的對話情境
-3. **文化理解**：了解日本星期的文化背景
 
-## 📈 學習進度追蹤
-
-### 本周目標
-- [ ] 正確發音星期一到星期五
-- [ ] 能夠在句子中使用星期
-- [ ] 聽懂星期相關對話
-- [ ] 完成所有練習活動
-
-### 長期目標
-- 能夠流利安排一周行程
-- 在實際對話中自然使用
-- 教導他人星期單字
-
----
-
-## 🏆 學習成就
-
-完成這個單字組學習後，你將能夠：
-1. ✅ 正確發音星期一到星期五
-2. ✅ 理解星期單字的構成規則
-3. ✅ 在日程安排對話中使用
-4. ✅ 閱讀日文日程表
-
-**學習時間建議**：每天10分鐘，持續3天
-
----
-
-**最後更新**：2026-03-22  
-**下次複習**：2026-03-29（建議一周後）  
-**學習進度**：□ 未開始 □ 進行中 □ 已完成
 
 ---
 
