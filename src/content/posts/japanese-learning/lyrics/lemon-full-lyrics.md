@@ -17,7 +17,7 @@ draft: false
 1. [[posts/japanese-learning/lyrics/lemon-yume-naraba|夢ならばどれほどよかったでしょう]] <button class="pronunciation-play-btn" data-text="夢ならばどれほどよかったでしょう">🔊 播放</button>
    [[posts/japanese-learning/lyrics/lemon-imadani-anata-no-koto-wo-yume-ni-miru|未だにあなたのことを夢にみる]] <button class="pronunciation-play-btn" data-text="未だにあなたのことを夢にみる">🔊 播放</button>
    忘れた物を取りに帰るように <button class="pronunciation-play-btn" data-text="忘れた物を取りに帰るように">🔊 播放</button>
-   古びた思い出の埃を払う <button class="pronunciation-play-btn" data-text="古びた思い出の埃を払う">🔊 播放</button>
+   [[posts/japanese-learning/lyrics/lemon-furubita-omoide-no-hokori-wo-harau|古びた思い出の埃を払う]] <button class="pronunciation-play-btn" data-text="古びた思い出の埃を払う">🔊 播放</button>
 
 ### Chorus
 戻らない幸せがあることを <button class="pronunciation-play-btn" data-text="戻らない幸せがあることを">🔊 播放</button>
