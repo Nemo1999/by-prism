@@ -43,8 +43,9 @@ draft: false
 ## 🔗 相關連結
 
 ### 上下文連結
-- **下一句**：[[posts/japanese-learning/lyrics/lemon-imadani-anata-no-koto-wo-yume-ni-miru|Lemon-未だにあなたのことを夢にみる]]
-- **完整歌詞**：[[posts/japanese-learning/lyrics/lemon-full-lyrics|Lemon 完整歌詞]]
+- **歌曲第一句**：這是《Lemon》的第一句歌詞
+- **下一句**：[[posts/japanese-learning/lyrics/lemon/lemon-imadani-anata-no-koto-wo-yume-ni-miru|Lemon-未だにあなたのことを夢にみる]]
+- **完整歌詞**：[[posts/japanese-learning/lyrics/lemon/lemon-full-lyrics|Lemon 完整歌詞]]
 - **學習專案**：[[posts/japanese-learning/lemon-song/index|《Lemon》學習專案]]
 
 

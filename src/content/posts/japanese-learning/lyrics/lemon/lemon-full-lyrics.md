@@ -19,14 +19,14 @@ draft: false
 ## 🎵 日文歌詞（點擊播放按鈕可聽發音）
 
 ### Verse 1
-1. [[posts/japanese-learning/lyrics/lemon-yume-naraba|夢ならばどれほどよかったでしょう]] <button class="pronunciation-play-btn" data-text="夢ならばどれほどよかったでしょう">🔊 播放</button>
-   [[posts/japanese-learning/lyrics/lemon-imadani-anata-no-koto-wo-yume-ni-miru|未だにあなたのことを夢にみる]] <button class="pronunciation-play-btn" data-text="未だにあなたのことを夢にみる">🔊 播放</button>
-   忘れた物を取りに帰るように <button class="pronunciation-play-btn" data-text="忘れた物を取りに帰るように">🔊 播放</button>
-   [[posts/japanese-learning/lyrics/lemon-furubita-omoide-no-hokori-wo-harau|古びた思い出の埃を払う]] <button class="pronunciation-play-btn" data-text="古びた思い出の埃を払う">🔊 播放</button>
+1. [[posts/japanese-learning/lyrics/lemon/lemon-yume-naraba|夢ならばどれほどよかったでしょう]] <button class="pronunciation-play-btn" data-text="夢ならばどれほどよかったでしょう">🔊 播放</button>
+   [[posts/japanese-learning/lyrics/lemon/lemon-imadani-anata-no-koto-wo-yume-ni-miru|未だにあなたのことを夢にみる]] <button class="pronunciation-play-btn" data-text="未だにあなたのことを夢にみる">🔊 播放</button>
+   [[posts/japanese-learning/lyrics/lemon/lemon-wasureta-mono-wo-torini-kaeru-youni|忘れた物を取りに帰るように]] <button class="pronunciation-play-btn" data-text="忘れた物を取りに帰るように">🔊 播放</button>
+   [[posts/japanese-learning/lyrics/lemon/lemon-furubita-omoide-no-hokori-wo-harau|古びた思い出の埃を払う]] <button class="pronunciation-play-btn" data-text="古びた思い出の埃を払う">🔊 播放</button>
 
 ### Chorus
-[[posts/japanese-learning/lyrics/lemon-modoranai-shiawase-ga-aru-koto-wo|戻らない幸せがあることを]] <button class="pronunciation-play-btn" data-text="戻らない幸せがあることを">🔊 播放</button>
-[[posts/japanese-learning/lyrics/lemon-saigo-ni-anata-ga-oshiete-kureta|最後にあなたが教えてくれた]] <button class="pronunciation-play-btn" data-text="最後にあなたが教えてくれた">🔊 播放</button>
+[[posts/japanese-learning/lyrics/lemon/lemon-modoranai-shiawase-ga-aru-koto-wo|戻らない幸せがあることを]] <button class="pronunciation-play-btn" data-text="戻らない幸せがあることを">🔊 播放</button>
+[[posts/japanese-learning/lyrics/lemon/lemon-saigo-ni-anata-ga-oshiete-kureta|最後にあなたが教えてくれた]] <button class="pronunciation-play-btn" data-text="最後にあなたが教えてくれた">🔊 播放</button>
 言えずに隠してた昏い過去も <button class="pronunciation-play-btn" data-text="言えずに隠してた昏い過去も">🔊 播放</button>
 あなたがいる光になる <button class="pronunciation-play-btn" data-text="あなたがいる光になる">🔊 播放</button>
 

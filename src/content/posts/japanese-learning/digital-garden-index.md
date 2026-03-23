@@ -18,17 +18,26 @@ draft: false
 - [[posts/japanese-learning/grammar/naraba-hypothetical-condition|ならば-假設條件]] — 文法概念
 
 ### 連結層（內容應用）
-- [[posts/japanese-learning/lyrics/lemon-yume-naraba|Lemon-夢ならばどれほどよかったでしょう]] — 歌詞解析
+- [[posts/japanese-learning/lyrics/lemon/lemon-yume-naraba|Lemon-夢ならばどれほどよかったでしょう]] — 歌詞解析
+- [[posts/japanese-learning/lyrics/lemon/lemon-imadani-anata-no-koto-wo-yume-ni-miru|Lemon-未だにあなたのことを夢にみる]] — 歌詞解析
+- [[posts/japanese-learning/lyrics/lemon/lemon-saigo-ni-anata-ga-oshiete-kureta|Lemon-最後にあなたが教えてくれた]] — 歌詞解析
+- [[posts/japanese-learning/lyrics/lemon/lemon-modoranai-shiawase-ga-aru-koto-wo|Lemon-戻らない幸せがあることを]] — 歌詞解析
+- [[posts/japanese-learning/lyrics/lemon/lemon-furubita-omoide-no-hokori-wo-harau|Lemon-古びた思い出の埃を払う]] — 歌詞解析
+- [[posts/japanese-learning/lyrics/lemon/lemon-wasureta-mono-wo-torini-kaeru-youni|Lemon-忘れたものを取りに帰るように]] — 歌詞解析
+- [[posts/japanese-learning/lyrics/yuuri/yuuri-dry-flower|yuuri-ドライフラワー (Dry Flower)]] — 歌詞解析
 
 ### 探索層（學習路徑）
 - [[posts/japanese-learning/lemon-song/index|Lemon 學習專案]] — 完整學習資源
 
 ## 🔗 開始探索
-- [[posts/japanese-learning/lyrics/lemon-full-lyrics|Lemon 完整歌詞]]
+- [[posts/japanese-learning/lyrics/lemon/lemon-full-lyrics|Lemon 完整歌詞]]
 - [[posts/japanese-learning/index|日文學習首頁]]
-├── [[posts/japanese-learning/lyrics/lemon-yume-naraba]] - 經典假設句
-├── [[posts/japanese-learning/lemon-song/lemon-lyrics-part1]] - 第一句完整解析
-└── （Lemon後續歌詞逐步添加）
+├── [[posts/japanese-learning/lyrics/lemon/lemon-yume-naraba]] - 夢ならばどれほどよかったでしょう
+├── [[posts/japanese-learning/lyrics/lemon/lemon-imadani-anata-no-koto-wo-yume-ni-miru]] - 未だにあなたのことを夢にみる
+├── [[posts/japanese-learning/lyrics/lemon/lemon-saigo-ni-anata-ga-oshiete-kureta]] - 最後にあなたが教えてくれた
+├── [[posts/japanese-learning/lyrics/lemon/lemon-modoranai-shiawase-ga-aru-koto-wo]] - 戻らない幸せがあることを
+├── [[posts/japanese-learning/lyrics/lemon/lemon-furubita-omoide-no-hokori-wo-harau]] - 古びた思い出の埃を払う
+└── [[posts/japanese-learning/lyrics/lemon/lemon-wasureta-mono-wo-torini-kaeru-youni]] - 忘れたものを取りに帰るように
 
 學習心法/
 ├── [[posts/japanese-learning/grammar/5-minutes-japanese-grammar|5分鐘日文法]] - 微小習慣建立
@@ -56,23 +65,23 @@ draft: false
 ```
 連結到：
 ├── 文法概念：[[naraba-hypothetical-condition|ならば-假設條件]]（夢ならば）
-└── 歌曲解析：[[posts/japanese-learning/lyrics/lemon-yume-naraba]]
+└── 歌曲解析：[[posts/japanese-learning/lyrics/lemon/lemon-yume-naraba]]
 ```
 
 ### 文法概念：[[naraba-hypothetical-condition|ならば-假設條件]]
 ```
 連結到：
 ├── 單字卡片：[[yume|夢]]（夢ならば）
-└── 歌曲解析：[[posts/japanese-learning/lyrics/lemon-yume-naraba]]
+└── 歌曲解析：[[posts/japanese-learning/lyrics/lemon/lemon-yume-naraba]]
 ```
 
-### 歌曲解析：[[posts/japanese-learning/lyrics/lemon-yume-naraba]]
+### 歌曲解析：[[posts/japanese-learning/lyrics/lemon/lemon-yume-naraba]]
 ```
 連結到：
 ├── 單字卡片：[[posts/japanese-learning/vocabulary/yume|夢]]、[[posts/japanese-learning/grammar/naraba-hypothetical-condition|ならば]]、[[どれほど]]、[[よかった]]
 ├── 文法概念：[[posts/japanese-learning/grammar/naraba-hypothetical-condition|ならば-假設條件]]、[[でしょう-推量感嘆]]
 ├── 發音要點：[[posts/japanese-learning/pronunciation/ra-gyo-on-pronunciation|ら行音發音技巧]]
-└── 同一歌曲：[[posts/japanese-learning/lemon-song/lemon-lyrics-part1]]
+└── 同一歌曲：[[posts/japanese-learning/lyrics/lemon/lemon-yume-naraba|Lemon-夢ならばどれほどよかったでしょう]]
 ```
 
 

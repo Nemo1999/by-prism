@@ -84,8 +84,9 @@ draft: false
 ## 🔗 相關連結
 
 ### 上下文連結
-- **上一句**：[[posts/japanese-learning/lyrics/lemon-modoranai-shiawase-ga-aru-koto-wo|Lemon-戻らない幸せがあることを]]
-- **完整歌詞**：[[posts/japanese-learning/lyrics/lemon-full-lyrics|Lemon 完整歌詞]]
+- **上一句**：[[posts/japanese-learning/lyrics/lemon/lemon-modoranai-shiawase-ga-aru-koto-wo|Lemon-戻らない幸せがあることを]]
+- **歌曲最後一句**：這是《Lemon》的最後一句歌詞
+- **完整歌詞**：[[posts/japanese-learning/lyrics/lemon/lemon-full-lyrics|Lemon 完整歌詞]]
 - **學習專案**：[[posts/japanese-learning/lemon-song/index|《Lemon》學習專案]]
 
 
