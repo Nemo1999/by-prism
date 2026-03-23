@@ -194,5 +194,5 @@ Zutto zutto kakaete yo
 
 ## 相關連結
 - [[yuuri-betelgeuse]]
-- [[日文歌詞學習技巧]]
-- [[情感表達單字集]]
+- 
+- 
