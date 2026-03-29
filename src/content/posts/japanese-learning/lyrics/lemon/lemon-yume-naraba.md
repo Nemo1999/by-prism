@@ -14,11 +14,11 @@ draft: false
 
 ## 📖 逐字分析
 
-- **夢**（ゆめ）：名詞，夢、夢想
-- **ならば**：接續助詞，如果...的話
-- **どれほど**：副詞，多麼、何等
-- **よかった**：形容詞「よい」的過去形，好
-- **でしょう**：助動詞，推量、感嘆
+- **夢**（ゆめ）<button class="pronunciation-play-btn" data-text="夢">🔊</button>：名詞，夢、夢想
+- **ならば**<button class="pronunciation-play-btn" data-text="ならば">🔊</button>：接續助詞，如果...的話
+- **どれほど**<button class="pronunciation-play-btn" data-text="どれほど">🔊</button>：副詞，多麼、何等
+- **よかった**<button class="pronunciation-play-btn" data-text="よかった">🔊</button>：形容詞「よい」的過去形，好
+- **でしょう**<button class="pronunciation-play-btn" data-text="でしょう">🔊</button>：助動詞，推量、感嘆
 
 ## 🎯 文法結構
 

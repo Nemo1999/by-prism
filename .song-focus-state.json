@@ -12,15 +12,15 @@
     "checkRubyAnnotations": true,
     "checkBidirectionalLinks": true,
     "priorityOrder": ["pronunciation", "ruby_annotation", "bidirectional_links", "new_content"],
-    "lastUpdated": "2026-03-22T22:45:00+08:00"
+    "lastUpdated": "2026-03-29T12:46:00+08:00"
   },
   "checklist": {
     "pronunciationButtons": {
       "description": "所有單字與句子都應該附上發音按鈕",
       "priority": "highest",
       "status": "completed",
-      "lastChecked": "2026-03-22T22:45:00+08:00",
-      "notes": "所有歌詞解析頁面已添加發音按鈕，完整歌詞頁面已有23個發音按鈕"
+      "lastChecked": "2026-03-29T12:46:00+08:00",
+      "notes": "所有歌詞解析頁面已添加發音按鈕，完整歌詞頁面已有23個發音按鈕。已為「夢ならば」和「未だに」頁面的逐字分析添加單字發音按鈕。"
     },
     "rubyAnnotations": {
       "description": "拼音標註正確性：只標註漢字，非漢字上方沒有拼音",
