@@ -14,12 +14,12 @@ draft: false
 
 ## 📖 逐字分析
 
-- **未だに**（いまだに）：副詞，仍然、至今
-- **あなた**：代名詞，你（敬稱）
-- **の**：所有格助詞，表示所屬或關聯
-- **こと**：形式名詞，事情、事物
-- **を**：賓格助詞，表示動作的直接對象
-- **夢にみる**（ゆめにみる）：動詞，夢見（「夢」為名詞作狀語，「見る」為動詞）
+- **未だに**（いまだに）<button class="pronunciation-play-btn" data-text="未だに">🔊</button>：副詞，仍然、至今
+- **あなた**<button class="pronunciation-play-btn" data-text="あなた">🔊</button>：代名詞，你（敬稱）
+- **の**<button class="pronunciation-play-btn" data-text="の">🔊</button>：所有格助詞，表示所屬或關聯
+- **こと**<button class="pronunciation-play-btn" data-text="こと">🔊</button>：形式名詞，事情、事物
+- **を**<button class="pronunciation-play-btn" data-text="を">🔊</button>：賓格助詞，表示動作的直接對象
+- **夢にみる**（ゆめにみる）<button class="pronunciation-play-btn" data-text="夢にみる">🔊</button>：動詞，夢見（「夢」為名詞作狀語，「見る」為動詞）
 
 ## 🎯 文法結構
 
