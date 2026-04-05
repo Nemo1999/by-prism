@@ -11,8 +11,13 @@
     "checkPronunciationButtons": true,
     "checkRubyAnnotations": true,
     "checkBidirectionalLinks": true,
-    "priorityOrder": ["pronunciation", "ruby_annotation", "bidirectional_links", "new_content"],
-    "lastUpdated": "2026-03-29T12:46:00+08:00"
+    "priorityOrder": [
+      "pronunciation",
+      "ruby_annotation",
+      "bidirectional_links",
+      "new_content"
+    ],
+    "lastUpdated": "2026-04-05T14:15:00+08:00"
   },
   "checklist": {
     "pronunciationButtons": {
@@ -49,7 +54,8 @@
       "action": "test_pronunciation_buttons",
       "description": "測試所有發音按鈕功能是否正常",
       "priority": "high",
-      "status": "pending"
+      "status": "completed",
+      "lastChecked": "2026-04-05T14:15:00+08:00"
     },
     {
       "action": "verify_link_navigation",
