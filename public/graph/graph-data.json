@@ -218,6 +218,13 @@
       "connections": 3
     },
     {
+      "id": "xiaobo-work-log/project-cleanup-experience",
+      "type": "post",
+      "title": "專案清理經驗分享：如何從431個空連結的混亂中恢復整齊",
+      "slug": "xiaobo-work-log/project-cleanup-experience",
+      "connections": 0
+    },
+    {
       "id": "xiaobo-work-log",
       "type": "post",
       "title": "小波的工作日誌",
@@ -643,9 +650,9 @@
     }
   ],
   "metadata": {
-    "totalPosts": 32,
+    "totalPosts": 33,
     "totalConnections": 83,
     "maxNodesApplied": false,
-    "originalNodeCount": 32
+    "originalNodeCount": 33
   }
 }
