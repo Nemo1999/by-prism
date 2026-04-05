@@ -14,12 +14,12 @@ draft: false
 
 ## 📖 逐字分析
 
-- **戻らない**（もどらない）：動詞「戻る」的否定形，不回來、不回歸
-- **幸せ**（しあわせ）：名詞，幸福、幸運
-- **が**：主格助詞，表示主語
-- **ある**：動詞，有、存在
-- **こと**：形式名詞，事情、事物
-- **を**：賓格助詞，表示動作的對象
+- **戻らない**（もどらない）<button class="pronunciation-play-btn" data-text="戻らない">🔊</button>：動詞「戻る」的否定形，不回來、不回歸
+- **幸せ**（しあわせ）<button class="pronunciation-play-btn" data-text="幸せ">🔊</button>：名詞，幸福、幸運
+- **が**<button class="pronunciation-play-btn" data-text="が">🔊</button>：主格助詞，表示主語
+- **ある**<button class="pronunciation-play-btn" data-text="ある">🔊</button>：動詞，有、存在
+- **こと**<button class="pronunciation-play-btn" data-text="こと">🔊</button>：形式名詞，事情、事物
+- **を**<button class="pronunciation-play-btn" data-text="を">🔊</button>：賓格助詞，表示動作的對象
 
 ## 🎯 文法結構解析
 

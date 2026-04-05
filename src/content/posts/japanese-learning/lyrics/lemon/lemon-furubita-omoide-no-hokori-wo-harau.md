@@ -14,12 +14,12 @@ draft: false
 
 ## 📖 逐字分析
 
-- **古びた**（ふるびた）：動詞「古びる」的過去形，作定語修飾「思い出」
-- **思い出**（おもいで）：名詞，回憶、記憶
-- **の**：所有格助詞，表示所屬或關聯
-- **埃**（ほこり）：名詞，塵埃、灰塵
-- **を**：賓格助詞，表示動作的對象
-- **払う**（はらう）：動詞，拂去、清除
+- **古びた**（ふるびた）<button class="pronunciation-play-btn" data-text="古びた">🔊</button>：動詞「古びる」的過去形，作定語修飾「思い出」
+- **思い出**（おもいで）<button class="pronunciation-play-btn" data-text="思い出">🔊</button>：名詞，回憶、記憶
+- **の**<button class="pronunciation-play-btn" data-text="の">🔊</button>：所有格助詞，表示所屬或關聯
+- **埃**（ほこり）<button class="pronunciation-play-btn" data-text="埃">🔊</button>：名詞，塵埃、灰塵
+- **を**<button class="pronunciation-play-btn" data-text="を">🔊</button>：賓格助詞，表示動作的對象
+- **払う**（はらう）<button class="pronunciation-play-btn" data-text="払う">🔊</button>：動詞，拂去、清除
 
 ## 🎯 文法結構解析
 
