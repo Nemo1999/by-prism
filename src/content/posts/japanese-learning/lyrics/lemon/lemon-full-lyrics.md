@@ -88,7 +88,7 @@ draft: false
 
 <div class="pronunciation-widget">
   <div class="text">
-    <ruby>夢ならばどれほどよかったでしょう<rt>ゆめならばどれほどよかったでしょう</rt></ruby>
+    <ruby>夢<rt>ゆめ</rt></ruby>ならばどれほどよかったでしょう
   </div>
   <div class="controls">
     <div class="main-controls">
