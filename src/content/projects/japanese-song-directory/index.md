@@ -1,6 +1,6 @@
 ---
 title: 日文歌曲學習目錄
-description: 透過日文歌曲學習日文 — 目前以米津玄師《Lemon》為核心教材，搭配單字與文法解析。
+description: 透過日文歌曲學習日文 — 米津玄師《Lemon》與 RADWIMPS《すずめ》（鈴芽之旅）的完整歌詞解析。涵蓋動詞變化、文法與單字。
 date: 2026-03-21
 categories:
   - 日文學習
@@ -25,6 +25,15 @@ aliases:
 # 日文歌曲學習目錄
 
 透過解析日文歌曲的歌詞學習日文：逐句拆解、單字卡片、文法說明、發音練習。
+
+## 🚪 RADWIMPS feat. 十明《すずめ》🆕
+
+**[→ 完整歌詞與解析總覽](/posts/japanese-learning/lyrics/suzume/)**
+
+鈴芽之旅主題曲，**動詞變化教科書**：
+- 3 句深度解析（存在動詞・受身形・一段動詞た形）
+- 4 個重點動詞（閉じる・閉める・結ぶ・開ける）
+- 完整文法頁：[[posts/japanese-learning/grammar/verb-conjugation|日文動詞變化規則]]
 
 ## 🍋 米津玄師《Lemon》
 

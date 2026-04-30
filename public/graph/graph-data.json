@@ -29,6 +29,13 @@
       "connections": 6
     },
     {
+      "id": "japanese-learning/grammar/verb-conjugation",
+      "type": "post",
+      "title": "日文動詞變化規則 — 完整基礎",
+      "slug": "japanese-learning/grammar/verb-conjugation",
+      "connections": 17
+    },
+    {
       "id": "japanese-learning/grammar/youda-metaphor",
       "type": "post",
       "title": "ようだ-比喻表達",
@@ -40,14 +47,14 @@
       "type": "post",
       "title": "夢ならばどれほどよかったでしょう - 文法深度分析",
       "slug": "japanese-learning/grammar/yume-naraba-dorehodo-yokatta-deshou-grammar-analysis",
-      "connections": 5
+      "connections": 4
     },
     {
       "id": "japanese-learning/grammar/yume-ni-miru-idiomatic-expression",
       "type": "post",
       "title": "夢に見る (ゆめにみる)",
       "slug": "japanese-learning/grammar/yume-ni-miru-idiomatic-expression",
-      "connections": 4
+      "connections": 3
     },
     {
       "id": "japanese-learning/lyrics/lemon/lemon-furubita-omoide-no-hokori-wo-harau",
@@ -99,11 +106,46 @@
       "connections": 18
     },
     {
+      "id": "japanese-learning/lyrics/suzume/suzume-kimi-no-naka",
+      "type": "post",
+      "title": "すずめ — 君の中にある赤と青き線",
+      "slug": "japanese-learning/lyrics/suzume/suzume-kimi-no-naka",
+      "connections": 5
+    },
+    {
+      "id": "japanese-learning/lyrics/suzume/suzume-musubareru",
+      "type": "post",
+      "title": "すずめ — それらが結ばれるのは心の臓",
+      "slug": "japanese-learning/lyrics/suzume/suzume-musubareru",
+      "connections": 6
+    },
+    {
+      "id": "japanese-learning/lyrics/suzume/suzume-tojita-hazumi",
+      "type": "post",
+      "title": "すずめ — 開け放しのドア 閉じたはずの部屋",
+      "slug": "japanese-learning/lyrics/suzume/suzume-tojita-hazumi",
+      "connections": 8
+    },
+    {
+      "id": "japanese-learning/lyrics/suzume",
+      "type": "post",
+      "title": "すずめ — RADWIMPS feat. 十明",
+      "slug": "japanese-learning/lyrics/suzume",
+      "connections": 10
+    },
+    {
       "id": "japanese-learning/lyrics/yuuri/yuuri-dry-flower",
       "type": "post",
       "title": "ドライフラワー",
       "slug": "japanese-learning/lyrics/yuuri/yuuri-dry-flower",
       "connections": 1
+    },
+    {
+      "id": "japanese-learning/vocabulary/akeru",
+      "type": "post",
+      "title": "開ける（あける）",
+      "slug": "japanese-learning/vocabulary/akeru",
+      "connections": 7
     },
     {
       "id": "japanese-learning/vocabulary/anata",
@@ -120,11 +162,32 @@
       "connections": 2
     },
     {
+      "id": "japanese-learning/vocabulary/musubu",
+      "type": "post",
+      "title": "結ぶ（むすぶ）",
+      "slug": "japanese-learning/vocabulary/musubu",
+      "connections": 3
+    },
+    {
       "id": "japanese-learning/vocabulary/omoide",
       "type": "post",
       "title": "思い出 (おもいで)",
       "slug": "japanese-learning/vocabulary/omoide",
       "connections": 2
+    },
+    {
+      "id": "japanese-learning/vocabulary/shimeru",
+      "type": "post",
+      "title": "閉める（しめる）",
+      "slug": "japanese-learning/vocabulary/shimeru",
+      "connections": 6
+    },
+    {
+      "id": "japanese-learning/vocabulary/tojiru",
+      "type": "post",
+      "title": "閉じる（とじる）",
+      "slug": "japanese-learning/vocabulary/tojiru",
+      "connections": 5
     },
     {
       "id": "japanese-learning/vocabulary/wasureru",
@@ -145,7 +208,7 @@
       "type": "post",
       "title": "日文學習：透過歌曲學日文",
       "slug": "japanese-learning",
-      "connections": 13
+      "connections": 18
     },
     {
       "id": "obsidian-embeds-demo",
@@ -263,6 +326,46 @@
     {
       "source": "japanese-learning/grammar/naraba-hypothetical-condition",
       "target": "japanese-learning/vocabulary/yume",
+      "type": "link"
+    },
+    {
+      "source": "japanese-learning/grammar/verb-conjugation",
+      "target": "japanese-learning/lyrics/suzume",
+      "type": "link"
+    },
+    {
+      "source": "japanese-learning/grammar/verb-conjugation",
+      "target": "japanese-learning/lyrics/suzume/suzume-kimi-no-naka",
+      "type": "link"
+    },
+    {
+      "source": "japanese-learning/grammar/verb-conjugation",
+      "target": "japanese-learning/lyrics/suzume/suzume-musubareru",
+      "type": "link"
+    },
+    {
+      "source": "japanese-learning/grammar/verb-conjugation",
+      "target": "japanese-learning/lyrics/suzume/suzume-tojita-hazumi",
+      "type": "link"
+    },
+    {
+      "source": "japanese-learning/grammar/verb-conjugation",
+      "target": "japanese-learning/vocabulary/tojiru",
+      "type": "link"
+    },
+    {
+      "source": "japanese-learning/grammar/verb-conjugation",
+      "target": "japanese-learning/vocabulary/shimeru",
+      "type": "link"
+    },
+    {
+      "source": "japanese-learning/grammar/verb-conjugation",
+      "target": "japanese-learning/vocabulary/musubu",
+      "type": "link"
+    },
+    {
+      "source": "japanese-learning/grammar/verb-conjugation",
+      "target": "japanese-learning/vocabulary/akeru",
       "type": "link"
     },
     {
@@ -486,6 +589,126 @@
       "type": "link"
     },
     {
+      "source": "japanese-learning/lyrics/suzume/suzume-kimi-no-naka",
+      "target": "japanese-learning/lyrics/suzume/suzume-musubareru",
+      "type": "link"
+    },
+    {
+      "source": "japanese-learning/lyrics/suzume/suzume-kimi-no-naka",
+      "target": "japanese-learning/lyrics/suzume",
+      "type": "link"
+    },
+    {
+      "source": "japanese-learning/lyrics/suzume/suzume-kimi-no-naka",
+      "target": "japanese-learning/grammar/verb-conjugation",
+      "type": "link"
+    },
+    {
+      "source": "japanese-learning/lyrics/suzume/suzume-musubareru",
+      "target": "japanese-learning/lyrics/suzume/suzume-kimi-no-naka",
+      "type": "link"
+    },
+    {
+      "source": "japanese-learning/lyrics/suzume/suzume-musubareru",
+      "target": "japanese-learning/lyrics/suzume",
+      "type": "link"
+    },
+    {
+      "source": "japanese-learning/lyrics/suzume/suzume-musubareru",
+      "target": "japanese-learning/grammar/verb-conjugation",
+      "type": "link"
+    },
+    {
+      "source": "japanese-learning/lyrics/suzume/suzume-musubareru",
+      "target": "japanese-learning/vocabulary/musubu",
+      "type": "link"
+    },
+    {
+      "source": "japanese-learning/lyrics/suzume/suzume-tojita-hazumi",
+      "target": "japanese-learning/lyrics/suzume",
+      "type": "link"
+    },
+    {
+      "source": "japanese-learning/lyrics/suzume/suzume-tojita-hazumi",
+      "target": "japanese-learning/grammar/verb-conjugation",
+      "type": "link"
+    },
+    {
+      "source": "japanese-learning/lyrics/suzume/suzume-tojita-hazumi",
+      "target": "japanese-learning/vocabulary/tojiru",
+      "type": "link"
+    },
+    {
+      "source": "japanese-learning/lyrics/suzume/suzume-tojita-hazumi",
+      "target": "japanese-learning/vocabulary/shimeru",
+      "type": "link"
+    },
+    {
+      "source": "japanese-learning/lyrics/suzume/suzume-tojita-hazumi",
+      "target": "japanese-learning/vocabulary/akeru",
+      "type": "link"
+    },
+    {
+      "source": "japanese-learning/lyrics/suzume",
+      "target": "japanese-learning/lyrics/suzume/suzume-kimi-no-naka",
+      "type": "link"
+    },
+    {
+      "source": "japanese-learning/lyrics/suzume",
+      "target": "japanese-learning/lyrics/suzume/suzume-musubareru",
+      "type": "link"
+    },
+    {
+      "source": "japanese-learning/lyrics/suzume",
+      "target": "japanese-learning/lyrics/suzume/suzume-tojita-hazumi",
+      "type": "link"
+    },
+    {
+      "source": "japanese-learning/lyrics/suzume",
+      "target": "japanese-learning/grammar/verb-conjugation",
+      "type": "link"
+    },
+    {
+      "source": "japanese-learning/lyrics/suzume",
+      "target": "japanese-learning/vocabulary/tojiru",
+      "type": "link"
+    },
+    {
+      "source": "japanese-learning/lyrics/suzume",
+      "target": "japanese-learning/vocabulary/shimeru",
+      "type": "link"
+    },
+    {
+      "source": "japanese-learning/lyrics/suzume",
+      "target": "japanese-learning/vocabulary/musubu",
+      "type": "link"
+    },
+    {
+      "source": "japanese-learning/lyrics/suzume",
+      "target": "japanese-learning/vocabulary/akeru",
+      "type": "link"
+    },
+    {
+      "source": "japanese-learning/vocabulary/akeru",
+      "target": "japanese-learning/vocabulary/tojiru",
+      "type": "link"
+    },
+    {
+      "source": "japanese-learning/vocabulary/akeru",
+      "target": "japanese-learning/vocabulary/shimeru",
+      "type": "link"
+    },
+    {
+      "source": "japanese-learning/vocabulary/akeru",
+      "target": "japanese-learning/grammar/verb-conjugation",
+      "type": "link"
+    },
+    {
+      "source": "japanese-learning/vocabulary/akeru",
+      "target": "japanese-learning/lyrics/suzume/suzume-tojita-hazumi",
+      "type": "link"
+    },
+    {
       "source": "japanese-learning/vocabulary/anata",
       "target": "japanese-learning/lyrics/lemon/lemon-imadani-anata-no-koto-wo-yume-ni-miru",
       "type": "link"
@@ -496,8 +719,58 @@
       "type": "link"
     },
     {
+      "source": "japanese-learning/vocabulary/musubu",
+      "target": "japanese-learning/grammar/verb-conjugation",
+      "type": "link"
+    },
+    {
+      "source": "japanese-learning/vocabulary/musubu",
+      "target": "japanese-learning/lyrics/suzume/suzume-musubareru",
+      "type": "link"
+    },
+    {
       "source": "japanese-learning/vocabulary/omoide",
       "target": "japanese-learning/lyrics/lemon/lemon-furubita-omoide-no-hokori-wo-harau",
+      "type": "link"
+    },
+    {
+      "source": "japanese-learning/vocabulary/shimeru",
+      "target": "japanese-learning/vocabulary/tojiru",
+      "type": "link"
+    },
+    {
+      "source": "japanese-learning/vocabulary/shimeru",
+      "target": "japanese-learning/vocabulary/tojiru",
+      "type": "link"
+    },
+    {
+      "source": "japanese-learning/vocabulary/shimeru",
+      "target": "japanese-learning/vocabulary/akeru",
+      "type": "link"
+    },
+    {
+      "source": "japanese-learning/vocabulary/shimeru",
+      "target": "japanese-learning/grammar/verb-conjugation",
+      "type": "link"
+    },
+    {
+      "source": "japanese-learning/vocabulary/tojiru",
+      "target": "japanese-learning/vocabulary/shimeru",
+      "type": "link"
+    },
+    {
+      "source": "japanese-learning/vocabulary/tojiru",
+      "target": "japanese-learning/vocabulary/akeru",
+      "type": "link"
+    },
+    {
+      "source": "japanese-learning/vocabulary/tojiru",
+      "target": "japanese-learning/grammar/verb-conjugation",
+      "type": "link"
+    },
+    {
+      "source": "japanese-learning/vocabulary/tojiru",
+      "target": "japanese-learning/lyrics/suzume/suzume-tojita-hazumi",
       "type": "link"
     },
     {
@@ -518,6 +791,11 @@
     {
       "source": "japanese-learning",
       "target": "japanese-learning/lyrics/lemon",
+      "type": "link"
+    },
+    {
+      "source": "japanese-learning",
+      "target": "japanese-learning/lyrics/suzume",
       "type": "link"
     },
     {
@@ -552,6 +830,31 @@
     },
     {
       "source": "japanese-learning",
+      "target": "japanese-learning/vocabulary/tojiru",
+      "type": "link"
+    },
+    {
+      "source": "japanese-learning",
+      "target": "japanese-learning/vocabulary/shimeru",
+      "type": "link"
+    },
+    {
+      "source": "japanese-learning",
+      "target": "japanese-learning/vocabulary/musubu",
+      "type": "link"
+    },
+    {
+      "source": "japanese-learning",
+      "target": "japanese-learning/vocabulary/akeru",
+      "type": "link"
+    },
+    {
+      "source": "japanese-learning",
+      "target": "japanese-learning/grammar/verb-conjugation",
+      "type": "link"
+    },
+    {
+      "source": "japanese-learning",
       "target": "japanese-learning/grammar/naraba-hypothetical-condition",
       "type": "link"
     },
@@ -567,24 +870,19 @@
     },
     {
       "source": "japanese-learning",
-      "target": "japanese-learning/grammar/yume-naraba-dorehodo-yokatta-deshou-grammar-analysis",
-      "type": "link"
-    },
-    {
-      "source": "japanese-learning",
-      "target": "japanese-learning/grammar/yume-ni-miru-idiomatic-expression",
-      "type": "link"
-    },
-    {
-      "source": "japanese-learning",
       "target": "japanese-learning/lyrics/lemon",
+      "type": "link"
+    },
+    {
+      "source": "japanese-learning",
+      "target": "japanese-learning/lyrics/suzume",
       "type": "link"
     }
   ],
   "metadata": {
-    "totalPosts": 24,
-    "totalConnections": 82,
+    "totalPosts": 33,
+    "totalConnections": 129,
     "maxNodesApplied": false,
-    "originalNodeCount": 24
+    "originalNodeCount": 33
   }
 }
