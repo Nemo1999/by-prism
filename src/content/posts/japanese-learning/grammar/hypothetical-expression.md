@@ -37,5 +37,5 @@ draft: false
 **例句2**：<ruby>勉<rt>べん</rt></ruby><ruby>強<rt>きょう</rt></ruby>したら<ruby>合<rt>ごう</rt></ruby><ruby>格<rt>かく</rt></ruby>できる — 如果讀書的話就能合格。
 
 ## 🔗 相關內容
-- [[posts/japanese-learning/lyrics/lemon-yume-naraba|Lemon-夢ならばどれほどよかったでしょう]] — 經典的願望假設
+- [[posts/japanese-learning/lyrics/lemon/lemon-yume-naraba|Lemon-夢ならばどれほどよかったでしょう]] — 經典的願望假設
 - [[posts/japanese-learning/grammar/naraba-hypothetical-condition|ならば-假設條件]] — 詳細文法解釋  

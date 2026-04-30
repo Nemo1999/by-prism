@@ -36,7 +36,6 @@ draft: false
 - **《Lemon》**：<ruby>忘れた物を取りに帰る<rt>わすれたものをとりにかえる</rt></ruby> — 回去取忘記的東西（「帰る」表示返回的動作）
 
 ## 🔗 相關內容
-- [[posts/japanese-learning/grammar/ni-direction|に-方向助詞]] — 常與「帰る」搭配使用表示返回的方向
-- [[posts/japanese-learning/grammar/ni-purpose|に-目的表達]] — 目的表達「〜に」的用法
-- [[posts/japanese-learning/vocabulary/toru|取る]] — 常與「帰る」搭配的目的動詞
-- [[posts/japanese-learning/lyrics/lemon-wasureta-mono-wo-torini-kaeru-youni|Lemon-忘れた物を取りに帰るように]] — 在歌曲中的應用
+
+
+- [[posts/japanese-learning/lyrics/lemon/lemon-wasureta-mono-wo-torini-kaeru-youni|Lemon-忘れた物を取りに帰るように]] — 在歌曲中的應用

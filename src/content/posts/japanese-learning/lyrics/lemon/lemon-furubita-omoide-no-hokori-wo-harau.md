@@ -87,7 +87,5 @@ draft: false
 ### 上下文連結
 - **上一句**：[[posts/japanese-learning/lyrics/lemon/lemon-wasureta-mono-wo-torini-kaeru-youni|Lemon-忘れた物を取りに帰るように]]
 - **下一句**：[[posts/japanese-learning/lyrics/lemon/lemon-modoranai-shiawase-ga-aru-koto-wo|Lemon-戻らない幸せがあることを]]
-- **完整歌詞**：[[posts/japanese-learning/lyrics/lemon/lemon-full-lyrics|Lemon 完整歌詞]]
-- **學習專案**：[[posts/japanese-learning/lemon-song/index|《Lemon》學習專案]]
-
-
+- **完整歌詞**：[[posts/japanese-learning/lyrics/lemon/index|Lemon 完整歌詞]]
+- **學習專案**：[[posts/japanese-learning/lyrics/lemon/index|《Lemon》學習專案]]

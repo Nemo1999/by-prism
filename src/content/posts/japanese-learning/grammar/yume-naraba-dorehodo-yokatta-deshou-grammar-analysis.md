@@ -102,8 +102,6 @@ draft: false
 
 ## 🔗 相關內容
 - [[posts/japanese-learning/grammar/naraba-hypothetical-condition|ならば-假設條件]] — 詳細文法解釋
-- [[posts/japanese-learning/grammar/dorehodo-degree-adverb|どれほど-程度副詞]] — 程度副詞專題
-- [[posts/japanese-learning/grammar/yokatta-wish-expression|よかった-願望表達]] — 願望表達形式
-- [[posts/japanese-learning/grammar/deshou-conjecture|でしょう-推量感嘆]] — 推量感嘆助動詞
-- [[posts/japanese-learning/lyrics/lemon-yume-naraba|Lemon-夢ならばどれほどよかったでしょう]] — 原始歌詞解析
+
+- [[posts/japanese-learning/lyrics/lemon/lemon-yume-naraba|Lemon-夢ならばどれほどよかったでしょう]] — 原始歌詞解析
 - [[posts/japanese-learning/vocabulary/yume|夢]] — 核心單字學習

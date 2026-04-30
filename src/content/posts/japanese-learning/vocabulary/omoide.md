@@ -30,4 +30,4 @@ draft: false
 - 可以與「を」連用表示回憶的對象
 
 ## 🔗 相關內容
-- [[posts/japanese-learning/lyrics/lemon-furubita-omoide-no-hokori-wo-harau|Lemon-古びた思い出の埃を払う]] — 在歌曲中的應用
+- [[posts/japanese-learning/lyrics/lemon/lemon-furubita-omoide-no-hokori-wo-harau|Lemon-古びた思い出の埃を払う]] — 在歌曲中的應用

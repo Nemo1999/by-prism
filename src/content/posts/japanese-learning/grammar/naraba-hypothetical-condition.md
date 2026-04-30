@@ -38,5 +38,5 @@ draft: false
 
 ## 🔗 相關內容
 
-- [[posts/japanese-learning/lyrics/lemon-yume-naraba|Lemon-夢ならばどれほどよかったでしょう]] — 經典應用範例
+- [[posts/japanese-learning/lyrics/lemon/lemon-yume-naraba|Lemon-夢ならばどれほどよかったでしょう]] — 經典應用範例
 - [[posts/japanese-learning/vocabulary/yume|夢]] — 常與「ならば」搭配使用的單字

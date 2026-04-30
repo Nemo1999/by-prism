@@ -89,7 +89,5 @@ draft: false
 ### 上下文連結
 - **上一句**：[[posts/japanese-learning/lyrics/lemon/lemon-imadani-anata-no-koto-wo-yume-ni-miru|Lemon-未だにあなたのことを夢にみる]]
 - **下一句**：[[posts/japanese-learning/lyrics/lemon/lemon-furubita-omoide-no-hokori-wo-harau|Lemon-古びた思い出の埃を払う]]
-- **完整歌詞**：[[posts/japanese-learning/lyrics/lemon/lemon-full-lyrics|Lemon 完整歌詞]]
-- **學習專案**：[[posts/japanese-learning/lemon-song/index|《Lemon》學習專案]]
-
-
+- **完整歌詞**：[[posts/japanese-learning/lyrics/lemon/index|Lemon 完整歌詞]]
+- **學習專案**：[[posts/japanese-learning/lyrics/lemon/index|《Lemon》學習專案]]

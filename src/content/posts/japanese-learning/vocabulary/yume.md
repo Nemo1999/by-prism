@@ -27,4 +27,4 @@ draft: false
 
 ## 🔗 相關內容
 - [[posts/japanese-learning/grammar/naraba-hypothetical-condition|ならば-假設條件]] — 常與「夢」搭配使用
-- [[posts/japanese-learning/lyrics/lemon-yume-naraba|Lemon-夢ならばどれほどよかったでしょう]] — 在歌曲中的應用
+- [[posts/japanese-learning/lyrics/lemon/lemon-yume-naraba|Lemon-夢ならばどれほどよかったでしょう]] — 在歌曲中的應用

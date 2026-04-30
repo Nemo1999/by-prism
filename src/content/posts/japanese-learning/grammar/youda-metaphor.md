@@ -48,5 +48,5 @@ draft: false
 <button class="pronunciation-play-btn" data-text="忘れた物を取りに帰るように" data-lang="ja-JP">🔊 朗讀歌詞例句</button>
 
 ## 🔗 相關內容
-- [[posts/japanese-learning/grammar/ni-purpose|に-目的表達]] — 常與「ように」搭配使用的目的表達
-- [[posts/japanese-learning/lyrics/lemon-wasureta-mono-wo-torini-kaeru-youni|Lemon-忘れた物を取りに帰るように]] — 經典應用範例
+
+- [[posts/japanese-learning/lyrics/lemon/lemon-wasureta-mono-wo-torini-kaeru-youni|Lemon-忘れた物を取りに帰るように]] — 經典應用範例

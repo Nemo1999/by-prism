@@ -48,6 +48,5 @@ draft: false
 
 ## 🔗 相關內容
 - [[posts/japanese-learning/vocabulary/yume|夢]] — 核心單字
-- [[posts/japanese-learning/grammar/wo-object-marker|を-賓格助詞]] — 表示動作的對象
-- [[posts/japanese-learning/grammar/ni-direction|に-方向助詞]] — 表示動作的方向或目標
-- [[posts/japanese-learning/lyrics/lemon-imadani-anata-no-koto-wo-yume-ni-miru|Lemon-未だにあなたのことを夢にみる]] — 經典應用範例
+
+- [[posts/japanese-learning/lyrics/lemon/lemon-imadani-anata-no-koto-wo-yume-ni-miru|Lemon-未だにあなたのことを夢にみる]] — 經典應用範例
