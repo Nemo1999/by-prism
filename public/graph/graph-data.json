@@ -5,175 +5,147 @@
       "type": "post",
       "title": "Formatting Reference",
       "slug": "formatting-reference",
-      "connections": 15
+      "connections": 12
     },
     {
       "id": "getting-started",
       "type": "post",
       "title": "Getting Started",
       "slug": "getting-started",
-      "connections": 7
-    },
-    {
-      "id": "japanese-learning/digital-garden-index",
-      "type": "post",
-      "title": "日文學習數位花園",
-      "slug": "japanese-learning/digital-garden-index",
-      "connections": 25
-    },
-    {
-      "id": "japanese-learning/getting-started",
-      "type": "post",
-      "title": "Getting Started - 日文學習入門指南",
-      "slug": "japanese-learning/getting-started",
-      "connections": 0
+      "connections": 6
     },
     {
       "id": "japanese-learning/grammar/hypothetical-expression",
       "type": "post",
       "title": "假設表達總整理",
       "slug": "japanese-learning/grammar/hypothetical-expression",
-      "connections": 1
+      "connections": 4
     },
     {
       "id": "japanese-learning/grammar/naraba-hypothetical-condition",
       "type": "post",
       "title": "ならば-假設條件",
       "slug": "japanese-learning/grammar/naraba-hypothetical-condition",
-      "connections": 5
+      "connections": 6
     },
     {
       "id": "japanese-learning/grammar/youda-metaphor",
       "type": "post",
       "title": "ようだ-比喻表達",
       "slug": "japanese-learning/grammar/youda-metaphor",
-      "connections": 0
+      "connections": 3
     },
     {
       "id": "japanese-learning/grammar/yume-naraba-dorehodo-yokatta-deshou-grammar-analysis",
       "type": "post",
       "title": "夢ならばどれほどよかったでしょう - 文法深度分析",
       "slug": "japanese-learning/grammar/yume-naraba-dorehodo-yokatta-deshou-grammar-analysis",
-      "connections": 2
+      "connections": 5
     },
     {
       "id": "japanese-learning/grammar/yume-ni-miru-idiomatic-expression",
       "type": "post",
       "title": "夢に見る (ゆめにみる)",
       "slug": "japanese-learning/grammar/yume-ni-miru-idiomatic-expression",
-      "connections": 1
-    },
-    {
-      "id": "japanese-learning/lemon-study-progress",
-      "type": "post",
-      "title": "Lemon學習進度",
-      "slug": "japanese-learning/lemon-study-progress",
-      "connections": 3
-    },
-    {
-      "id": "japanese-learning/lyrics/lemon/lemon-full-lyrics",
-      "type": "post",
-      "title": "Lemon - 完整歌詞",
-      "slug": "japanese-learning/lyrics/lemon/lemon-full-lyrics",
-      "connections": 15
+      "connections": 4
     },
     {
       "id": "japanese-learning/lyrics/lemon/lemon-furubita-omoide-no-hokori-wo-harau",
       "type": "post",
       "title": "Lemon - 古びた思い出の埃を払う",
       "slug": "japanese-learning/lyrics/lemon/lemon-furubita-omoide-no-hokori-wo-harau",
-      "connections": 5
+      "connections": 8
     },
     {
       "id": "japanese-learning/lyrics/lemon/lemon-imadani-anata-no-koto-wo-yume-ni-miru",
       "type": "post",
       "title": "Lemon - 未だにあなたのことを夢にみる",
       "slug": "japanese-learning/lyrics/lemon/lemon-imadani-anata-no-koto-wo-yume-ni-miru",
-      "connections": 5
+      "connections": 8
     },
     {
       "id": "japanese-learning/lyrics/lemon/lemon-modoranai-shiawase-ga-aru-koto-wo",
       "type": "post",
       "title": "Lemon - 戻らない幸せがあることを",
       "slug": "japanese-learning/lyrics/lemon/lemon-modoranai-shiawase-ga-aru-koto-wo",
-      "connections": 4
+      "connections": 6
     },
     {
       "id": "japanese-learning/lyrics/lemon/lemon-saigo-ni-anata-ga-oshiete-kureta",
       "type": "post",
       "title": "Lemon - 最後にあなたが教えてくれた",
       "slug": "japanese-learning/lyrics/lemon/lemon-saigo-ni-anata-ga-oshiete-kureta",
-      "connections": 2
+      "connections": 4
     },
     {
       "id": "japanese-learning/lyrics/lemon/lemon-wasureta-mono-wo-torini-kaeru-youni",
       "type": "post",
       "title": "Lemon - 忘れた物を取りに帰るように",
       "slug": "japanese-learning/lyrics/lemon/lemon-wasureta-mono-wo-torini-kaeru-youni",
-      "connections": 3
+      "connections": 7
     },
     {
       "id": "japanese-learning/lyrics/lemon/lemon-yume-naraba",
       "type": "post",
       "title": "Lemon-夢ならばどれほどよかったでしょう",
       "slug": "japanese-learning/lyrics/lemon/lemon-yume-naraba",
-      "connections": 2
+      "connections": 5
     },
     {
-      "id": "japanese-learning/lyrics/other/pretender-hypothetical-expression",
+      "id": "japanese-learning/lyrics/lemon",
       "type": "post",
-      "title": "Pretender - 假設表達學習",
-      "slug": "japanese-learning/lyrics/other/pretender-hypothetical-expression",
-      "connections": 0
+      "title": "Lemon - 米津玄師",
+      "slug": "japanese-learning/lyrics/lemon",
+      "connections": 18
     },
     {
       "id": "japanese-learning/lyrics/yuuri/yuuri-dry-flower",
       "type": "post",
       "title": "ドライフラワー",
       "slug": "japanese-learning/lyrics/yuuri/yuuri-dry-flower",
-      "connections": 0
+      "connections": 1
     },
     {
       "id": "japanese-learning/vocabulary/anata",
       "type": "post",
       "title": "あなた",
       "slug": "japanese-learning/vocabulary/anata",
-      "connections": 0
+      "connections": 2
     },
     {
       "id": "japanese-learning/vocabulary/kaeru",
       "type": "post",
       "title": "帰る (かえる)",
       "slug": "japanese-learning/vocabulary/kaeru",
-      "connections": 0
+      "connections": 2
     },
     {
       "id": "japanese-learning/vocabulary/omoide",
       "type": "post",
       "title": "思い出 (おもいで)",
       "slug": "japanese-learning/vocabulary/omoide",
-      "connections": 0
+      "connections": 2
     },
     {
       "id": "japanese-learning/vocabulary/wasureru",
       "type": "post",
       "title": "忘れる (わすれる)",
       "slug": "japanese-learning/vocabulary/wasureru",
-      "connections": 0
+      "connections": 2
     },
     {
       "id": "japanese-learning/vocabulary/yume",
       "type": "post",
       "title": "夢 (ゆめ)",
       "slug": "japanese-learning/vocabulary/yume",
-      "connections": 1
+      "connections": 3
     },
     {
       "id": "japanese-learning",
       "type": "post",
-      "title": "日文學習系列：透過歌曲學日文",
+      "title": "日文學習：透過歌曲學日文",
       "slug": "japanese-learning",
-      "connections": 0
+      "connections": 13
     },
     {
       "id": "obsidian-embeds-demo",
@@ -195,54 +167,9 @@
       "title": "Vault CMS Guide",
       "slug": "vault-cms-guide",
       "connections": 0
-    },
-    {
-      "id": "xiaobo-work-log/daily-updates/2026-03-23",
-      "type": "post",
-      "title": "2026年3月23日：頁面檢查系統創建與測試",
-      "slug": "xiaobo-work-log/daily-updates/2026-03-23",
-      "connections": 3
-    },
-    {
-      "id": "xiaobo-work-log/learning-reflection/agent-work-areas-lesson",
-      "type": "post",
-      "title": "重要教訓：多Agent工作區域區分",
-      "slug": "xiaobo-work-log/learning-reflection/agent-work-areas-lesson",
-      "connections": 0
-    },
-    {
-      "id": "xiaobo-work-log/page-inspection-system",
-      "type": "post",
-      "title": "頁面檢查系統開發全記錄",
-      "slug": "xiaobo-work-log/page-inspection-system",
-      "connections": 3
-    },
-    {
-      "id": "xiaobo-work-log/project-cleanup-experience",
-      "type": "post",
-      "title": "專案清理經驗分享：如何從431個空連結的混亂中恢復整齊",
-      "slug": "xiaobo-work-log/project-cleanup-experience",
-      "connections": 0
-    },
-    {
-      "id": "xiaobo-work-log",
-      "type": "post",
-      "title": "小波的工作日誌",
-      "slug": "xiaobo-work-log",
-      "connections": 9
     }
   ],
   "connections": [
-    {
-      "source": "formatting-reference",
-      "target": "japanese-learning/getting-started",
-      "type": "link"
-    },
-    {
-      "source": "formatting-reference",
-      "target": "japanese-learning/getting-started",
-      "type": "link"
-    },
     {
       "source": "formatting-reference",
       "target": "sample-folder-based-post",
@@ -319,122 +246,7 @@
       "type": "link"
     },
     {
-      "source": "japanese-learning/digital-garden-index",
-      "target": "japanese-learning/vocabulary/yume",
-      "type": "link"
-    },
-    {
-      "source": "japanese-learning/digital-garden-index",
-      "target": "japanese-learning/grammar/naraba-hypothetical-condition",
-      "type": "link"
-    },
-    {
-      "source": "japanese-learning/digital-garden-index",
-      "target": "japanese-learning/lyrics/lemon/lemon-yume-naraba",
-      "type": "link"
-    },
-    {
-      "source": "japanese-learning/digital-garden-index",
-      "target": "japanese-learning/lyrics/lemon/lemon-imadani-anata-no-koto-wo-yume-ni-miru",
-      "type": "link"
-    },
-    {
-      "source": "japanese-learning/digital-garden-index",
-      "target": "japanese-learning/lyrics/lemon/lemon-saigo-ni-anata-ga-oshiete-kureta",
-      "type": "link"
-    },
-    {
-      "source": "japanese-learning/digital-garden-index",
-      "target": "japanese-learning/lyrics/lemon/lemon-modoranai-shiawase-ga-aru-koto-wo",
-      "type": "link"
-    },
-    {
-      "source": "japanese-learning/digital-garden-index",
-      "target": "japanese-learning/lyrics/lemon/lemon-furubita-omoide-no-hokori-wo-harau",
-      "type": "link"
-    },
-    {
-      "source": "japanese-learning/digital-garden-index",
-      "target": "japanese-learning/lyrics/lemon/lemon-wasureta-mono-wo-torini-kaeru-youni",
-      "type": "link"
-    },
-    {
-      "source": "japanese-learning/digital-garden-index",
-      "target": "japanese-learning/lyrics/yuuri/yuuri-dry-flower",
-      "type": "link"
-    },
-    {
-      "source": "japanese-learning/digital-garden-index",
-      "target": "japanese-learning/lyrics/lemon/lemon-full-lyrics",
-      "type": "link"
-    },
-    {
-      "source": "japanese-learning/digital-garden-index",
-      "target": "japanese-learning",
-      "type": "link"
-    },
-    {
-      "source": "japanese-learning/digital-garden-index",
-      "target": "japanese-learning/lyrics/lemon/lemon-yume-naraba",
-      "type": "link"
-    },
-    {
-      "source": "japanese-learning/digital-garden-index",
-      "target": "japanese-learning/lyrics/lemon/lemon-imadani-anata-no-koto-wo-yume-ni-miru",
-      "type": "link"
-    },
-    {
-      "source": "japanese-learning/digital-garden-index",
-      "target": "japanese-learning/lyrics/lemon/lemon-saigo-ni-anata-ga-oshiete-kureta",
-      "type": "link"
-    },
-    {
-      "source": "japanese-learning/digital-garden-index",
-      "target": "japanese-learning/lyrics/lemon/lemon-modoranai-shiawase-ga-aru-koto-wo",
-      "type": "link"
-    },
-    {
-      "source": "japanese-learning/digital-garden-index",
-      "target": "japanese-learning/lyrics/lemon/lemon-furubita-omoide-no-hokori-wo-harau",
-      "type": "link"
-    },
-    {
-      "source": "japanese-learning/digital-garden-index",
-      "target": "japanese-learning/lyrics/lemon/lemon-wasureta-mono-wo-torini-kaeru-youni",
-      "type": "link"
-    },
-    {
-      "source": "japanese-learning/digital-garden-index",
-      "target": "japanese-learning/lyrics/lemon/lemon-yume-naraba",
-      "type": "link"
-    },
-    {
-      "source": "japanese-learning/digital-garden-index",
-      "target": "japanese-learning/lyrics/lemon/lemon-yume-naraba",
-      "type": "link"
-    },
-    {
-      "source": "japanese-learning/digital-garden-index",
-      "target": "japanese-learning/lyrics/lemon/lemon-yume-naraba",
-      "type": "link"
-    },
-    {
-      "source": "japanese-learning/digital-garden-index",
-      "target": "japanese-learning/vocabulary/yume",
-      "type": "link"
-    },
-    {
-      "source": "japanese-learning/digital-garden-index",
-      "target": "japanese-learning/grammar/naraba-hypothetical-condition",
-      "type": "link"
-    },
-    {
-      "source": "japanese-learning/digital-garden-index",
-      "target": "japanese-learning/grammar/naraba-hypothetical-condition",
-      "type": "link"
-    },
-    {
-      "source": "japanese-learning/digital-garden-index",
+      "source": "japanese-learning/grammar/hypothetical-expression",
       "target": "japanese-learning/lyrics/lemon/lemon-yume-naraba",
       "type": "link"
     },
@@ -445,12 +257,27 @@
     },
     {
       "source": "japanese-learning/grammar/naraba-hypothetical-condition",
+      "target": "japanese-learning/lyrics/lemon/lemon-yume-naraba",
+      "type": "link"
+    },
+    {
+      "source": "japanese-learning/grammar/naraba-hypothetical-condition",
       "target": "japanese-learning/vocabulary/yume",
+      "type": "link"
+    },
+    {
+      "source": "japanese-learning/grammar/youda-metaphor",
+      "target": "japanese-learning/lyrics/lemon/lemon-wasureta-mono-wo-torini-kaeru-youni",
       "type": "link"
     },
     {
       "source": "japanese-learning/grammar/yume-naraba-dorehodo-yokatta-deshou-grammar-analysis",
       "target": "japanese-learning/grammar/naraba-hypothetical-condition",
+      "type": "link"
+    },
+    {
+      "source": "japanese-learning/grammar/yume-naraba-dorehodo-yokatta-deshou-grammar-analysis",
+      "target": "japanese-learning/lyrics/lemon/lemon-yume-naraba",
       "type": "link"
     },
     {
@@ -464,61 +291,11 @@
       "type": "link"
     },
     {
-      "source": "japanese-learning/lemon-study-progress",
-      "target": "japanese-learning/grammar/naraba-hypothetical-condition",
-      "type": "link"
-    },
-    {
-      "source": "japanese-learning/lemon-study-progress",
-      "target": "japanese-learning/vocabulary/yume",
-      "type": "link"
-    },
-    {
-      "source": "japanese-learning/lyrics/lemon/lemon-full-lyrics",
-      "target": "japanese-learning/lemon-study-progress",
-      "type": "link"
-    },
-    {
-      "source": "japanese-learning/lyrics/lemon/lemon-full-lyrics",
-      "target": "japanese-learning/lyrics/lemon/lemon-yume-naraba",
-      "type": "link"
-    },
-    {
-      "source": "japanese-learning/lyrics/lemon/lemon-full-lyrics",
+      "source": "japanese-learning/grammar/yume-ni-miru-idiomatic-expression",
       "target": "japanese-learning/lyrics/lemon/lemon-imadani-anata-no-koto-wo-yume-ni-miru",
       "type": "link"
     },
     {
-      "source": "japanese-learning/lyrics/lemon/lemon-full-lyrics",
-      "target": "japanese-learning/lyrics/lemon/lemon-wasureta-mono-wo-torini-kaeru-youni",
-      "type": "link"
-    },
-    {
-      "source": "japanese-learning/lyrics/lemon/lemon-full-lyrics",
-      "target": "japanese-learning/lyrics/lemon/lemon-furubita-omoide-no-hokori-wo-harau",
-      "type": "link"
-    },
-    {
-      "source": "japanese-learning/lyrics/lemon/lemon-full-lyrics",
-      "target": "japanese-learning/lyrics/lemon/lemon-modoranai-shiawase-ga-aru-koto-wo",
-      "type": "link"
-    },
-    {
-      "source": "japanese-learning/lyrics/lemon/lemon-full-lyrics",
-      "target": "japanese-learning/lyrics/lemon/lemon-saigo-ni-anata-ga-oshiete-kureta",
-      "type": "link"
-    },
-    {
-      "source": "japanese-learning/lyrics/lemon/lemon-full-lyrics",
-      "target": "japanese-learning/vocabulary/yume",
-      "type": "link"
-    },
-    {
-      "source": "japanese-learning/lyrics/lemon/lemon-full-lyrics",
-      "target": "japanese-learning/grammar/naraba-hypothetical-condition",
-      "type": "link"
-    },
-    {
       "source": "japanese-learning/lyrics/lemon/lemon-furubita-omoide-no-hokori-wo-harau",
       "target": "japanese-learning/lyrics/lemon/lemon-wasureta-mono-wo-torini-kaeru-youni",
       "type": "link"
@@ -530,7 +307,12 @@
     },
     {
       "source": "japanese-learning/lyrics/lemon/lemon-furubita-omoide-no-hokori-wo-harau",
-      "target": "japanese-learning/lyrics/lemon/lemon-full-lyrics",
+      "target": "japanese-learning/lyrics/lemon",
+      "type": "link"
+    },
+    {
+      "source": "japanese-learning/lyrics/lemon/lemon-furubita-omoide-no-hokori-wo-harau",
+      "target": "japanese-learning/lyrics/lemon",
       "type": "link"
     },
     {
@@ -545,7 +327,12 @@
     },
     {
       "source": "japanese-learning/lyrics/lemon/lemon-imadani-anata-no-koto-wo-yume-ni-miru",
-      "target": "japanese-learning/lyrics/lemon/lemon-full-lyrics",
+      "target": "japanese-learning/lyrics/lemon",
+      "type": "link"
+    },
+    {
+      "source": "japanese-learning/lyrics/lemon/lemon-imadani-anata-no-koto-wo-yume-ni-miru",
+      "target": "japanese-learning/lyrics/lemon",
       "type": "link"
     },
     {
@@ -560,7 +347,12 @@
     },
     {
       "source": "japanese-learning/lyrics/lemon/lemon-modoranai-shiawase-ga-aru-koto-wo",
-      "target": "japanese-learning/lyrics/lemon/lemon-full-lyrics",
+      "target": "japanese-learning/lyrics/lemon",
+      "type": "link"
+    },
+    {
+      "source": "japanese-learning/lyrics/lemon/lemon-modoranai-shiawase-ga-aru-koto-wo",
+      "target": "japanese-learning/lyrics/lemon",
       "type": "link"
     },
     {
@@ -570,7 +362,12 @@
     },
     {
       "source": "japanese-learning/lyrics/lemon/lemon-saigo-ni-anata-ga-oshiete-kureta",
-      "target": "japanese-learning/lyrics/lemon/lemon-full-lyrics",
+      "target": "japanese-learning/lyrics/lemon",
+      "type": "link"
+    },
+    {
+      "source": "japanese-learning/lyrics/lemon/lemon-saigo-ni-anata-ga-oshiete-kureta",
+      "target": "japanese-learning/lyrics/lemon",
       "type": "link"
     },
     {
@@ -585,7 +382,12 @@
     },
     {
       "source": "japanese-learning/lyrics/lemon/lemon-wasureta-mono-wo-torini-kaeru-youni",
-      "target": "japanese-learning/lyrics/lemon/lemon-full-lyrics",
+      "target": "japanese-learning/lyrics/lemon",
+      "type": "link"
+    },
+    {
+      "source": "japanese-learning/lyrics/lemon/lemon-wasureta-mono-wo-torini-kaeru-youni",
+      "target": "japanese-learning/lyrics/lemon",
       "type": "link"
     },
     {
@@ -595,7 +397,112 @@
     },
     {
       "source": "japanese-learning/lyrics/lemon/lemon-yume-naraba",
-      "target": "japanese-learning/lyrics/lemon/lemon-full-lyrics",
+      "target": "japanese-learning/lyrics/lemon",
+      "type": "link"
+    },
+    {
+      "source": "japanese-learning/lyrics/lemon/lemon-yume-naraba",
+      "target": "japanese-learning/lyrics/lemon",
+      "type": "link"
+    },
+    {
+      "source": "japanese-learning/lyrics/lemon",
+      "target": "japanese-learning/lyrics/lemon/lemon-yume-naraba",
+      "type": "link"
+    },
+    {
+      "source": "japanese-learning/lyrics/lemon",
+      "target": "japanese-learning/lyrics/lemon/lemon-imadani-anata-no-koto-wo-yume-ni-miru",
+      "type": "link"
+    },
+    {
+      "source": "japanese-learning/lyrics/lemon",
+      "target": "japanese-learning/lyrics/lemon/lemon-wasureta-mono-wo-torini-kaeru-youni",
+      "type": "link"
+    },
+    {
+      "source": "japanese-learning/lyrics/lemon",
+      "target": "japanese-learning/lyrics/lemon/lemon-furubita-omoide-no-hokori-wo-harau",
+      "type": "link"
+    },
+    {
+      "source": "japanese-learning/lyrics/lemon",
+      "target": "japanese-learning/lyrics/lemon/lemon-modoranai-shiawase-ga-aru-koto-wo",
+      "type": "link"
+    },
+    {
+      "source": "japanese-learning/lyrics/lemon",
+      "target": "japanese-learning/lyrics/lemon/lemon-saigo-ni-anata-ga-oshiete-kureta",
+      "type": "link"
+    },
+    {
+      "source": "japanese-learning/lyrics/lemon",
+      "target": "japanese-learning/vocabulary/yume",
+      "type": "link"
+    },
+    {
+      "source": "japanese-learning/lyrics/lemon",
+      "target": "japanese-learning/vocabulary/anata",
+      "type": "link"
+    },
+    {
+      "source": "japanese-learning/lyrics/lemon",
+      "target": "japanese-learning/vocabulary/omoide",
+      "type": "link"
+    },
+    {
+      "source": "japanese-learning/lyrics/lemon",
+      "target": "japanese-learning/vocabulary/kaeru",
+      "type": "link"
+    },
+    {
+      "source": "japanese-learning/lyrics/lemon",
+      "target": "japanese-learning/vocabulary/wasureru",
+      "type": "link"
+    },
+    {
+      "source": "japanese-learning/lyrics/lemon",
+      "target": "japanese-learning/grammar/naraba-hypothetical-condition",
+      "type": "link"
+    },
+    {
+      "source": "japanese-learning/lyrics/lemon",
+      "target": "japanese-learning/grammar/youda-metaphor",
+      "type": "link"
+    },
+    {
+      "source": "japanese-learning/lyrics/lemon",
+      "target": "japanese-learning/grammar/hypothetical-expression",
+      "type": "link"
+    },
+    {
+      "source": "japanese-learning/lyrics/lemon",
+      "target": "japanese-learning/grammar/yume-naraba-dorehodo-yokatta-deshou-grammar-analysis",
+      "type": "link"
+    },
+    {
+      "source": "japanese-learning/lyrics/lemon",
+      "target": "japanese-learning/grammar/yume-ni-miru-idiomatic-expression",
+      "type": "link"
+    },
+    {
+      "source": "japanese-learning/vocabulary/anata",
+      "target": "japanese-learning/lyrics/lemon/lemon-imadani-anata-no-koto-wo-yume-ni-miru",
+      "type": "link"
+    },
+    {
+      "source": "japanese-learning/vocabulary/kaeru",
+      "target": "japanese-learning/lyrics/lemon/lemon-wasureta-mono-wo-torini-kaeru-youni",
+      "type": "link"
+    },
+    {
+      "source": "japanese-learning/vocabulary/omoide",
+      "target": "japanese-learning/lyrics/lemon/lemon-furubita-omoide-no-hokori-wo-harau",
+      "type": "link"
+    },
+    {
+      "source": "japanese-learning/vocabulary/wasureru",
+      "target": "japanese-learning/lyrics/lemon/lemon-wasureta-mono-wo-torini-kaeru-youni",
       "type": "link"
     },
     {
@@ -604,55 +511,80 @@
       "type": "link"
     },
     {
-      "source": "xiaobo-work-log",
-      "target": "xiaobo-work-log/page-inspection-system",
+      "source": "japanese-learning/vocabulary/yume",
+      "target": "japanese-learning/lyrics/lemon/lemon-yume-naraba",
       "type": "link"
     },
     {
-      "source": "xiaobo-work-log",
-      "target": "xiaobo-work-log/daily-updates/2026-03-23",
+      "source": "japanese-learning",
+      "target": "japanese-learning/lyrics/lemon",
       "type": "link"
     },
     {
-      "source": "xiaobo-work-log",
-      "target": "xiaobo-work-log/daily-updates/2026-03-23",
+      "source": "japanese-learning",
+      "target": "japanese-learning/lyrics/yuuri/yuuri-dry-flower",
       "type": "link"
     },
     {
-      "source": "xiaobo-work-log",
-      "target": "japanese-learning/digital-garden-index",
+      "source": "japanese-learning",
+      "target": "japanese-learning/vocabulary/yume",
       "type": "link"
     },
     {
-      "source": "xiaobo-work-log",
-      "target": "xiaobo-work-log/page-inspection-system",
+      "source": "japanese-learning",
+      "target": "japanese-learning/vocabulary/anata",
       "type": "link"
     },
     {
-      "source": "xiaobo-work-log",
-      "target": "formatting-reference",
+      "source": "japanese-learning",
+      "target": "japanese-learning/vocabulary/omoide",
       "type": "link"
     },
     {
-      "source": "xiaobo-work-log",
-      "target": "getting-started",
+      "source": "japanese-learning",
+      "target": "japanese-learning/vocabulary/kaeru",
       "type": "link"
     },
     {
-      "source": "xiaobo-work-log",
-      "target": "xiaobo-work-log/daily-updates/2026-03-23",
+      "source": "japanese-learning",
+      "target": "japanese-learning/vocabulary/wasureru",
       "type": "link"
     },
     {
-      "source": "xiaobo-work-log",
-      "target": "xiaobo-work-log/page-inspection-system",
+      "source": "japanese-learning",
+      "target": "japanese-learning/grammar/naraba-hypothetical-condition",
+      "type": "link"
+    },
+    {
+      "source": "japanese-learning",
+      "target": "japanese-learning/grammar/youda-metaphor",
+      "type": "link"
+    },
+    {
+      "source": "japanese-learning",
+      "target": "japanese-learning/grammar/hypothetical-expression",
+      "type": "link"
+    },
+    {
+      "source": "japanese-learning",
+      "target": "japanese-learning/grammar/yume-naraba-dorehodo-yokatta-deshou-grammar-analysis",
+      "type": "link"
+    },
+    {
+      "source": "japanese-learning",
+      "target": "japanese-learning/grammar/yume-ni-miru-idiomatic-expression",
+      "type": "link"
+    },
+    {
+      "source": "japanese-learning",
+      "target": "japanese-learning/lyrics/lemon",
       "type": "link"
     }
   ],
   "metadata": {
-    "totalPosts": 33,
-    "totalConnections": 83,
+    "totalPosts": 24,
+    "totalConnections": 82,
     "maxNodesApplied": false,
-    "originalNodeCount": 33
+    "originalNodeCount": 24
   }
 }

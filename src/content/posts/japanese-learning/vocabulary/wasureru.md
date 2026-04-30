@@ -36,5 +36,5 @@ draft: false
 - **《Lemon》**：<ruby>忘れた物を取りに帰るように<rt>わすれたものをとりにかえるように</rt></ruby> — 就像回去取忘記的東西一樣（使用過去形「忘れた」修飾名詞）
 
 ## 🔗 相關內容
-- [[posts/japanese-learning/grammar/wo-object-marker|を-賓格助詞]] — 常與「忘れる」搭配使用表示忘記的對象
-- [[posts/japanese-learning/lyrics/lemon-wasureta-mono-wo-torini-kaeru-youni|Lemon-忘れた物を取りに帰るように]] — 在歌曲中的應用
+
+- [[posts/japanese-learning/lyrics/lemon/lemon-wasureta-mono-wo-torini-kaeru-youni|Lemon-忘れた物を取りに帰るように]] — 在歌曲中的應用

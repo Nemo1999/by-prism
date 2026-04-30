@@ -193,6 +193,5 @@ Zutto zutto kakaete yo
 4. 重點學習標記的單字和文法
 
 ## 相關連結
-- [[yuuri-betelgeuse]]
 - 
 - 

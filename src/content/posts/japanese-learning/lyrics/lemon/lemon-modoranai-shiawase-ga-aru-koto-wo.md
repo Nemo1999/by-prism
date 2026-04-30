@@ -88,7 +88,5 @@ draft: false
 ### 上下文連結
 - **上一句**：[[posts/japanese-learning/lyrics/lemon/lemon-furubita-omoide-no-hokori-wo-harau|Lemon-古びた思い出の埃を払う]]
 - **下一句**：[[posts/japanese-learning/lyrics/lemon/lemon-saigo-ni-anata-ga-oshiete-kureta|Lemon-最後にあなたが教えてくれた]]
-- **完整歌詞**：[[posts/japanese-learning/lyrics/lemon/lemon-full-lyrics|Lemon 完整歌詞]]
-- **學習專案**：[[posts/japanese-learning/lemon-song/index|《Lemon》學習專案]]
-
-
+- **完整歌詞**：[[posts/japanese-learning/lyrics/lemon/index|Lemon 完整歌詞]]
+- **學習專案**：[[posts/japanese-learning/lyrics/lemon/index|《Lemon》學習專案]]

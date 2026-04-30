@@ -31,5 +31,5 @@ draft: false
 - 在問卷調查或書面語中，「あなた」常用於指稱「讀者」或「回答者」。
 
 ## 🔗 相關內容
-- [[posts/japanese-learning/grammar/no-possessive|の-所有格]] — 常與「あなた」搭配使用表示所屬
-- [[posts/japanese-learning/lyrics/lemon-imadani-anata-no-koto-wo-yume-ni-miru|Lemon-未だにあなたのことを夢にみる]] — 在歌曲中的應用
+
+- [[posts/japanese-learning/lyrics/lemon/lemon-imadani-anata-no-koto-wo-yume-ni-miru|Lemon-未だにあなたのことを夢にみる]] — 在歌曲中的應用
