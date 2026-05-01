@@ -20,29 +20,29 @@ featured: true
 
 2. [[posts/japanese-learning/lyrics/suzume/suzume-musubareru|それらが結ばれるのは 心の臓]] <button class="pronunciation-play-btn" data-text="それらが結ばれるのは心の臓">🔊</button>
 
-3. 風の中でも負けないような声で <button class="pronunciation-play-btn" data-text="風の中でも負けないような声で">🔊</button>
+3. [[posts/japanese-learning/lyrics/suzume/suzume-makenai-koe|風の中でも負けないような声で]] <button class="pronunciation-play-btn" data-text="風の中でも負けないような声で">🔊</button>
 
-4. 届ける言葉を今は育ててる <button class="pronunciation-play-btn" data-text="届ける言葉を今は育ててる">🔊</button>
+4. [[posts/japanese-learning/lyrics/suzume/suzume-todokeru-kotoba|届ける言葉を今は育ててる]] <button class="pronunciation-play-btn" data-text="届ける言葉を今は育ててる">🔊</button>
 
 ### 第二段
 
 5. [[posts/japanese-learning/lyrics/suzume/suzume-tojita-hazumi|開け放しのドア 閉じたはずの部屋]] <button class="pronunciation-play-btn" data-text="開け放しのドア閉じたはずの部屋">🔊</button>
 
-6. 時がたつほどに 増えてゆく <button class="pronunciation-play-btn" data-text="時がたつほどに増えてゆく">🔊</button>
+6. [[posts/japanese-learning/lyrics/suzume/suzume-toki-fueru|時がたつほどに 増えてゆく]] <button class="pronunciation-play-btn" data-text="時がたつほどに増えてゆく">🔊</button>
 
-7. あの日はもう来ない <button class="pronunciation-play-btn" data-text="あの日はもう来ない">🔊</button>
+7. [[posts/japanese-learning/lyrics/suzume/suzume-ano-hi-konai|あの日はもう来ない]] <button class="pronunciation-play-btn" data-text="あの日はもう来ない">🔊</button>
 
-8. それでも 鍵は回ってる <button class="pronunciation-play-btn" data-text="それでも鍵は回ってる">🔊</button>
+8. [[posts/japanese-learning/lyrics/suzume/suzume-kagi-mawatteru|それでも 鍵は回ってる]] <button class="pronunciation-play-btn" data-text="それでも鍵は回ってる">🔊</button>
 
 ### 副歌
 
-9. かけがえのない記憶は <button class="pronunciation-play-btn" data-text="かけがえのない記憶は">🔊</button>
+9. [[posts/japanese-learning/lyrics/suzume/suzume-kakegae-no-nai|かけがえのない記憶は]] <button class="pronunciation-play-btn" data-text="かけがえのない記憶は">🔊</button>
 
-10. 心の奥で息をしてる <button class="pronunciation-play-btn" data-text="心の奥で息をしてる">🔊</button>
+10. [[posts/japanese-learning/lyrics/suzume/suzume-kokoro-iki|心の奥で息をしてる]] <button class="pronunciation-play-btn" data-text="心の奥で息をしてる">🔊</button>
 
-11. 閉じてしまえば もう会えない <button class="pronunciation-play-btn" data-text="閉じてしまえばもう会えない">🔊</button>
+11. [[posts/japanese-learning/lyrics/suzume/suzume-tojite-shimaeba|閉じてしまえば もう会えない]] <button class="pronunciation-play-btn" data-text="閉じてしまえばもう会えない">🔊</button>
 
-12. それでも人は 生きてゆく <button class="pronunciation-play-btn" data-text="それでも人は生きてゆく">🔊</button>
+12. [[posts/japanese-learning/lyrics/suzume/suzume-ikite-yuku|それでも人は 生きてゆく]] <button class="pronunciation-play-btn" data-text="それでも人は生きてゆく">🔊</button>
 
 ---
 
@@ -50,7 +50,16 @@ featured: true
 
 - [君の中にある 赤と青き線](/posts/japanese-learning/lyrics/suzume/suzume-kimi-no-naka/) — 存在動詞「ある」的用法
 - [それらが結ばれるのは 心の臓](/posts/japanese-learning/lyrics/suzume/suzume-musubareru/) — 受身形「結ばれる」的變化
+- [風の中でも負けないような声で](/posts/japanese-learning/lyrics/suzume/suzume-makenai-koe/) — 一段動詞「負ける」的ない形與比況「ような」
+- [届ける言葉を今は育ててる](/posts/japanese-learning/lyrics/suzume/suzume-todokeru-kotoba/) — 口語縮約「〜てる」與一段動詞
 - [開け放しのドア 閉じたはずの部屋](/posts/japanese-learning/lyrics/suzume/suzume-tojita-hazumi/) — 一段動詞「閉じる」的た形
+- [時がたつほどに 増えてゆく](/posts/japanese-learning/lyrics/suzume/suzume-toki-fueru/) — 比例「〜ほどに」與持續「〜てゆく」
+- [あの日はもう来ない](/posts/japanese-learning/lyrics/suzume/suzume-ano-hi-konai/) — 不規則動詞「来る」的ない形
+- [それでも 鍵は回ってる](/posts/japanese-learning/lyrics/suzume/suzume-kagi-mawatteru/) — 五段動詞「回る」與口語縮約「〜ってる」
+- [かけがえのない記憶は](/posts/japanese-learning/lyrics/suzume/suzume-kakegae-no-nai/) — 複合形容詞「かけがえのない」
+- [心の奥で息をしてる](/posts/japanese-learning/lyrics/suzume/suzume-kokoro-iki/) — する動詞與「してる」縮約
+- [閉じてしまえば もう会えない](/posts/japanese-learning/lyrics/suzume/suzume-tojite-shimaeba/) — 「〜てしまう」＋ば形條件
+- [それでも人は 生きてゆく](/posts/japanese-learning/lyrics/suzume/suzume-ikite-yuku/) — 一段動詞「生きる」與「〜てゆく」
 
 ## 📚 動詞變化文法
 
