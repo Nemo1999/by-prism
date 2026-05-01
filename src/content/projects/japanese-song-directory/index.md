@@ -31,9 +31,24 @@ aliases:
 **[→ 完整歌詞與解析總覽](/posts/japanese-learning/lyrics/suzume/)**
 
 鈴芽之旅主題曲，**動詞變化教科書**：
-- 3 句深度解析（存在動詞・受身形・一段動詞た形）
+- 12 句深度解析（涵蓋五段・一段・不規則動詞、受身形、可能形、て形・た形・ない形・ば形、口語縮約）
 - 4 個重點動詞（閉じる・閉める・結ぶ・開ける）
 - 完整文法頁：[[posts/japanese-learning/grammar/verb-conjugation|日文動詞變化規則]]
+
+### 歌詞解析
+
+1. [君の中にある 赤と青き線](/posts/japanese-learning/lyrics/suzume/suzume-kimi-no-naka/) — 存在動詞「ある」
+2. [それらが結ばれるのは 心の臓](/posts/japanese-learning/lyrics/suzume/suzume-musubareru/) — 受身形「結ばれる」
+3. [風の中でも負けないような声で](/posts/japanese-learning/lyrics/suzume/suzume-makenai-koe/) — ない形「負けない」＋比況「ような」
+4. [届ける言葉を今は育ててる](/posts/japanese-learning/lyrics/suzume/suzume-todokeru-kotoba/) — 口語縮約「〜てる」
+5. [開け放しのドア 閉じたはずの部屋](/posts/japanese-learning/lyrics/suzume/suzume-tojita-hazumi/) — 一段動詞た形「閉じた」
+6. [時がたつほどに 増えてゆく](/posts/japanese-learning/lyrics/suzume/suzume-toki-fueru/) — 比例「〜ほどに」＋持續「〜てゆく」
+7. [あの日はもう来ない](/posts/japanese-learning/lyrics/suzume/suzume-ano-hi-konai/) — 不規則動詞「来る」ない形
+8. [それでも 鍵は回ってる](/posts/japanese-learning/lyrics/suzume/suzume-kagi-mawatteru/) — 口語縮約「〜ってる」
+9. [かけがえのない記憶は](/posts/japanese-learning/lyrics/suzume/suzume-kakegae-no-nai/) — 複合形容詞「かけがえのない」
+10. [心の奥で息をしてる](/posts/japanese-learning/lyrics/suzume/suzume-kokoro-iki/) — する動詞「してる」
+11. [閉じてしまえば もう会えない](/posts/japanese-learning/lyrics/suzume/suzume-tojite-shimaeba/) — 「〜てしまう」＋ば形
+12. [それでも人は 生きてゆく](/posts/japanese-learning/lyrics/suzume/suzume-ikite-yuku/) — 「生きる」＋「〜てゆく」
 
 ## 🍋 米津玄師《Lemon》
 
